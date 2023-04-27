@@ -1,8 +1,13 @@
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 import "./globals.css";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const montserrat = Montserrat({
+	subsets: ["latin"],
+	variable: "--font-montserrat",
+});
 
 export type Children = {
 	children: React.ReactNode;
@@ -10,8 +15,12 @@ export type Children = {
 
 export default function RootLayout({ children }: Children) {
 	return (
-		<html lang="en" className={`${inter.variable} font-sans`}>
-			<body>{children}</body>
+		<html lang="cz" className={`${montserrat.variable} font-sans`}>
+			<body className="flex flex-col">
+				<Header />
+				<main>{children}</main>
+				<Footer />
+			</body>
 		</html>
 	);
 }

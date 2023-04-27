@@ -3,25 +3,46 @@
 @tailwind utilities;
 
 :root {
-	--foreground-rgb: 0, 0, 0;
-	--background-start-rgb: 214, 219, 220;
-	--background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--foreground-rgb: 255, 255, 255;
-		--background-start-rgb: 0, 0, 0;
-		--background-end-rgb: 0, 0, 0;
-	}
+	--foreground-rgb: 38, 38, 38;
+	--background-rgb: 245, 245, 245;
+	--main-green: #00934a;
 }
 
 body {
 	color: rgb(var(--foreground-rgb));
-	background: linear-gradient(
-			to bottom,
-			transparent,
-			rgb(var(--background-end-rgb))
-		)
-		rgb(var(--background-start-rgb));
+	background: rgb(var(--background-rgb));
+}
+
+h1 {
+	font-size: 3.75rem; /* 60px */
+	line-height: 1;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 3rem; /* 48px */
+	line-height: 1;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 1.875rem; /* 30px */
+	line-height: 2.25rem; /* 36px */
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.25rem; /* 20px */
+	line-height: 1.75rem; /* 28px */
+	font-weight: 600;
+}
+
+a,
+p {
+	font-size: 1rem; /* 16px */
+	line-height: 1.5rem; /* 24px */
+}
+
+svg {
+	fill: var(--main-green);
 }
