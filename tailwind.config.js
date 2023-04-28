@@ -15,6 +15,9 @@ module.exports = {
 				bezova: "#f1ede5",
 				hneda: "#8e4a49",
 			},
+			gridTemplateColumns: {
+				auto: "repeat(auto-fit, minmax(180px, 1fr))",
+			},
 		},
 	},
 	plugins: [],

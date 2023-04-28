@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-// import { usePathname } from "next/navigation";
-import Container from "./Container";
 import Image from "next/image";
+// import { usePathname } from "next/navigation";
+
+import Container from "./Container";
 
 const links = [
 	{ path: "/", name: "Úvod" },
@@ -24,8 +25,8 @@ function Header() {
 	// const pathname = usePathname();
 
 	return (
-		<header className="w-full sm:justify-right bg-neutral-100">
-			<Container>
+		<header className="w-full sm:justify-right bg-neutral-100 border-b border-neutral-800">
+			<Container className="border-b border-neutral-300">
 				<div className="flex space-x-12 text-zelena h-12">
 					<div className="flex items-center space-x-2">
 						<svg
