@@ -14,7 +14,7 @@ export default function Home() {
 			<ScrollUp />
 			<Hero />
 			<Achievments />
-			<Showcase />
+			<Showcase title="UKÁZKA REALIZACÍ" />
 			<div className="mb-20"></div>
 		</>
 	);

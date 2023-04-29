@@ -2,31 +2,27 @@
 
 import Link from "next/link";
 import Image from "next/image";
-// import { usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 import Container from "./Container";
+import Navbar from "./Navbar";
 
-const links = [
-	{ path: "/", name: "Úvod" },
-	{ path: "/sluzby", name: "Služby" },
-	{ path: "/reference", name: "Reference" },
-	{ path: "/kontakt", name: "Kontakt" },
+export const paths = [
+	"/",
+	"/sluzby/zelene-strechy",
+	"/sluzby/korenove-cistirny",
+	"/sluzby/blower-door-test",
+	"/sluzby/termovize",
+	"/sluzby/dotace",
 ];
 
-// const subLinks = [
-// 	{ path: "/zelene-strechy", name: "Zelené střechy" },
-// 	{ path: "/korenove-cistirny", name: "Kořenové čistírny" },
-// 	{ path: "/blower-door-test", name: "Blower Door test" },
-// 	{ path: "/termovize", name: "Termovize" },
-// 	{ path: "/dotace", name: "Dotace" },
-// ];
-
 function Header() {
-	// const pathname = usePathname();
+	const pathname = usePathname();
+	let white = paths.includes(pathname);
 
 	return (
-		<header className="w-full sm:justify-right bg-neutral-100 border-b border-neutral-800">
-			<Container className="border-b border-neutral-300">
+		<header className="w-full justify-right border-b border-neutral-800 relative z-30">
+			<Container className="bg-neutral-100 border-b border-neutral-300">
 				<div className="flex space-x-12 text-zelena h-12">
 					<div className="flex items-center space-x-2">
 						<svg
@@ -39,7 +35,7 @@ function Header() {
 						</svg>
 						<a
 							href="tel:+420608974908"
-							className="border-b-2 border-neutral-100 hover:border-zelena"
+							className="border-b border-neutral-100 hover:border-zelena"
 						>
 							608 974 908
 						</a>
@@ -55,14 +51,14 @@ function Header() {
 						</svg>
 						<a
 							href="mailto:info@zelenestaveni.cz"
-							className="border-b-2 border-neutral-100 hover:border-zelena"
+							className="border-b border-neutral-100 hover:border-zelena"
 						>
 							info@zelenestaveni.cz
 						</a>
 					</div>
 				</div>
 			</Container>
-			<Container className="sm:border-b-2 sm:border-slate-100">
+			<Container className="border-b border-neutral-100">
 				<div className="h-20 flex items-center justify-between">
 					<Link href="/">
 						<Image
@@ -71,20 +67,10 @@ function Header() {
 							alt="Zelené stavění logo"
 							width="425"
 							height="60"
-							src="/logo.png"
+							src={`${white ? "/logo white.png" : "/logo.png"}`}
 						/>
 					</Link>
-					<div className="flex items-center space-x-2">
-						{links.map((link) => (
-							<Link
-								key={link.path}
-								href={link.path}
-								className="p-3 border-b-2 border-neutral-100 hover:border-neutral-800"
-							>
-								{link.name}
-							</Link>
-						))}
-					</div>
+					<Navbar />
 				</div>
 			</Container>
 		</header>

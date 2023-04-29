@@ -1,19 +1,14 @@
 import Image from "next/image";
 
-import Container from "../layout/Container";
-import Button from "../ui/Button";
+import Container from "@/components/layout/Container";
 
 const array1 = Array(10).fill(0);
 
-type ShowCaseProps = {
-	title: string;
-};
-
-export default function Showcase({ title }: ShowCaseProps) {
+export default function Rostliny() {
 	return (
 		<Container className="my-20">
 			<div className="space-y-10">
-				<h2 className="text-center text-zelena">{title}</h2>
+				<h2 className="text-center text-zelena">NAŠE ROSTLINY</h2>
 				<div className="grid grid-cols-auto">
 					{array1.map((item) => (
 						<Image
@@ -27,7 +22,6 @@ export default function Showcase({ title }: ShowCaseProps) {
 						/>
 					))}
 				</div>
-				<Button href="/reference">ZOBRAZIT VŠECHNY REALIZACE</Button>
 			</div>
 		</Container>
 	);

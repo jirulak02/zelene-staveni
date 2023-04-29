@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 
 export default function Hero() {
 	return (
-		<div className="pb-12">
+		<div className="pb-12 -mt-image">
 			<div className="relative" style={{ height: "700px" }}>
 				<Image
 					style={{ height: "700px" }}
@@ -37,7 +37,7 @@ export default function Hero() {
 							alt="TODO"
 							width="100"
 							height="100"
-							src="/flowers.png"
+							src="/icons/flowers.png"
 						/>
 						<h3 className="text-hneda">ZELENÉ STŘECHY</h3>
 						<p>Ukládají vodu, vážou prach a nezahřívají se.</p>

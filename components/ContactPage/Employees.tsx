@@ -10,7 +10,7 @@ export default function Employees() {
 						Tel:{" "}
 						<a
 							href="tel:+420608974908"
-							className="border-b-2 border-neutral-100 hover:border-neutral-800"
+							className="border-b border-neutral-100 hover:border-neutral-800"
 						>
 							+420 608 974 908
 						</a>
@@ -19,7 +19,7 @@ export default function Employees() {
 						Email:{" "}
 						<a
 							href="mailto:info@zelenestaveni.cz"
-							className="border-b-2 border-neutral-100 hover:border-neutral-800"
+							className="border-b border-neutral-100 hover:border-neutral-800"
 						>
 							info@zelenestaveni.cz
 						</a>
@@ -42,7 +42,7 @@ export default function Employees() {
 						Tel:{" "}
 						<a
 							href="tel:+420773225535"
-							className="border-b-2 border-neutral-100 hover:border-neutral-800"
+							className="border-b border-neutral-100 hover:border-neutral-800"
 						>
 							+420 773 225 535
 						</a>
@@ -51,7 +51,7 @@ export default function Employees() {
 						Email:{" "}
 						<a
 							href="mailto:krausova@zelenestaveni.cz"
-							className="border-b-2 border-neutral-100 hover:border-neutral-800"
+							className="border-b border-neutral-100 hover:border-neutral-800"
 						>
 							krausova@zelenestaveni.cz
 						</a>
@@ -74,7 +74,7 @@ export default function Employees() {
 						Tel:{" "}
 						<a
 							href="tel:+420777898501"
-							className="border-b-2 border-neutral-100 hover:border-neutral-800"
+							className="border-b border-neutral-100 hover:border-neutral-800"
 						>
 							+420 777 898 501
 						</a>
@@ -83,7 +83,7 @@ export default function Employees() {
 						Email:{" "}
 						<a
 							href="mailto:dotace@zelenestaveni.cz"
-							className="border-b-2 border-neutral-100 hover:border-neutral-800"
+							className="border-b border-neutral-100 hover:border-neutral-800"
 						>
 							dotace@zelenestaveni.cz
 						</a>

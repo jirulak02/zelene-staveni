@@ -140,7 +140,7 @@ export default function ContactForm() {
 						<span className="text-red-500">*</span>Souhlasím s{" "}
 						<Link
 							href="/ochrana-osobnich-udaju"
-							className="text-zelena border-b-2 border-neutral-100 hover:border-zelena"
+							className="text-zelena border-b border-neutral-100 hover:border-zelena"
 						>
 							podmínkami zpracování osobních údajů
 						</Link>
