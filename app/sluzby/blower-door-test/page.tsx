@@ -1,5 +1,9 @@
-import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
+import Cenik from "@/components/ServicesPage/BlowerPage/Cenik";
+import Explanation from "@/components/ServicesPage/BlowerPage/Explanation";
+import Netesnost from "@/components/ServicesPage/BlowerPage/Netesnost";
+import Potrebujeme from "@/components/ServicesPage/BlowerPage/Potrebujeme";
+import Showcase from "@/components/ServicesPage/BlowerPage/Showcase";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
 
 export const metadata = {
@@ -12,7 +16,11 @@ export default function BlowerDoor() {
 		<>
 			<ScrollUp />
 			<ServicesImage name="Blower Door test" />
-			{/* <Container></Container> */}
+			<Explanation />
+			<Potrebujeme />
+			<Showcase />
+			<Netesnost />
+			<Cenik />
 		</>
 	);
 }
