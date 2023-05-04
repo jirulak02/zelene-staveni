@@ -15,7 +15,7 @@ export type Children = {
 
 export default function RootLayout({ children }: Children) {
 	return (
-		<html lang="cz" className={`${montserrat.variable} font-sans`}>
+		<html lang="cs" className={`${montserrat.variable} font-sans`}>
 			<body className="flex flex-col">
 				<Header />
 				<main>{children}</main>
