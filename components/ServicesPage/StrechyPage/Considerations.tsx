@@ -26,7 +26,7 @@ export default function Considerations() {
 							alt="TODO"
 							width="100"
 							height="100"
-							src="/icons/compare.png"
+							src="https://uploadthing.com/f/c102cf57-d4cb-42d2-8756-8890be141c4b_compare.png"
 						/>
 					</div>
 					<h5>Jaký styl se Vám líbí</h5>
@@ -42,7 +42,7 @@ export default function Considerations() {
 							alt="TODO"
 							width="100"
 							height="100"
-							src="/icons/savings.png"
+							src="https://uploadthing.com/f/5c5f462a-8170-4d09-8bed-21787099faf0_savings.png"
 						/>
 					</div>
 					<h5>Kolik chcete investovat</h5>
@@ -58,7 +58,7 @@ export default function Considerations() {
 							alt="TODO"
 							width="100"
 							height="100"
-							src="/icons/foundation.png"
+							src="https://uploadthing.com/f/186eae08-60f8-4d0f-a853-70686d80b3fe_foundation.png"
 						/>
 					</div>
 					<h5>Možné zatížení střešní konstrukce</h5>

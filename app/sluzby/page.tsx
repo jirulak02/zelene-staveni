@@ -29,7 +29,7 @@ export default function Sluzby() {
 								alt="TODO"
 								width="100"
 								height="100"
-								src="/icons/flowers.png"
+								src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
 							/>
 							<h2 className="text-hneda">ZELENÉ STŘECHY</h2>
 							<p>
@@ -49,7 +49,7 @@ export default function Sluzby() {
 								alt="TODO"
 								width="100"
 								height="100"
-								src="/icons/compost.png"
+								src="https://uploadthing.com/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
 							/>
 							<h2 className="text-hneda">KOŘENOVÉ ČISTÍRNY</h2>
 							<p>
@@ -83,7 +83,7 @@ export default function Sluzby() {
 								alt="TODO"
 								width="100"
 								height="100"
-								src="/icons/fan+.png"
+								src="https://uploadthing.com/f/559f37bf-3c19-40df-b84c-1b83e0276705_fan.png"
 							/>
 							<h2 className="text-hneda">BLOWER DOOR TEST</h2>
 							<p>
@@ -106,7 +106,7 @@ export default function Sluzby() {
 								alt="TODO"
 								width="100"
 								height="100"
-								src="/icons/camera.png"
+								src="https://uploadthing.com/f/13337481-8d83-45a8-8a3a-f12cc76a72c3_camera.png"
 							/>
 							<h2 className="text-hneda">TERMOVIZE</h2>
 							<p>

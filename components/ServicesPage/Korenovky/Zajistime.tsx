@@ -14,7 +14,7 @@ export default function Zajistime() {
 						alt="TODO"
 						width="100"
 						height="100"
-						src="/icons/communicate.png"
+						src="https://uploadthing.com/f/776ef8ba-414f-4783-abb9-dd9ecce37322_communicate.png"
 					/>
 					<h5>KONZULTACE ZDARMA</h5>
 				</div>
@@ -24,7 +24,7 @@ export default function Zajistime() {
 						alt="TODO"
 						width="100"
 						height="100"
-						src="/icons/analytics.png"
+						src="https://uploadthing.com/f/8b8ac783-5332-40bc-8707-8f157dabc550_analytics.png"
 					/>
 					<h5>CENOVÁ NABÍDKA ZDARMA</h5>
 				</div>
@@ -34,7 +34,7 @@ export default function Zajistime() {
 						alt="TODO"
 						width="100"
 						height="100"
-						src="/icons/documentation.png"
+						src="https://uploadthing.com/f/68254e67-bcf7-4ca2-9739-6e6e6cf04f47_documentation.png"
 					/>
 					<h5>PROJEKTOVÁ DOKUMENTACE</h5>
 				</div>
@@ -44,7 +44,7 @@ export default function Zajistime() {
 						alt="TODO"
 						width="100"
 						height="100"
-						src="/icons/work.png"
+						src="https://uploadthing.com/f/fc78c28b-e3d1-4162-9301-34a11897d8d6_work.png"
 					/>
 					<h5>KOMPLETNÍ REALIZACE</h5>
 				</div>

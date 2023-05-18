@@ -28,7 +28,7 @@ export default function Achievments() {
 						alt="TODO"
 						width="150"
 						height="150"
-						src="/house logo.png"
+						src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
 					/>
 				</div>
 				<div className="space-y-3">
@@ -42,7 +42,7 @@ export default function Achievments() {
 						alt="TODO"
 						width="150"
 						height="150"
-						src="/house logo.png"
+						src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
 					/>
 				</div>
 				<div className="space-y-3">

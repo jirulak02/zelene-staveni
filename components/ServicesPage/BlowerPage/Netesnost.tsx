@@ -35,7 +35,7 @@ export default function Netesnost() {
 							alt="TODO"
 							width="100"
 							height="100"
-							src="/icons/done.png"
+							src="https://uploadthing.com/f/e53ce9d3-e19d-4a66-9be2-dc0236dd032a_done.png"
 						/>
 						<p className="px-4">
 							Pro správné fungování vzduchotechniky je důležitá
@@ -51,7 +51,7 @@ export default function Netesnost() {
 							alt="TODO"
 							width="100"
 							height="100"
-							src="/icons/fix.png"
+							src="https://uploadthing.com/f/6f631673-48aa-4c26-b785-2e18107f8861_fix.png"
 						/>
 						<p className="px-4">
 							Poradíme, jak netěsnosti opravit a utěsnit.

@@ -5,7 +5,7 @@ export default function ContactForm() {
 		<>
 			<form className="flex flex-col space-y-2">
 				<div className="grid grid-cols-2">
-					<div className="flex flex-col mx-2 my-1">
+					<div className="flex flex-col mr-2 my-1">
 						<label htmlFor="fname" className="ml-4">
 							<span className="text-red-500">*</span>Jméno a
 							příjmení:
@@ -20,7 +20,7 @@ export default function ContactForm() {
 							autoComplete="name"
 						/>
 					</div>
-					<div className="flex flex-col mx-2 my-1">
+					<div className="flex flex-col ml-2 my-1">
 						<label htmlFor="email" className="ml-4">
 							<span className="text-red-500">*</span>Email:
 						</label>
@@ -34,7 +34,7 @@ export default function ContactForm() {
 							autoComplete="email"
 						/>
 					</div>
-					<div className="flex flex-col mx-2 my-1">
+					<div className="flex flex-col mr-2 my-1">
 						<label htmlFor="phone" className="ml-4">
 							<span className="text-red-500">*</span>Telefon:
 						</label>
@@ -48,7 +48,7 @@ export default function ContactForm() {
 							autoComplete="tel"
 						/>
 					</div>
-					<div className="flex flex-col mx-2 my-1">
+					<div className="flex flex-col ml-2 my-1">
 						<label htmlFor="mesto" className="ml-5">
 							Obec:
 						</label>
@@ -62,7 +62,7 @@ export default function ContactForm() {
 							autoComplete="address-level2"
 						/>
 					</div>
-					<div className="flex flex-col mx-2 my-1">
+					<div className="flex flex-col mr-2 my-1">
 						<label htmlFor="address" className="ml-5">
 							Adresa:
 						</label>
@@ -76,7 +76,7 @@ export default function ContactForm() {
 							autoComplete="address-line1"
 						/>
 					</div>
-					<div className="flex flex-col mx-2 my-1">
+					<div className="flex flex-col ml-2 my-1">
 						<label htmlFor="psc" className="ml-5">
 							PSČ:
 						</label>
@@ -93,7 +93,7 @@ export default function ContactForm() {
 						/>
 					</div>
 				</div>
-				<div className="flex flex-col m-2">
+				<div className="flex flex-col my-2">
 					<label htmlFor="select" className="ml-4">
 						<span className="text-red-500">*</span>Ohledně čeho
 						píšete:
@@ -118,7 +118,7 @@ export default function ContactForm() {
 						</select>
 					</div>
 				</div>
-				<div className="flex flex-col m-2">
+				<div className="flex flex-col my-2">
 					<label htmlFor="zprava" className="ml-5">
 						Vaše zpráva:
 					</label>
@@ -129,7 +129,7 @@ export default function ContactForm() {
 						rows={6}
 					/>
 				</div>
-				<div className="flex space-x-3 mx-3 py-2">
+				<div className="flex space-x-3 mx-1 py-2">
 					<input
 						type="checkbox"
 						// value={}
@@ -147,7 +147,7 @@ export default function ContactForm() {
 					</p>
 				</div>
 				<div>
-					<button type="submit" className="text-left m-2">
+					<button type="submit" className="text-left my-2">
 						<span className="text-base py-3 px-5 rounded-3xl bg-zelena text-neutral-100 hover:bg-neutral-800">
 							ODESLAT ZPRÁVU
 						</span>

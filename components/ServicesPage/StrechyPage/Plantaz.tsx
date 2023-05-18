@@ -18,7 +18,7 @@ export default function Plantaz() {
 						alt="TODO"
 						width="100"
 						height="100"
-						src="/icons/flowers.png"
+						src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
 					/>
 				</div>
 				<h3 className="text-center text-hneda">Máme vlastní plantáž</h3>
