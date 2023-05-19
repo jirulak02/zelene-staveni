@@ -6,7 +6,7 @@ import Button from "@/components/ui/Button";
 export default function Dotace() {
 	return (
 		<Container className="my-20">
-			<div className="grid grid-cols-2">
+			<div className="grid grid-cols-2 gap-2">
 				<div className="space-y-5">
 					<h3 className="text-hneda">Dotace na zelené střechy</h3>
 					<p>
@@ -35,7 +35,7 @@ export default function Dotace() {
 					alt="TODO"
 					width="800"
 					height="400"
-					src="/dotace/nzu.png"
+					src="https://uploadthing.com/f/d2e86f21-10f0-478b-bc11-861adcaa8604_nzu.png"
 				/>
 			</div>
 		</Container>

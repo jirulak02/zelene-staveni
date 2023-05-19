@@ -16,7 +16,7 @@ export default function Achievments() {
 				</p>
 				<Button href="/kontakt">ZEPTEJTE SE NÁS</Button>
 			</div>
-			<div className="grid grid-cols-5 mt-16">
+			<div className="grid grid-cols-auto gap-2 mt-16">
 				<div className="space-y-3">
 					<div className="text-7xl text-zelena">20</div>
 					<h3 className="text-zelena">LET V OBORU</h3>
@@ -25,7 +25,7 @@ export default function Achievments() {
 				<div className="flex justify-center items-center">
 					<Image
 						style={{ width: "150px" }}
-						alt="TODO"
+						alt="Ikona bílého domečku"
 						width="150"
 						height="150"
 						src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
@@ -39,7 +39,7 @@ export default function Achievments() {
 				<div className="flex justify-center items-center">
 					<Image
 						style={{ width: "150px" }}
-						alt="TODO"
+						alt="Ikona bílého domečku"
 						width="150"
 						height="150"
 						src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"

@@ -1,24 +1,22 @@
 import Image from "next/image";
 
 import Container from "@/components/layout/Container";
-
-const array1 = Array(10).fill(0);
+import { dataRostliny } from "@/components/data/SluzbyKorenovky";
 
 export default function Rostliny() {
 	return (
 		<Container className="my-20">
 			<div className="space-y-10">
 				<h2 className="text-center text-zelena">NAŠE ROSTLINY</h2>
-				<div className="grid grid-cols-auto">
-					{array1.map((item) => (
+				<div className="grid grid-cols-auto gap-2">
+					{dataRostliny.map((item) => (
 						<Image
-							key={Math.random().toString()}
-							style={{ width: "150px" }}
-							className="items-center m-2"
-							alt="TODO"
-							width="150"
-							height="150"
-							src="/square.jpeg"
+							key={item.id}
+							style={{ width: "200px" }}
+							alt={`Ukázka rostliny ${item.name}`}
+							width="400"
+							height="300"
+							src={item.url}
 						/>
 					))}
 				</div>

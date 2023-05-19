@@ -27,10 +27,10 @@ export default function Explanation() {
 				<div className="flex justify-center">
 					<Image
 						style={{ width: "400px" }}
-						alt="TODO"
+						alt="Logo programu Nová zelená úsporám"
 						width="800"
 						height="400"
-						src="/dotace/nzu.png"
+						src="https://uploadthing.com/f/d2e86f21-10f0-478b-bc11-861adcaa8604_nzu.png"
 					/>
 				</div>
 			</div>
@@ -39,10 +39,10 @@ export default function Explanation() {
 					<Image
 						className="rounded-full"
 						style={{ width: "320px" }}
-						alt="TODO"
-						width="320"
-						height="320"
-						src="/square.jpeg"
+						alt="Ukázka zapojení techniky k měření ve dveřích"
+						width="640"
+						height="640"
+						src="https://uploadthing.com/f/a0208a4e-7aed-4a40-a807-f2fdf31d9042_blowercircle.png"
 					/>
 				</div>
 				<div className="space-y-5">

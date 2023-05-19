@@ -2,6 +2,7 @@ import Achievments from "@/components/HomePage/Achievments";
 import Hero from "@/components/HomePage/Hero";
 import Showcase from "@/components/HomePage/Showcase";
 import ScrollUp from "@/components/layout/ScrollUp";
+import { data } from "@/components/data/HomePage";
 
 export const metadata = {
 	title: "Zelené stavění - trochu jiné stavění",
@@ -14,7 +15,7 @@ export default function Home() {
 			<ScrollUp />
 			<Hero />
 			<Achievments />
-			<Showcase title="UKÁZKA REALIZACÍ" />
+			<Showcase title="UKÁZKA REALIZACÍ" data={data} />
 			<div className="mb-20"></div>
 		</>
 	);

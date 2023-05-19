@@ -25,7 +25,7 @@ export default function Hero() {
 			<Container className="-mt-24 relative z-10">
 				<Image
 					style={{ width: "1280px" }}
-					alt="TODO"
+					alt="Zkrášlovací prvek trávy"
 					width="1440"
 					height="20"
 					src="https://uploadthing.com/f/9cf7d25b-ef5b-4d2c-af1e-bff3321a4813_grass.png"
@@ -34,7 +34,7 @@ export default function Hero() {
 					<div className="flex flex-col text-center items-center px-10 my-10 space-y-3 bg-neutral-100 border-r-2 border-neutral-300">
 						<Image
 							style={{ width: "50px" }}
-							alt="TODO"
+							alt="Ikona skalničky"
 							width="100"
 							height="100"
 							src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
@@ -48,7 +48,7 @@ export default function Hero() {
 					<div className="flex flex-col text-center items-center px-10 my-10 space-y-3 bg-neutral-100 border-r-2 border-neutral-300">
 						<Image
 							style={{ width: "50px" }}
-							alt="TODO"
+							alt="Ikona recyklace kytek"
 							width="100"
 							height="100"
 							src="https://uploadthing.com/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
@@ -62,7 +62,7 @@ export default function Hero() {
 					<div className="flex flex-col text-center items-center px-10 my-10 space-y-3 bg-neutral-100 border-r-2 border-neutral-300">
 						<Image
 							style={{ width: "50px" }}
-							alt="TODO"
+							alt="Ikona fénu"
 							width="100"
 							height="100"
 							src="https://uploadthing.com/f/559f37bf-3c19-40df-b84c-1b83e0276705_fan.png"
@@ -76,7 +76,7 @@ export default function Hero() {
 					<div className="flex flex-col text-center items-center px-10 my-10 space-y-3 bg-neutral-100">
 						<Image
 							style={{ width: "50px" }}
-							alt="TODO"
+							alt="Ikona kamery v domě"
 							width="100"
 							height="100"
 							src="https://uploadthing.com/f/13337481-8d83-45a8-8a3a-f12cc76a72c3_camera.png"

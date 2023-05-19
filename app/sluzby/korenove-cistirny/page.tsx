@@ -1,3 +1,4 @@
+import Showcase from "@/components/HomePage/Showcase";
 import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
 import Realizace from "@/components/ServicesPage/Korenovky/Realizace";

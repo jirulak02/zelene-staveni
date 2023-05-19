@@ -8,6 +8,7 @@ import OurServices from "@/components/ServicesPage/StrechyPage/OurServices";
 import Plantaz from "@/components/ServicesPage/StrechyPage/Plantaz";
 import Skladba from "@/components/ServicesPage/StrechyPage/Skladba";
 import Types from "@/components/ServicesPage/StrechyPage/Types";
+import { dataStrechy } from "@/components/data/SluzbyStrechy";
 
 export const metadata = {
 	title: "Zelené střechy",
@@ -24,7 +25,10 @@ export default function ZeleneStrechy() {
 			<OurServices />
 			<Cukr />
 			<Types />
-			<Showcase title="Již více než 100 úspěšných realizací!" />
+			<Showcase
+				title="Již více než 100 úspěšných realizací!"
+				data={dataStrechy}
+			/>
 			<Plantaz />
 			<Dotace />
 		</>

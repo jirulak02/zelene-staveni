@@ -1,7 +1,7 @@
-import Container from "@/components/layout/Container";
 import Image from "next/image";
 
-const array1 = Array(7).fill(0);
+import Container from "@/components/layout/Container";
+import { dataPrace } from "@/components/data/SluzbyStrechy";
 
 export default function Skladba() {
 	return (
@@ -12,16 +12,15 @@ export default function Skladba() {
 			<h3 className="text-hneda text-center my-8">
 				Ručíme Vám tak za celou střechu
 			</h3>
-			<div className="grid grid-cols-auto mb-10">
-				{array1.map((item) => (
+			<div className="grid grid-cols-auto gap-2 mb-10">
+				{dataPrace.map((item) => (
 					<Image
-						key={Math.random().toString()}
-						style={{ width: "150px" }}
-						className="items-center m-2"
-						alt="TODO"
-						width="150"
-						height="150"
-						src="/square.jpeg"
+						key={item.id}
+						style={{ width: "200px" }}
+						alt="Ukázka toho jak na střechách makáme"
+						width="400"
+						height="300"
+						src={item.url}
 					/>
 				))}
 			</div>
@@ -42,7 +41,7 @@ export default function Skladba() {
 					alt="TODO"
 					width="400"
 					height="466"
-					src="/strechy/skladba.png"
+					src="https://uploadthing.com/f/3b435311-a6dc-4481-8de2-89e4cadeccd3_skladba.png"
 				/>
 			</div>
 		</Container>

@@ -1,8 +1,7 @@
 import Image from "next/image";
 
 import Container from "@/components/layout/Container";
-
-const array1 = Array(10).fill(0);
+import { dataRealizace } from "@/components/data/SluzbyBlowerdoor";
 
 export default function Showcase() {
 	return (
@@ -15,16 +14,15 @@ export default function Showcase() {
 					Měření provádíme i v bytových domech nebo průmyslových
 					objektech, kde je potřeba použít více měřících souprav.
 				</p>
-				<div className="grid grid-cols-auto mx-auto">
-					{array1.map((item) => (
+				<div className="grid grid-cols-auto gap-2">
+					{dataRealizace.map((item) => (
 						<Image
-							key={Math.random().toString()}
-							style={{ width: "150px" }}
-							className="items-center m-2"
-							alt="TODO"
-							width="150"
-							height="150"
-							src="/square.jpeg"
+							key={item.id}
+							style={{ width: "200px" }}
+							alt={item.name}
+							width="400"
+							height="532"
+							src={item.url}
 						/>
 					))}
 				</div>

@@ -3,16 +3,17 @@ import Image from "next/image";
 import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
 import Button from "@/components/ui/Button";
+import {
+	dataStrechy,
+	dataKorenovky,
+	dataTermovize,
+	dataBlowerdoor,
+} from "@/components/data/ReferencesPage";
 
 export const metadata = {
 	title: "Reference",
 	description: "TODO SEO",
 };
-
-const array1 = Array(40).fill(0);
-const array2 = Array(6).fill(0);
-const array3 = Array(9).fill(0);
-const array4 = Array(16).fill(0);
 
 export default function Reference() {
 	return (
@@ -43,16 +44,15 @@ export default function Reference() {
 				>
 					ZELENÉ STŘECHY
 				</h2>
-				<div className="grid grid-cols-auto mb-10">
-					{array1.map((item) => (
+				<div className="grid grid-cols-auto gap-2 mb-10">
+					{dataStrechy.map((item) => (
 						<Image
-							key={Math.random().toString()}
-							style={{ width: "150px" }}
-							className="items-center m-2"
-							alt="TODO"
-							width="150"
-							height="150"
-							src="/square.jpeg"
+							key={item.id}
+							style={{ width: "200px" }}
+							alt={`Ukázka realizace v lokalitě ${item.name}`}
+							width="400"
+							height="300"
+							src={item.url}
 						/>
 					))}
 				</div>
@@ -64,16 +64,15 @@ export default function Reference() {
 				>
 					KOŘENOVÉ ČISTÍRNY
 				</h2>
-				<div className="grid grid-cols-auto mb-10">
-					{array2.map((item) => (
+				<div className="grid grid-cols-auto gap-2 mb-10">
+					{dataKorenovky.map((item) => (
 						<Image
-							key={Math.random().toString()}
-							style={{ width: "150px" }}
-							className="items-center m-2"
-							alt="TODO"
-							width="150"
-							height="150"
-							src="/square.jpeg"
+							key={item.id}
+							style={{ width: "200px" }}
+							alt="Ukázka realizace kořenové čističky"
+							width="400"
+							height="300"
+							src={item.url}
 						/>
 					))}
 				</div>
@@ -85,16 +84,15 @@ export default function Reference() {
 				>
 					BLOWER DOOR TEST
 				</h2>
-				<div className="grid grid-cols-auto mb-10">
-					{array3.map((item) => (
+				<div className="grid grid-cols-auto gap-2 mb-10">
+					{dataBlowerdoor.map((item) => (
 						<Image
-							key={Math.random().toString()}
-							style={{ width: "150px" }}
-							className="items-center m-2"
-							alt="TODO"
-							width="150"
-							height="150"
-							src="/square.jpeg"
+							key={item.id}
+							style={{ width: "200px" }}
+							alt={item.name}
+							width="400"
+							height="532"
+							src={item.url}
 						/>
 					))}
 				</div>
@@ -106,16 +104,15 @@ export default function Reference() {
 				>
 					TERMOVIZE
 				</h2>
-				<div className="grid grid-cols-auto mb-10">
-					{array4.map((item) => (
+				<div className="grid grid-cols-auto gap-2 mb-10">
+					{dataTermovize.map((item) => (
 						<Image
-							key={Math.random().toString()}
-							style={{ width: "150px" }}
-							className="items-center m-2"
-							alt="TODO"
-							width="150"
-							height="150"
-							src="/square.jpeg"
+							key={item.id}
+							style={{ width: "200px" }}
+							alt="Ukázka udělaného měření termokamerou"
+							width="400"
+							height="281"
+							src={item.url}
 						/>
 					))}
 				</div>
