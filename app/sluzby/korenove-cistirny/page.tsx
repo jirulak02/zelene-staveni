@@ -16,7 +16,10 @@ export default function Korenovky() {
 	return (
 		<>
 			<ScrollUp />
-			<ServicesImage name="Kořenové čistírny" />
+			<ServicesImage
+				name="Kořenové čistírny"
+				url="https://uploadthing.com/f/adeba4cf-aea7-4929-96f3-1d0fc91ba9b5_korenovky_hero.jpg"
+			/>
 			<Container className="my-20">
 				<h2 className="text-zelena text-center">
 					Kořenové čístírny odpadních vod

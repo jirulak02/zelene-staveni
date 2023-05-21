@@ -14,6 +14,7 @@ module.exports = {
 				zelena: "#00934a",
 				bezova: "#f1ede5",
 				hneda: "#8e4a49",
+				shadow: "rgba(0,0,0,0.6)",
 			},
 			gridTemplateColumns: {
 				auto: "repeat(auto-fit, minmax(180px, 1fr))",

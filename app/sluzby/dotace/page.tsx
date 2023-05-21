@@ -11,7 +11,10 @@ export default function Dotace() {
 	return (
 		<>
 			<ScrollUp />
-			<ServicesImage name="Dotace" />
+			<ServicesImage
+				name="Dotace"
+				url="https://uploadthing.com/f/3ef65a29-2ac9-47da-bdd6-091130518e1e_dotace_hero.jpg"
+			/>
 			{/* <Container></Container> */}
 		</>
 	);

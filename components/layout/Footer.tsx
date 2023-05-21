@@ -21,8 +21,9 @@ export default function Footer() {
 					<p>
 						Tel:{" "}
 						<a
-							href="tel:+420608974908"
 							className="border-b border-bezova hover:border-neutral-800"
+							href="tel:+420608974908"
+							target="_blank"
 						>
 							+420 608 974 908
 						</a>
@@ -30,8 +31,9 @@ export default function Footer() {
 					<p>
 						Email:{" "}
 						<a
-							href="mailto:info@zelenestaveni.cz"
 							className="border-b border-bezova hover:border-neutral-800"
+							href="mailto:info@zelenestaveni.cz"
+							target="_blank"
 						>
 							info@zelenestaveni.cz
 						</a>

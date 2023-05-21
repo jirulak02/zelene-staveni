@@ -19,7 +19,10 @@ export default function ZeleneStrechy() {
 	return (
 		<>
 			<ScrollUp />
-			<ServicesImage name="Zelené střechy" />
+			<ServicesImage
+				name="Zelené střechy"
+				url="https://uploadthing.com/f/8e0d18f4-fe62-45f8-ab70-0ba16909ab8e_strechy_hero.jpg"
+			/>
 			<Considerations />
 			<Skladba />
 			<OurServices />

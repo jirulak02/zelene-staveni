@@ -9,8 +9,9 @@ export default function Employees() {
 					<p>
 						Tel:{" "}
 						<a
-							href="tel:+420608974908"
 							className="border-b border-neutral-100 hover:border-neutral-800"
+							href="tel:+420608974908"
+							target="_blank"
 						>
 							+420 608 974 908
 						</a>
@@ -18,8 +19,9 @@ export default function Employees() {
 					<p>
 						Email:{" "}
 						<a
-							href="mailto:info@zelenestaveni.cz"
 							className="border-b border-neutral-100 hover:border-neutral-800"
+							href="mailto:info@zelenestaveni.cz"
+							target="_blank"
 						>
 							info@zelenestaveni.cz
 						</a>
@@ -28,10 +30,10 @@ export default function Employees() {
 				<Image
 					style={{ width: "250px" }}
 					className="items-center m-2 mt-4 rounded-full"
-					alt="TODO"
-					width="250"
-					height="250"
-					src="/square.jpeg"
+					alt="Petr Šimeček"
+					width="500"
+					height="500"
+					src="https://uploadthing.com/f/501c7f3e-f1d9-4381-b93a-5e898a2dc19c_petr.png"
 				/>
 			</div>
 			<div className="flex flex-col items-center">
@@ -40,8 +42,9 @@ export default function Employees() {
 					<p>
 						Tel:{" "}
 						<a
-							href="tel:+420773225535"
 							className="border-b border-neutral-100 hover:border-neutral-800"
+							href="tel:+420773225535"
+							target="_blank"
 						>
 							+420 773 225 535
 						</a>
@@ -49,8 +52,9 @@ export default function Employees() {
 					<p>
 						Email:{" "}
 						<a
-							href="mailto:krausova@zelenestaveni.cz"
 							className="border-b border-neutral-100 hover:border-neutral-800"
+							href="mailto:krausova@zelenestaveni.cz"
+							target="_blank"
 						>
 							krausova@zelenestaveni.cz
 						</a>
@@ -71,8 +75,9 @@ export default function Employees() {
 					<p>
 						Tel:{" "}
 						<a
-							href="tel:+420777898501"
 							className="border-b border-neutral-100 hover:border-neutral-800"
+							href="tel:+420777898501"
+							target="_blank"
 						>
 							+420 777 898 501
 						</a>
@@ -80,8 +85,9 @@ export default function Employees() {
 					<p>
 						Email:{" "}
 						<a
-							href="mailto:dotace@zelenestaveni.cz"
 							className="border-b border-neutral-100 hover:border-neutral-800"
+							href="mailto:dotace@zelenestaveni.cz"
+							target="_blank"
 						>
 							dotace@zelenestaveni.cz
 						</a>

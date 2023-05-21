@@ -15,7 +15,10 @@ export default function Termovize() {
 	return (
 		<>
 			<ScrollUp />
-			<ServicesImage name="Termovize" />
+			<ServicesImage
+				name="Termovize"
+				url="https://uploadthing.com/f/49406b25-42ad-40bc-9177-48716c0c5bd2_termovize_hero.jpeg"
+			/>
 			<Unik />
 			<Vysvetleni />
 			<Zjistime />

@@ -14,16 +14,17 @@ export default function Dotace() {
 						zelené střechy, kterou Vám rádi vyřídíme.
 					</p>
 					<p>
-						Dotace činí 700-1000Kč/m² zelené střechy a více se
+						Dotace činí 700-1000 Kč/m² zelené střechy a více se
 						dozvíte na stránkách{" "}
 						<a
 							className="text-zelena border-b border-neutral-100 hover:border-zelena"
 							href="http://www.novazelenausporam.cz/"
+							target="_blank"
 						>
 							Nová zelená úsporám
 						</a>
 						. Cena zelené střechy tedy nemusí být vysoká. Maximální
-						výše dotace je 100000Kč.
+						výše dotace je 100 000 Kč.
 					</p>
 					<div className="flex">
 						<Button href="/sluzby/dotace">ZJISTIT VÍCE</Button>

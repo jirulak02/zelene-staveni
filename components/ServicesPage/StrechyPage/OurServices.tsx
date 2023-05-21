@@ -51,8 +51,9 @@ export default function OurServices() {
 				<p>
 					Dodržujeme{" "}
 					<a
-						href="#"
 						className="text-zelena border-b border-bezova hover:border-zelena"
+						href="#"
+						target="_blank"
 					>
 						standardy Zelených střech
 					</a>

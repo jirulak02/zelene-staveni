@@ -24,16 +24,17 @@ export default function Skladba() {
 					/>
 				))}
 			</div>
-
-			<div className="grid grid-cols-2 items-center">
-				<div className="ml-auto -mt-3">
-					<h4 className="text-hneda my-8">Skladba zelené střechy</h4>
-					<p>✓ Rostliny</p>
-					<p>✓ Substrát</p>
-					<p>✓ Filtrační vrstva</p>
-					<p>✓ Drenážní + hydroakumulační vrstva</p>
-					<p>✓ Ochranná vrstva</p>
-					<p>✓ Hydroizolace odolná prorůstání</p>
+			<div className="grid grid-cols-2 gap-4 items-center">
+				<div className="ml-auto">
+					<h4 className="text-hneda mb-8">Skladba zelené střechy</h4>
+					<ul className="space-y-1">
+						<li>✓ Rostliny</li>
+						<li>✓ Substrát</li>
+						<li>✓ Filtrační vrstva</li>
+						<li>✓ Drenážní + hydroakumulační vrstva</li>
+						<li>✓ Ochranná vrstva</li>
+						<li>✓ Hydroizolace odolná prorůstání</li>
+					</ul>
 				</div>
 				<Image
 					style={{ width: "300px" }}

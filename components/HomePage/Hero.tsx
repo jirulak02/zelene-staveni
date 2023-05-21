@@ -7,14 +7,21 @@ export default function Hero() {
 	return (
 		<div className="pb-12 -mt-image">
 			<div className="relative" style={{ height: "700px" }}>
-				<Image
-					style={{ height: "700px" }}
-					alt="TODO"
-					width="2000"
-					height="700"
-					src="/main.jpeg"
-				/>
-				<div className="absolute flex flex-col top-0 h-full w-full justify-center items-center text-neutral-100">
+				<div
+					style={{
+						position: "relative",
+						overflow: "hidden",
+						height: "700px",
+					}}
+				>
+					<Image
+						src="https://uploadthing.com/f/8e0d18f4-fe62-45f8-ab70-0ba16909ab8e_strechy_hero.jpg"
+						alt="Ukázka realizace"
+						fill={true}
+						style={{ objectFit: "cover" }}
+					/>
+				</div>
+				<div className="absolute flex flex-col top-0 h-full w-full justify-center items-center text-neutral-100 bg-shadow">
 					<h1 className="text-7xl">ZELENÉ</h1>
 					<h1 className="text-7xl">STAVĚNÍ</h1>
 					<h3 className="font-normal mt-3">

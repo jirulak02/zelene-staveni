@@ -71,8 +71,10 @@ function Types() {
 				půdy.
 			</p>
 			<button
+				id="typ1"
 				onClick={() => {
 					dispatch({ type: "VEGETACE" });
+					window.location.href = "/sluzby/zelene-strechy#typ1";
 				}}
 				className={`bg-no-repeat bg-99center text-base mt-10 text-zelena text-left w-full font-normal py-5 border-t border-neutral-300  ${
 					state.vegetace ? "bg-close" : "bg-plus"
@@ -122,8 +124,10 @@ function Types() {
 				</div>
 			)}
 			<button
+				id="typ2"
 				onClick={() => {
 					dispatch({ type: "ZATIZENI" });
+					window.location.href = "/sluzby/zelene-strechy#typ2";
 				}}
 				className={`bg-no-repeat bg-99center text-base text-zelena text-left w-full font-normal py-5 border-t border-neutral-300 ${
 					state.zatizeni ? "bg-close" : "bg-plus"
@@ -148,8 +152,10 @@ function Types() {
 				</div>
 			)}
 			<button
+				id="typ3"
 				onClick={() => {
 					dispatch({ type: "SKLON" });
+					window.location.href = "/sluzby/zelene-strechy#typ3";
 				}}
 				className={`bg-no-repeat bg-99center text-base text-zelena text-left w-full font-normal py-5 border-t border-neutral-300 ${
 					state.sklon ? "bg-close" : "bg-plus"
@@ -175,8 +181,10 @@ function Types() {
 				</div>
 			)}
 			<button
+				id="typ4"
 				onClick={() => {
 					dispatch({ type: "CENA" });
+					window.location.href = "/sluzby/zelene-strechy#typ4";
 				}}
 				className={`bg-no-repeat bg-99center text-base text-zelena text-left w-full font-normal py-5 border-t border-neutral-300 ${
 					state.cena ? "bg-close" : "bg-plus"
@@ -193,7 +201,7 @@ function Types() {
 						extenzivní střechy se sklonem do 15° a nejobvyklejší
 						skladbu se ceny pohybují v těchto relacích:
 					</p>
-					<ul className="list-disc ml-6">
+					<ul className="list-disc ml-6 space-y-1">
 						<li>Celá skladba bez hydroizolace: 1100 Kč/m²</li>
 						<li>
 							Pokládka hydroizolační fólie včetně oplechování: 600
@@ -235,8 +243,10 @@ function Types() {
 				</div>
 			)}
 			<button
+				id="typ5"
 				onClick={() => {
 					dispatch({ type: "NAROCNOST" });
+					window.location.href = "/sluzby/zelene-strechy#typ5";
 				}}
 				className={`bg-no-repeat bg-99center text-base text-zelena text-left w-full font-normal py-5 border-neutral-300 ${
 					state.narocnost ? "bg-close border-t" : "bg-plus border-y"
