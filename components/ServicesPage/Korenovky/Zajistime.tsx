@@ -7,7 +7,7 @@ export default function Zajistime() {
 	return (
 		<Container className="bg-bezova py-20">
 			<h3 className="text-center text-hneda">
-				CO VŠECHNO PRO VÁS ZAJISTÍME
+				Co všechno pro vás zajistíme
 			</h3>
 			<div className="grid grid-cols-auto">
 				{dataZajistime.map((item) => (

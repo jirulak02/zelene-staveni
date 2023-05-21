@@ -32,7 +32,7 @@ export default function Dotace() {
 				<Image
 					style={{ width: "400px" }}
 					className="m-auto"
-					alt="TODO"
+					alt="Logo programu Nová zelená úsporám"
 					width="800"
 					height="400"
 					src="https://uploadthing.com/f/d2e86f21-10f0-478b-bc11-861adcaa8604_nzu.png"

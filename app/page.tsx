@@ -15,8 +15,7 @@ export default function Home() {
 			<ScrollUp />
 			<Hero />
 			<Achievments />
-			<Showcase title="UKÁZKA REALIZACÍ" data={data} />
-			<div className="mb-20"></div>
+			<Showcase title="Ukázka realizací" data={data} />
 		</>
 	);
 }

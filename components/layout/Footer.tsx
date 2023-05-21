@@ -15,7 +15,7 @@ export default function Footer() {
 					alt="Zelené stavění logo"
 					width="425"
 					height="60"
-					src="/logo.png"
+					src="https://uploadthing.com/f/326f6103-6c38-49a4-9615-3b1846a1a9f2_logo.png"
 				/>
 				<div className="text-center">
 					<p>

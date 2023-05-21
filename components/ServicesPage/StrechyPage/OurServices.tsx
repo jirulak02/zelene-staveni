@@ -3,30 +3,7 @@
 import { useState } from "react";
 
 import Container from "@/components/layout/Container";
-
-const messages = [
-	{
-		title: "Nezávazná konzultace",
-		name: "Nezávazná konzultace o možných řešeních pro Váš konkrétní případ.",
-	},
-	{ title: "Cenová nabídka", name: "Vypracování cenové nabídky zdarma." },
-	{
-		title: "Realizace",
-		name: "Realizace všech součástí zelené střechy od hydroizolace až po osázení rostlinami. Možnost realizace jen části skladby. Vše záleží na dohodě.",
-	},
-	{
-		title: "Dodání rostlin",
-		name: "Možnost dodání pouze materiálu včetně rostlin.",
-	},
-	{
-		title: "Zprostředkování dotace",
-		name: "Zajistíme kompletní vyřízení dotace na střechu.",
-	},
-	{
-		title: "Údržba střechy",
-		name: "Kdykoliv pro Vás zařídíme kompletní údržbu zelené střechy.",
-	},
-];
+import { messages } from "@/components/data/SluzbyStrechy";
 
 export default function OurServices() {
 	const [message, setMessage] = useState(messages[0].name);

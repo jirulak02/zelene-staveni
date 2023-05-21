@@ -26,7 +26,6 @@ export default function Employees() {
 					</p>
 				</div>
 				<Image
-					key={Math.random().toString()}
 					style={{ width: "250px" }}
 					className="items-center m-2 mt-4 rounded-full"
 					alt="TODO"
@@ -58,7 +57,6 @@ export default function Employees() {
 					</p>
 				</div>
 				<Image
-					key={Math.random().toString()}
 					style={{ width: "250px" }}
 					className="items-center m-2 mt-4 rounded-full"
 					alt="TODO"
@@ -90,7 +88,6 @@ export default function Employees() {
 					</p>
 				</div>
 				<Image
-					key={Math.random().toString()}
 					style={{ width: "250px" }}
 					className="items-center m-2 mt-4 rounded-full"
 					alt="TODO"

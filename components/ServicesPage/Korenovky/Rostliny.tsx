@@ -7,7 +7,7 @@ export default function Rostliny() {
 	return (
 		<Container className="my-20">
 			<div className="space-y-10">
-				<h2 className="text-center text-zelena">NAŠE ROSTLINY</h2>
+				<h2 className="text-center text-zelena">Naše rostliny</h2>
 				<div className="grid grid-cols-auto gap-2">
 					{dataRostliny.map((item) => (
 						<Image

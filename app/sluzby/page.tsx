@@ -1,7 +1,8 @@
+import Image from "next/image";
+
 import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
 import Button from "@/components/ui/Button";
-import Image from "next/image";
 
 export const metadata = {
 	title: "Služby",
@@ -12,21 +13,21 @@ export default function Sluzby() {
 	return (
 		<>
 			<ScrollUp />
-			<Container className="mb-20">
+			<Container>
 				<h1 className="text-zelena my-10">Služby</h1>
 				<div className="grid grid-cols-1">
 					<div className="grid grid-cols-2">
 						<Image
-							style={{ height: "600px" }}
-							alt="TODO"
+							style={{ width: "800px" }}
+							alt="Ukázka realizace zelené střechy"
 							width="800"
 							height="600"
-							src="/square.jpeg"
+							src="https://uploadthing.com/f/b6b46bf0-3b24-41e4-b15c-a2427e5a35fb_klokocna.png"
 						/>
-						<div className="flex flex-col items-center justify-center text-center m-20 space-y-5">
+						<div className="flex flex-col items-center justify-center text-center m-12 space-y-5">
 							<Image
 								style={{ width: "50px" }}
-								alt="TODO"
+								alt="Ikona skalničky"
 								width="100"
 								height="100"
 								src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
@@ -43,10 +44,10 @@ export default function Sluzby() {
 						</div>
 					</div>
 					<div className="grid grid-cols-2">
-						<div className="flex flex-col items-center justify-center text-center m-20 space-y-5">
+						<div className="flex flex-col items-center justify-center text-center m-12 space-y-5">
 							<Image
 								style={{ width: "50px" }}
-								alt="TODO"
+								alt="Ikona recyklace kytek"
 								width="100"
 								height="100"
 								src="https://uploadthing.com/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
@@ -62,25 +63,25 @@ export default function Sluzby() {
 							</Button>
 						</div>
 						<Image
-							style={{ height: "600px" }}
-							alt="TODO"
+							style={{ width: "800px" }}
+							alt="Ukázka realizace kořenové čistírny"
 							width="800"
 							height="600"
-							src="/square.jpeg"
+							src="https://uploadthing.com/f/cb34b41a-adb9-4205-b398-a7f052a86422_rko5.png"
 						/>
 					</div>
 					<div className="grid grid-cols-2">
 						<Image
-							style={{ height: "600px" }}
-							alt="TODO"
+							style={{ width: "800px" }}
+							alt="Ukázka měření blower door testu"
 							width="800"
 							height="600"
-							src="/square.jpeg"
+							src="https://uploadthing.com/f/952afa6a-d900-459d-b39e-b619267a3070_bytovy_dum_velky.png"
 						/>
-						<div className="flex flex-col items-center justify-center text-center m-20 space-y-5">
+						<div className="flex flex-col items-center justify-center text-center m-12 space-y-5">
 							<Image
 								style={{ width: "50px" }}
-								alt="TODO"
+								alt="Ikona fénu"
 								width="100"
 								height="100"
 								src="https://uploadthing.com/f/559f37bf-3c19-40df-b84c-1b83e0276705_fan.png"
@@ -100,10 +101,10 @@ export default function Sluzby() {
 						</div>
 					</div>
 					<div className="grid grid-cols-2">
-						<div className="flex flex-col items-center justify-center text-center m-20 space-y-5">
+						<div className="flex flex-col items-center justify-center text-center m-12 space-y-5">
 							<Image
 								style={{ width: "50px" }}
-								alt="TODO"
+								alt="Ikona kamery v domě"
 								width="100"
 								height="100"
 								src="https://uploadthing.com/f/13337481-8d83-45a8-8a3a-f12cc76a72c3_camera.png"
@@ -120,11 +121,11 @@ export default function Sluzby() {
 							</Button>
 						</div>
 						<Image
-							style={{ height: "600px" }}
-							alt="TODO"
+							style={{ width: "800px" }}
+							alt="Ukázka měření temovizí"
 							width="800"
 							height="600"
-							src="/square.jpeg"
+							src="https://uploadthing.com/f/f94bf8dc-61c3-4574-ae59-b95ca908cdfd_budova_velka.png"
 						/>
 					</div>
 				</div>

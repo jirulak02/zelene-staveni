@@ -7,7 +7,7 @@ export default function SkladbaKorenovky() {
 	return (
 		<Container className="my-20">
 			<h2 className="text-center text-zelena mb-10">
-				SKLADBA KOŘENOVÉ ČISTÍRNY
+				Skladba kořenové čistírny
 			</h2>
 			{dataSkladba.map((item) => (
 				<div key={item.id} className="grid grid-cols-2 gap-2 py-5">

@@ -67,7 +67,11 @@ function Header() {
 							alt="Zelené stavění logo"
 							width="425"
 							height="60"
-							src={`${white ? "/logo white.png" : "/logo.png"}`}
+							src={`${
+								white
+									? "https://uploadthing.com/f/060f0ca7-f91e-48e4-b29e-7bcda594aa70_logo%20white.png"
+									: "https://uploadthing.com/f/326f6103-6c38-49a4-9615-3b1846a1a9f2_logo.png"
+							}`}
 						/>
 					</Link>
 					<Navbar />

@@ -1,3 +1,27 @@
+export const messages = [
+	{
+		title: "Nezávazná konzultace",
+		name: "Nezávazná konzultace o možných řešeních pro Váš konkrétní případ.",
+	},
+	{ title: "Cenová nabídka", name: "Vypracování cenové nabídky zdarma." },
+	{
+		title: "Realizace",
+		name: "Realizace všech součástí zelené střechy od hydroizolace až po osázení rostlinami. Možnost realizace jen části skladby. Vše záleží na dohodě.",
+	},
+	{
+		title: "Dodání rostlin",
+		name: "Možnost dodání pouze materiálu včetně rostlin.",
+	},
+	{
+		title: "Zprostředkování dotace",
+		name: "Zajistíme kompletní vyřízení dotace na střechu.",
+	},
+	{
+		title: "Údržba střechy",
+		name: "Kdykoliv pro Vás zařídíme kompletní údržbu zelené střechy.",
+	},
+];
+
 export const dataPrace = [
 	{
 		id: "data_sluzby_strechy_prace_1",

@@ -39,9 +39,6 @@ function NavItem({ items }: NavItemProps) {
 						setDropdown(false);
 						setUrl("");
 					}}
-					// onMouseDown={() => {
-					// 	setDropdown(false);
-					// }}
 				>
 					<div className="relative">
 						{items.name}

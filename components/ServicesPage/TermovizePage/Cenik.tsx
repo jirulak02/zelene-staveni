@@ -2,7 +2,7 @@ import Container from "@/components/layout/Container";
 
 export default function Cenik() {
 	return (
-		<Container className="py-20 bg-bezova">
+		<Container className="my-20">
 			<div className="grid grid-cols-5">
 				<div className="col-span-1">
 					<h2 className="text-center text-zelena">Ceník</h2>
@@ -22,7 +22,7 @@ export default function Cenik() {
 					<p>2000 Kč</p>
 					<p>dohodou</p>
 					<p>400 Kč/hod</p>
-					<p>7 Kč/km, minimálně 200Kč</p>
+					<p>7 Kč/km, minimálně 200 Kč</p>
 				</div>
 			</div>
 		</Container>

@@ -38,7 +38,7 @@ export default function Skladba() {
 				<Image
 					style={{ width: "300px" }}
 					className="items-center ml-5"
-					alt="TODO"
+					alt="Rozbor jednotlivých částí skladby zelené střechy"
 					width="400"
 					height="466"
 					src="https://uploadthing.com/f/3b435311-a6dc-4481-8de2-89e4cadeccd3_skladba.png"

@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import Container from "@/components/layout/Container";
-import ScrollUp from "@/components/layout/ScrollUp";
 import Button from "@/components/ui/Button";
 import {
 	dataStrechy,
@@ -18,7 +17,6 @@ export const metadata = {
 export default function Reference() {
 	return (
 		<>
-			<ScrollUp />
 			<Container>
 				<h1 className="text-zelena my-10">Reference</h1>
 				<p>Prohlédněte si fotografie našich prací</p>
@@ -42,7 +40,7 @@ export default function Reference() {
 					id="galerie-zelene-strechy"
 					className="text-center text-zelena py-10"
 				>
-					ZELENÉ STŘECHY
+					Zelené střechy
 				</h2>
 				<div className="grid grid-cols-auto gap-2 mb-10">
 					{dataStrechy.map((item) => (
@@ -62,7 +60,7 @@ export default function Reference() {
 					id="galerie-korenove-cistirny"
 					className="text-center text-zelena py-10"
 				>
-					KOŘENOVÉ ČISTÍRNY
+					Kořenové čistírny
 				</h2>
 				<div className="grid grid-cols-auto gap-2 mb-10">
 					{dataKorenovky.map((item) => (
@@ -82,7 +80,7 @@ export default function Reference() {
 					id="galerie-blower-door-test"
 					className="text-center text-zelena py-10"
 				>
-					BLOWER DOOR TEST
+					Blower Door test
 				</h2>
 				<div className="grid grid-cols-auto gap-2 mb-10">
 					{dataBlowerdoor.map((item) => (
@@ -102,7 +100,7 @@ export default function Reference() {
 					id="galerie-termovize"
 					className="text-center text-zelena py-10"
 				>
-					TERMOVIZE
+					Termovize
 				</h2>
 				<div className="grid grid-cols-auto gap-2 mb-10">
 					{dataTermovize.map((item) => (
