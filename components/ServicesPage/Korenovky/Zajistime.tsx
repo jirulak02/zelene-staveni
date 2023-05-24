@@ -13,7 +13,7 @@ export default function Zajistime() {
 				{dataZajistime.map((item) => (
 					<div
 						key={item.id}
-						className="flex flex-col text-center items-center space-y-8 my-10"
+						className="my-10 flex flex-col items-center space-y-8 text-center"
 					>
 						<Image
 							style={{ width: "50px" }}

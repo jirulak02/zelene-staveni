@@ -4,16 +4,16 @@ import Container from "@/components/layout/Container";
 
 export default function Netesnost() {
 	return (
-		<Container className="py-20 bg-bezova">
+		<Container className="bg-bezova py-20">
 			<div className="space-y-5">
-				<h2 className="text-zelena text-center">Detekce netěsnosti</h2>
-				<p className="max-w-xl mx-auto">
+				<h2 className="text-center text-zelena">Detekce netěsnosti</h2>
+				<p className="mx-auto max-w-xl">
 					Současně s provedením testu nabízíme detekci netěsností.
 					Netěsnosti je možno zjistit pomocí různých pomůcek. Kromě
 					prvotního zjištění pomocí dlaně používáme detekci pomocí
 					anemometru, vyvíječe kouře a termovize.
 				</p>
-				<div className="grid grid-cols-auto gap-2 mx-auto">
+				<div className="mx-auto grid grid-cols-auto gap-2">
 					<Image
 						style={{ width: "200px" }}
 						alt="Měření pomocí vyvíječe kouře"
@@ -44,7 +44,7 @@ export default function Netesnost() {
 					/>
 				</div>
 				<div className="grid grid-cols-2">
-					<div className="flex flex-col items-center space-y-4 mt-10">
+					<div className="mt-10 flex flex-col items-center space-y-4">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona úspěchu"
@@ -60,7 +60,7 @@ export default function Netesnost() {
 							rozvodů.
 						</p>
 					</div>
-					<div className="flex flex-col items-center space-y-4 mt-10">
+					<div className="mt-10 flex flex-col items-center space-y-4">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona nářadí"

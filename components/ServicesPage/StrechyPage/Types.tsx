@@ -45,8 +45,8 @@ function Types() {
 	const [state, dispatch] = useReducer(reducer, initialState);
 
 	return (
-		<Container className="py-20 bg-bezova">
-			<h2 className="text-zelena text-center pb-5">
+		<Container className="bg-bezova py-20">
+			<h2 className="pb-5 text-center text-zelena">
 				Typy zelených střech
 			</h2>
 			<p className="my-4">
@@ -76,7 +76,7 @@ function Types() {
 					dispatch({ type: "VEGETACE" });
 					window.location.href = "/sluzby/zelene-strechy#typ1";
 				}}
-				className={`bg-no-repeat bg-99center text-base mt-10 text-zelena text-left w-full font-normal py-5 border-t border-neutral-300  ${
+				className={`mt-10 w-full border-t border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena  ${
 					state.vegetace ? "bg-close" : "bg-plus"
 				}`}
 			>
@@ -129,7 +129,7 @@ function Types() {
 					dispatch({ type: "ZATIZENI" });
 					window.location.href = "/sluzby/zelene-strechy#typ2";
 				}}
-				className={`bg-no-repeat bg-99center text-base text-zelena text-left w-full font-normal py-5 border-t border-neutral-300 ${
+				className={`w-full border-t border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena ${
 					state.zatizeni ? "bg-close" : "bg-plus"
 				}`}
 			>
@@ -157,7 +157,7 @@ function Types() {
 					dispatch({ type: "SKLON" });
 					window.location.href = "/sluzby/zelene-strechy#typ3";
 				}}
-				className={`bg-no-repeat bg-99center text-base text-zelena text-left w-full font-normal py-5 border-t border-neutral-300 ${
+				className={`w-full border-t border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena ${
 					state.sklon ? "bg-close" : "bg-plus"
 				}`}
 			>
@@ -186,7 +186,7 @@ function Types() {
 					dispatch({ type: "CENA" });
 					window.location.href = "/sluzby/zelene-strechy#typ4";
 				}}
-				className={`bg-no-repeat bg-99center text-base text-zelena text-left w-full font-normal py-5 border-t border-neutral-300 ${
+				className={`w-full border-t border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena ${
 					state.cena ? "bg-close" : "bg-plus"
 				}`}
 			>
@@ -201,7 +201,7 @@ function Types() {
 						extenzivní střechy se sklonem do 15° a nejobvyklejší
 						skladbu se ceny pohybují v těchto relacích:
 					</p>
-					<ul className="list-disc ml-6 space-y-1">
+					<ul className="ml-6 list-disc space-y-1">
 						<li>Celá skladba bez hydroizolace: 1100 Kč/m²</li>
 						<li>
 							Pokládka hydroizolační fólie včetně oplechování: 600
@@ -248,8 +248,8 @@ function Types() {
 					dispatch({ type: "NAROCNOST" });
 					window.location.href = "/sluzby/zelene-strechy#typ5";
 				}}
-				className={`bg-no-repeat bg-99center text-base text-zelena text-left w-full font-normal py-5 border-neutral-300 ${
-					state.narocnost ? "bg-close border-t" : "bg-plus border-y"
+				className={`w-full border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena ${
+					state.narocnost ? "border-t bg-close" : "border-y bg-plus"
 				}`}
 			>
 				Údržba zelených střech

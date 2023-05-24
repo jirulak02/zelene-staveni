@@ -11,7 +11,7 @@ export default function ZasadyOsobnichUdaju() {
 		<>
 			<ScrollUp />
 			<Container>
-				<div className="flex flex-col space-y-10 mb-10">
+				<div className="mb-10 flex flex-col space-y-10">
 					<h1 className="mt-10 text-zelena">
 						Zásady ochrany osobních údajů
 					</h1>

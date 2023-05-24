@@ -6,7 +6,7 @@ import { dataSkladba } from "@/components/data/SluzbyKorenovky";
 export default function SkladbaKorenovky() {
 	return (
 		<Container className="my-20">
-			<h2 className="text-center text-zelena mb-10">
+			<h2 className="mb-10 text-center text-zelena">
 				Skladba kořenové čistírny
 			</h2>
 			{dataSkladba.map((item) => (

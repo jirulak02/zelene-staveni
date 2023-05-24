@@ -8,7 +8,7 @@ export default function Footer() {
 
 	return (
 		<Container className="bg-bezova py-20">
-			<div className="flex flex-col items-center w-full space-y-3">
+			<div className="flex w-full flex-col items-center space-y-3">
 				<Image
 					style={{ width: "425px" }}
 					className="pb-2"
@@ -46,7 +46,7 @@ export default function Footer() {
 					</p>
 					<Link
 						href="/ochrana-osobnich-udaju"
-						className="text-xs border-b border-bezova hover:border-neutral-800"
+						className="border-b border-bezova text-xs hover:border-neutral-800"
 					>
 						Zásady ochrany osobních údajů
 					</Link>

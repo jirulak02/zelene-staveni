@@ -6,13 +6,13 @@ import { dataPrace } from "@/components/data/SluzbyStrechy";
 export default function Skladba() {
 	return (
 		<Container className="my-20">
-			<h2 className="text-zelena text-center">
+			<h2 className="text-center text-zelena">
 				Dokážeme udělat celou skladbu střechy
 			</h2>
-			<h3 className="text-hneda text-center my-8">
+			<h3 className="my-8 text-center text-hneda">
 				Ručíme Vám tak za celou střechu
 			</h3>
-			<div className="grid grid-cols-auto gap-2 mb-10">
+			<div className="mb-10 grid grid-cols-auto gap-2">
 				{dataPrace.map((item) => (
 					<Image
 						key={item.id}
@@ -24,9 +24,9 @@ export default function Skladba() {
 					/>
 				))}
 			</div>
-			<div className="grid grid-cols-2 gap-4 items-center">
+			<div className="grid grid-cols-2 items-center gap-4">
 				<div className="ml-auto">
-					<h4 className="text-hneda mb-8">Skladba zelené střechy</h4>
+					<h4 className="mb-8 text-hneda">Skladba zelené střechy</h4>
 					<ul className="space-y-1">
 						<li>✓ Rostliny</li>
 						<li>✓ Substrát</li>
@@ -38,7 +38,7 @@ export default function Skladba() {
 				</div>
 				<Image
 					style={{ width: "300px" }}
-					className="items-center ml-5"
+					className="ml-5 items-center"
 					alt="Rozbor jednotlivých částí skladby zelené střechy"
 					width="400"
 					height="466"

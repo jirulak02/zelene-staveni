@@ -21,9 +21,9 @@ function Header() {
 	let white = paths.includes(pathname);
 
 	return (
-		<header className="w-full justify-right border-b border-neutral-800 relative z-30">
-			<Container className="bg-neutral-100 border-b border-neutral-300">
-				<div className="flex space-x-12 text-zelena h-12">
+		<header className="justify-right relative z-30 w-full border-b border-neutral-800">
+			<Container className="border-b border-neutral-300 bg-neutral-100">
+				<div className="flex h-12 space-x-12 text-zelena">
 					<div className="flex items-center space-x-2">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ function Header() {
 				</div>
 			</Container>
 			<Container className="border-b border-neutral-100">
-				<div className="h-20 flex items-center justify-between">
+				<div className="flex h-20 items-center justify-between">
 					<Link href="/">
 						<Image
 							style={{ width: "212px" }}

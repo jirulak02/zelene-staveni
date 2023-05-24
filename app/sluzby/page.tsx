@@ -14,7 +14,7 @@ export default function Sluzby() {
 		<>
 			<ScrollUp />
 			<Container>
-				<h1 className="text-zelena my-10">Služby</h1>
+				<h1 className="my-10 text-zelena">Služby</h1>
 				<div className="grid grid-cols-1">
 					<div className="grid grid-cols-2">
 						<Image
@@ -24,7 +24,7 @@ export default function Sluzby() {
 							height="600"
 							src="https://uploadthing.com/f/b6b46bf0-3b24-41e4-b15c-a2427e5a35fb_klokocna.png"
 						/>
-						<div className="flex flex-col items-center justify-center text-center m-12 space-y-5">
+						<div className="m-12 flex flex-col items-center justify-center space-y-5 text-center">
 							<Image
 								style={{ width: "50px" }}
 								alt="Ikona skalničky"
@@ -44,7 +44,7 @@ export default function Sluzby() {
 						</div>
 					</div>
 					<div className="grid grid-cols-2">
-						<div className="flex flex-col items-center justify-center text-center m-12 space-y-5">
+						<div className="m-12 flex flex-col items-center justify-center space-y-5 text-center">
 							<Image
 								style={{ width: "50px" }}
 								alt="Ikona recyklace kytek"
@@ -78,7 +78,7 @@ export default function Sluzby() {
 							height="600"
 							src="https://uploadthing.com/f/952afa6a-d900-459d-b39e-b619267a3070_bytovy_dum_velky.png"
 						/>
-						<div className="flex flex-col items-center justify-center text-center m-12 space-y-5">
+						<div className="m-12 flex flex-col items-center justify-center space-y-5 text-center">
 							<Image
 								style={{ width: "50px" }}
 								alt="Ikona fénu"
@@ -101,7 +101,7 @@ export default function Sluzby() {
 						</div>
 					</div>
 					<div className="grid grid-cols-2">
-						<div className="flex flex-col items-center justify-center text-center m-12 space-y-5">
+						<div className="m-12 flex flex-col items-center justify-center space-y-5 text-center">
 							<Image
 								style={{ width: "50px" }}
 								alt="Ikona kamery v domě"

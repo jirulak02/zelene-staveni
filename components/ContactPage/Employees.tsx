@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Employees() {
 	return (
-		<div className="grid grid-cols-auto w-full">
+		<div className="grid w-full grid-cols-auto">
 			<div className="flex flex-col items-center">
 				<div>
 					<p>Mgr. Petr Šimeček - jednatel</p>
@@ -29,7 +29,7 @@ export default function Employees() {
 				</div>
 				<Image
 					style={{ width: "250px" }}
-					className="items-center m-2 mt-4 rounded-full"
+					className="m-2 mt-4 items-center rounded-full"
 					alt="Petr Šimeček"
 					width="500"
 					height="500"
@@ -62,7 +62,7 @@ export default function Employees() {
 				</div>
 				<Image
 					style={{ width: "250px" }}
-					className="items-center m-2 mt-4 rounded-full"
+					className="m-2 mt-4 items-center rounded-full"
 					alt="TODO"
 					width="250"
 					height="250"
@@ -95,7 +95,7 @@ export default function Employees() {
 				</div>
 				<Image
 					style={{ width: "250px" }}
-					className="items-center m-2 mt-4 rounded-full"
+					className="m-2 mt-4 items-center rounded-full"
 					alt="TODO"
 					width="250"
 					height="250"

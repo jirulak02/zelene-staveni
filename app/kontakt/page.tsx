@@ -13,7 +13,7 @@ export default function Kontakt() {
 		<>
 			<ScrollUp />
 			<Container>
-				<h1 className="text-zelena my-10">Kontakt</h1>
+				<h1 className="my-10 text-zelena">Kontakt</h1>
 				<div className="my-10">
 					<p>Zelené stavění PS s.r.o.</p>
 					<p>Panská 212, Tehov, 251 01</p>
@@ -21,10 +21,10 @@ export default function Kontakt() {
 					<p>DIČ: CZ05749565</p>
 				</div>
 				<Employees />
-				<h2 className="text-zelena mt-10 mb-5">Napište nám</h2>
-				<div className="grid grid-cols-2 gap-8 mb-20">
+				<h2 className="mb-5 mt-10 text-zelena">Napište nám</h2>
+				<div className="mb-20 grid grid-cols-2 gap-8">
 					<ContactForm />
-					<div className="h-full border-2 rounded-3xl border-neutral-200">
+					<div className="h-full rounded-3xl border-2 border-neutral-200">
 						<iframe
 							width="100%"
 							height="100%"

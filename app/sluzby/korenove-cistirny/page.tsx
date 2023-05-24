@@ -21,10 +21,10 @@ export default function Korenovky() {
 				url="https://uploadthing.com/f/adeba4cf-aea7-4929-96f3-1d0fc91ba9b5_korenovky_hero.jpg"
 			/>
 			<Container className="my-20">
-				<h2 className="text-zelena text-center">
+				<h2 className="text-center text-zelena">
 					Kořenové čístírny odpadních vod
 				</h2>
-				<div className="max-w-xl m-auto space-y-4 mt-10">
+				<div className="m-auto mt-10 max-w-xl space-y-4">
 					<p>
 						Kořenová čistírna odpadních vod je vlastně takový malý
 						přírodní mokřad.

@@ -5,7 +5,7 @@ import Container from "@/components/layout/Container";
 export default function Unik() {
 	return (
 		<Container>
-			<div className="grid grid-cols-3 gap-2 my-20">
+			<div className="my-20 grid grid-cols-3 gap-2">
 				<div className="col-span-2 space-y-6">
 					<h2 className="text-zelena">Měření úniku tepla</h2>
 					<p>

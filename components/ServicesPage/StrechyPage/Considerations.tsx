@@ -5,7 +5,7 @@ import Container from "@/components/layout/Container";
 export default function Considerations() {
 	return (
 		<Container className="bg-bezova py-20">
-			<h2 className="text-center text-zelena mb-10">
+			<h2 className="mb-10 text-center text-zelena">
 				Realizujeme zelené střechy od A do Z
 			</h2>
 			<h3 className="text-center text-hneda">
@@ -14,10 +14,10 @@ export default function Considerations() {
 			<h3 className="text-center text-hneda">
 				Ujasněte si tyto základní body:
 			</h3>
-			<div className="grid grid-cols-3 gap-2 mt-5">
-				<div className="flex flex-col text-center items-center p-4 space-y-3">
+			<div className="mt-5 grid grid-cols-3 gap-2">
+				<div className="flex flex-col items-center space-y-3 p-4 text-center">
 					<div
-						className="flex items-center justify-center bg-neutral-100 rounded-full"
+						className="flex items-center justify-center rounded-full bg-neutral-100"
 						style={{ width: "120px", height: "120px" }}
 					>
 						<Image
@@ -30,9 +30,9 @@ export default function Considerations() {
 					</div>
 					<h5>Jaký styl se Vám líbí</h5>
 				</div>
-				<div className="flex flex-col text-center items-center p-4 space-y-3">
+				<div className="flex flex-col items-center space-y-3 p-4 text-center">
 					<div
-						className="flex items-center justify-center bg-neutral-100 rounded-full"
+						className="flex items-center justify-center rounded-full bg-neutral-100"
 						style={{ width: "120px", height: "120px" }}
 					>
 						<Image
@@ -45,9 +45,9 @@ export default function Considerations() {
 					</div>
 					<h5>Kolik chcete investovat</h5>
 				</div>
-				<div className="flex flex-col text-center items-center p-4 space-y-3">
+				<div className="flex flex-col items-center space-y-3 p-4 text-center">
 					<div
-						className="flex items-center justify-center bg-neutral-100 rounded-full"
+						className="flex items-center justify-center rounded-full bg-neutral-100"
 						style={{ width: "120px", height: "120px" }}
 					>
 						<Image

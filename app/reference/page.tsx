@@ -18,9 +18,9 @@ export default function Reference() {
 	return (
 		<>
 			<Container>
-				<h1 className="text-zelena my-10">Reference</h1>
+				<h1 className="my-10 text-zelena">Reference</h1>
 				<p>Prohlédněte si fotografie našich prací</p>
-				<div className="grid grid-cols-4 my-10">
+				<div className="my-10 grid grid-cols-4">
 					<Button href="/reference/#galerie-zelene-strechy">
 						ZELENÉ STŘECHY
 					</Button>
@@ -38,11 +38,11 @@ export default function Reference() {
 			<Container className="bg-bezova py-10">
 				<h2
 					id="galerie-zelene-strechy"
-					className="text-center text-zelena py-10"
+					className="py-10 text-center text-zelena"
 				>
 					Zelené střechy
 				</h2>
-				<div className="grid grid-cols-auto gap-2 mb-10">
+				<div className="mb-10 grid grid-cols-auto gap-2">
 					{dataStrechy.map((item) => (
 						<Image
 							key={item.id}
@@ -58,11 +58,11 @@ export default function Reference() {
 			<Container className="py-10">
 				<h2
 					id="galerie-korenove-cistirny"
-					className="text-center text-zelena py-10"
+					className="py-10 text-center text-zelena"
 				>
 					Kořenové čistírny
 				</h2>
-				<div className="grid grid-cols-auto gap-2 mb-10">
+				<div className="mb-10 grid grid-cols-auto gap-2">
 					{dataKorenovky.map((item) => (
 						<Image
 							key={item.id}
@@ -78,11 +78,11 @@ export default function Reference() {
 			<Container className="bg-bezova py-10">
 				<h2
 					id="galerie-blower-door-test"
-					className="text-center text-zelena py-10"
+					className="py-10 text-center text-zelena"
 				>
 					Blower Door test
 				</h2>
-				<div className="grid grid-cols-auto gap-2 mb-10">
+				<div className="mb-10 grid grid-cols-auto gap-2">
 					{dataBlowerdoor.map((item) => (
 						<Image
 							key={item.id}
@@ -98,11 +98,11 @@ export default function Reference() {
 			<Container className="py-10">
 				<h2
 					id="galerie-termovize"
-					className="text-center text-zelena py-10"
+					className="py-10 text-center text-zelena"
 				>
 					Termovize
 				</h2>
-				<div className="grid grid-cols-auto gap-2 mb-10">
+				<div className="mb-10 grid grid-cols-auto gap-2">
 					{dataTermovize.map((item) => (
 						<Image
 							key={item.id}

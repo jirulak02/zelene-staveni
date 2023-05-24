@@ -20,7 +20,7 @@ export default function OurServices() {
 
 	return (
 		<Container className="bg-bezova py-20">
-			<div className="text-center items-center flex flex-col space-y-6">
+			<div className="flex flex-col items-center space-y-6 text-center">
 				<h2 className="text-zelena">Naše služby</h2>
 				<div className="w-full">
 					<div>
@@ -29,9 +29,9 @@ export default function OurServices() {
 								key={button.title}
 								name={button.name}
 								onClick={messageHandler}
-								className={`text-hneda px-3 py-2 font-semibold hover:text-neutral-800 ${
+								className={`px-3 py-2 font-semibold text-hneda hover:text-neutral-800 ${
 									clicked === button.title
-										? "text-neutral-800 bg-neutral-100 border-2 border-b-0 border-zelena"
+										? "border-2 border-b-0 border-zelena bg-neutral-100 text-neutral-800"
 										: ""
 								}`}
 							>
@@ -39,7 +39,7 @@ export default function OurServices() {
 							</button>
 						))}
 					</div>
-					<div className="w-full -mt-0.5 bg-neutral-100 py-4 px-6 border-2 border-zelena text-left">
+					<div className="-mt-0.5 w-full border-2 border-zelena bg-neutral-100 px-6 py-4 text-left">
 						{message}
 					</div>
 				</div>
@@ -51,7 +51,7 @@ export default function OurServices() {
 				<p>
 					Dodržujeme{" "}
 					<a
-						className="text-zelena border-b border-bezova hover:border-zelena"
+						className="border-b border-bezova text-zelena hover:border-zelena"
 						href="#"
 						target="_blank"
 					>

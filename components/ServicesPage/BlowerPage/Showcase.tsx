@@ -7,10 +7,10 @@ export default function Showcase() {
 	return (
 		<Container className="my-20">
 			<div className="space-y-5">
-				<h2 className="text-zelena text-center">
+				<h2 className="text-center text-zelena">
 					Kde všude provádíme test
 				</h2>
-				<p className="text-center max-w-xl mx-auto">
+				<p className="mx-auto max-w-xl text-center">
 					Měření provádíme i v bytových domech nebo průmyslových
 					objektech, kde je potřeba použít více měřících souprav.
 				</p>

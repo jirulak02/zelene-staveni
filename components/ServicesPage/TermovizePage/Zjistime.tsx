@@ -5,9 +5,9 @@ import Container from "@/components/layout/Container";
 export default function Zjistime() {
 	return (
 		<Container className="my-20">
-			<h2 className="text-zelena mb-6">Co lze měřením zjistit</h2>
+			<h2 className="mb-6 text-zelena">Co lze měřením zjistit</h2>
 			<div className="grid grid-cols-2 gap-2">
-				<ul className="list-disc pl-4 space-y-1">
+				<ul className="list-disc space-y-1 pl-4">
 					<li>
 						Nedostatky v zateplení budovy, špatné provedení izolací
 					</li>

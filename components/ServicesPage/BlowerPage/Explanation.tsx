@@ -15,7 +15,7 @@ export default function Explanation() {
 						Blower Door test. Měření provádíme v souladu s normou
 						ČSN EN ISO 9972. Jsme registrováni v{" "}
 						<a
-							className="text-zelena border-b border-neutral-100 hover:border-zelena"
+							className="border-b border-neutral-100 text-zelena hover:border-zelena"
 							href="https://registrace.novazelenausporam.cz/vyhledavani/dodavatel/SOD7412/mgr-simecek-petr/"
 							target="_blank"
 						>
@@ -34,8 +34,8 @@ export default function Explanation() {
 					/>
 				</div>
 			</div>
-			<div className="grid grid-cols-2 gap-4 mt-20">
-				<div className="flex justify-center items-center">
+			<div className="mt-20 grid grid-cols-2 gap-4">
+				<div className="flex items-center justify-center">
 					<Image
 						className="rounded-full"
 						style={{ width: "320px" }}
@@ -55,7 +55,7 @@ export default function Explanation() {
 						zjištěné netěsnosti.
 					</p>
 					<h3 className="text-hneda">Co Blower Door test obsahuje</h3>
-					<ul className="list-disc ml-4 space-y-1">
+					<ul className="ml-4 list-disc space-y-1">
 						<li>příprava budovy</li>
 						<li>
 							případné utěsnění vzduchotechnických otvorů, odpadů
@@ -70,7 +70,7 @@ export default function Explanation() {
 							hodnoty n50 pro měřený objekt (ukázka Protokolu
 							měření ke stažení{" "}
 							<a
-								className="text-zelena border-b border-neutral-100 hover:border-zelena"
+								className="border-b border-neutral-100 text-zelena hover:border-zelena"
 								href="#"
 								target="_blank"
 							>

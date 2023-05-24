@@ -8,7 +8,7 @@ export default function Plantaz() {
 		<Container className="bg-bezova py-20">
 			<div className="flex flex-col space-y-5">
 				<div
-					className="flex m-auto items-center justify-center bg-neutral-100 rounded-full"
+					className="m-auto flex items-center justify-center rounded-full bg-neutral-100"
 					style={{ width: "120px", height: "120px" }}
 				>
 					<Image

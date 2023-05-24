@@ -6,14 +6,14 @@ import { dataPocasi } from "@/components/data/SluzbyStrechy";
 export default function Cukr() {
 	return (
 		<Container className="my-20">
-			<h3 className="text-hneda text-center my-5">
+			<h3 className="my-5 text-center text-hneda">
 				"Nejsme z cukru. Děláme tak, jak je potřeba."
 			</h3>
 			<div className="grid grid-cols-auto gap-2">
 				{dataPocasi.map((item) => (
 					<div
 						key={item.id}
-						className="flex flex-col text-center items-center space-y-3"
+						className="flex flex-col items-center space-y-3 text-center"
 					>
 						<Image
 							style={{ width: "400px" }}

@@ -16,13 +16,13 @@ export default function Achievments() {
 				</p>
 				<Button href="/kontakt">ZEPTEJTE SE NÁS</Button>
 			</div>
-			<div className="grid grid-cols-auto gap-2 mt-16">
+			<div className="mt-16 grid grid-cols-auto gap-2">
 				<div className="space-y-3">
 					<div className="text-7xl text-zelena">20</div>
 					<h3 className="text-zelena">LET V OBORU</h3>
 					<p>Nezávazná konzultace vhodných řešení zdarma.</p>
 				</div>
-				<div className="flex justify-center items-center">
+				<div className="flex items-center justify-center">
 					<Image
 						style={{ width: "150px" }}
 						alt="Ikona bílého domečku"
@@ -36,7 +36,7 @@ export default function Achievments() {
 					<h3 className="text-zelena">REALIZACÍ</h3>
 					<p>Cenovou nabídku vypracujeme zdarma.</p>
 				</div>
-				<div className="flex justify-center items-center">
+				<div className="flex items-center justify-center">
 					<Image
 						style={{ width: "150px" }}
 						alt="Ikona bílého domečku"

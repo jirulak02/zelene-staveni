@@ -2,7 +2,7 @@ import Container from "@/components/layout/Container";
 
 export default function Potrebujeme() {
 	return (
-		<Container className="py-20 bg-bezova">
+		<Container className="bg-bezova py-20">
 			<div className="grid grid-cols-2 gap-4">
 				<div className="space-y-5">
 					<h3 className="text-hneda">Co od Vás budeme potřebovat</h3>
@@ -26,7 +26,7 @@ export default function Potrebujeme() {
 				</div>
 				<div className="space-y-5">
 					<h3 className="text-hneda">Připravenost budovy</h3>
-					<ul className="list-disc ml-4 space-y-1">
+					<ul className="ml-4 list-disc space-y-1">
 						<li>
 							Dokončená vzduchotěsnící vrstva, všechny výplně
 							otvorů osazeny
@@ -38,7 +38,7 @@ export default function Potrebujeme() {
 						</li>
 						<li>
 							<a
-								className="text-zelena border-b border-bezova hover:border-zelena"
+								className="border-b border-bezova text-zelena hover:border-zelena"
 								href="#"
 								target="_blank"
 							>

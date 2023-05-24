@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 
 export default function Hero() {
 	return (
-		<div className="pb-12 -mt-image">
+		<div className="-mt-image pb-12">
 			<div className="relative" style={{ height: "700px" }}>
 				<div
 					style={{
@@ -21,15 +21,15 @@ export default function Hero() {
 						style={{ objectFit: "cover" }}
 					/>
 				</div>
-				<div className="absolute flex flex-col top-0 h-full w-full justify-center items-center text-neutral-100 bg-shadow">
+				<div className="absolute top-0 flex h-full w-full flex-col items-center justify-center bg-shadow text-neutral-100">
 					<h1 className="text-7xl">ZELENÉ</h1>
 					<h1 className="text-7xl">STAVĚNÍ</h1>
-					<h3 className="font-normal mt-3">
+					<h3 className="mt-3 font-normal">
 						... trochu jiné stavění
 					</h3>
 				</div>
 			</div>
-			<Container className="-mt-24 relative z-10">
+			<Container className="relative z-10 -mt-24">
 				<Image
 					style={{ width: "1280px" }}
 					alt="Zkrášlovací prvek trávy"
@@ -37,8 +37,8 @@ export default function Hero() {
 					height="20"
 					src="https://uploadthing.com/f/9cf7d25b-ef5b-4d2c-af1e-bff3321a4813_grass.png"
 				/>
-				<div className="grid grid-cols-4 bg-neutral-100 -mt-1 shadow-lg shadow-neutral-400">
-					<div className="flex flex-col text-center items-center px-10 my-10 space-y-3 bg-neutral-100 border-r-2 border-neutral-300">
+				<div className="-mt-1 grid grid-cols-4 bg-neutral-100 shadow-lg shadow-neutral-400">
+					<div className="my-10 flex flex-col items-center space-y-3 border-r-2 border-neutral-300 bg-neutral-100 px-10 text-center">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona skalničky"
@@ -52,7 +52,7 @@ export default function Hero() {
 							ZJISTIT VÍCE
 						</Button>
 					</div>
-					<div className="flex flex-col text-center items-center px-10 my-10 space-y-3 bg-neutral-100 border-r-2 border-neutral-300">
+					<div className="my-10 flex flex-col items-center space-y-3 border-r-2 border-neutral-300 bg-neutral-100 px-10 text-center">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona recyklace kytek"
@@ -66,7 +66,7 @@ export default function Hero() {
 							ZJISTIT VÍCE
 						</Button>
 					</div>
-					<div className="flex flex-col text-center items-center px-10 my-10 space-y-3 bg-neutral-100 border-r-2 border-neutral-300">
+					<div className="my-10 flex flex-col items-center space-y-3 border-r-2 border-neutral-300 bg-neutral-100 px-10 text-center">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona fénu"
@@ -80,7 +80,7 @@ export default function Hero() {
 							ZJISTIT VÍCE
 						</Button>
 					</div>
-					<div className="flex flex-col text-center items-center px-10 my-10 space-y-3 bg-neutral-100">
+					<div className="my-10 flex flex-col items-center space-y-3 bg-neutral-100 px-10 text-center">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona kamery v domě"

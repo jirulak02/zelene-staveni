@@ -33,7 +33,7 @@ export default function Vysvetleni() {
 						<h3 className="text-hneda">
 							Co zahrnuje měření termovizí
 						</h3>
-						<ul className="list-disc pl-4 space-y-1">
+						<ul className="list-disc space-y-1 pl-4">
 							<li>
 								Snímky vnějšku i vnitřku budovy, případně
 								požadovaných zařízení ve viditelném i
