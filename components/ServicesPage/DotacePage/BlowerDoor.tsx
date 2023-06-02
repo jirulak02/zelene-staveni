@@ -1,6 +1,7 @@
+import Image from "next/image";
+
 import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
-import Image from "next/image";
 
 export default function BlowerDoor() {
     return (
