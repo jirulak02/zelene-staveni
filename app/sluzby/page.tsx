@@ -22,6 +22,7 @@ export default function Sluzby() {
 							alt="Ukázka realizace zelené střechy"
 							width="800"
 							height="600"
+							priority
 							src="https://uploadthing.com/f/b6b46bf0-3b24-41e4-b15c-a2427e5a35fb_klokocna.png"
 						/>
 						<div className="m-12 flex flex-col items-center justify-center space-y-5 text-center">

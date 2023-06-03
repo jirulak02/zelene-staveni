@@ -18,6 +18,7 @@ export default function Hero() {
 						src="https://uploadthing.com/f/8e0d18f4-fe62-45f8-ab70-0ba16909ab8e_strechy_hero.jpg"
 						alt="Ukázka realizace"
 						fill={true}
+						priority
 						style={{ objectFit: "cover" }}
 					/>
 				</div>
@@ -35,6 +36,7 @@ export default function Hero() {
 					alt="Zkrášlovací prvek trávy"
 					width="1440"
 					height="20"
+					priority
 					src="https://uploadthing.com/f/9cf7d25b-ef5b-4d2c-af1e-bff3321a4813_grass.png"
 				/>
 				<div className="-mt-1 grid grid-cols-4 bg-neutral-100 shadow-lg shadow-neutral-400">
@@ -44,6 +46,7 @@ export default function Hero() {
 							alt="Ikona skalničky"
 							width="100"
 							height="100"
+							priority
 							src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
 						/>
 						<h3 className="text-hneda">ZELENÉ STŘECHY</h3>
@@ -58,6 +61,7 @@ export default function Hero() {
 							alt="Ikona recyklace kytek"
 							width="100"
 							height="100"
+							priority
 							src="https://uploadthing.com/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
 						/>
 						<h3 className="text-hneda">KOŘENOVÉ ČISTÍRNY</h3>
@@ -72,6 +76,7 @@ export default function Hero() {
 							alt="Ikona fénu"
 							width="100"
 							height="100"
+							priority
 							src="https://uploadthing.com/f/559f37bf-3c19-40df-b84c-1b83e0276705_fan.png"
 						/>
 						<h3 className="text-hneda">BLOWER DOOR TEST</h3>
@@ -86,6 +91,7 @@ export default function Hero() {
 							alt="Ikona kamery v domě"
 							width="100"
 							height="100"
+							priority
 							src="https://uploadthing.com/f/13337481-8d83-45a8-8a3a-f12cc76a72c3_camera.png"
 						/>
 						<h3 className="text-hneda">MĚŘENÍ ÚNIKU TEPLA</h3>

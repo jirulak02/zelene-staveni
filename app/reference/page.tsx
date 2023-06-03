@@ -1,13 +1,13 @@
 import Image from "next/image";
 
 import Container from "@/components/layout/Container";
-import Button from "@/components/ui/Button";
 import {
 	dataStrechy,
 	dataKorenovky,
 	dataTermovize,
 	dataBlowerdoor,
 } from "@/components/data/ReferencesPage";
+import ScrollButton from "@/components/ui/ScrollButton";
 
 export const metadata = {
 	title: "Reference",
@@ -21,18 +21,18 @@ export default function Reference() {
 				<h1 className="my-10 text-zelena">Reference</h1>
 				<p>Prohlédněte si fotografie našich prací</p>
 				<div className="my-10 grid grid-cols-4">
-					<Button href="/reference/#galerie-zelene-strechy">
+					<ScrollButton id="galerie-zelene-strechy">
 						ZELENÉ STŘECHY
-					</Button>
-					<Button href="/reference/#galerie-korenove-cistirny">
+					</ScrollButton>
+					<ScrollButton id="galerie-korenove-cistirny">
 						KOŘENOVÉ ČISTÍRNY
-					</Button>
-					<Button href="/reference/#galerie-blower-door-test">
+					</ScrollButton>
+					<ScrollButton id="galerie-blower-door-test">
 						BLOWER DOOR TEST
-					</Button>
-					<Button href="/reference/#galerie-termovize">
+					</ScrollButton>
+					<ScrollButton id="galerie-termovize">
 						TERMOVIZE
-					</Button>
+					</ScrollButton>
 				</div>
 			</Container>
 			<Container className="bg-bezova py-10">

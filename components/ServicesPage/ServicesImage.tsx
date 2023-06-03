@@ -17,6 +17,7 @@ export default function ServicesImage({ name, url }: ServicesImageProps) {
 				src={url}
 				alt="Ukázka realizace"
 				fill={true}
+				priority
 				style={{ objectFit: "cover" }}
 			/>
 			<Container className="absolute h-full w-full bg-shadow">

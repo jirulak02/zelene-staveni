@@ -29,7 +29,9 @@ export default function Showcase({ title, data }: ShowCaseProps) {
 						/>
 					))}
 				</div>
-				<Button href="/reference">ZOBRAZIT VŠECHNY REALIZACE</Button>
+				<Button href="/reference#galerie-zelene-strechy">
+					ZOBRAZIT VŠECHNY REALIZACE
+				</Button>
 			</div>
 		</Container>
 	);
