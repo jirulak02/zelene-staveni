@@ -32,19 +32,40 @@ export default function ZasadyOsobnichUdaju() {
 						<p>- jméno a příjmení,</p>
 						<p>- emailovou adresu,</p>
 						<p>- telefon,</p>
-						<p>- text zprávy</p>
+						<p>- text zprávy,</p>
+						<p>- adresu realizace a trvalého bydliště,</p>
+						<p>- číslo bankovního účtu.</p>
 					</div>
-					<p>
-						2. Jméno, příjmení, emailovou adresu a telefon je nutné
-						zpracovat pro vytvoření nabídky služeb, jednání o této
-						nabídce nebo za účelem odpovědi na Vámi vznesený dotaz.
-						Takové zpracování umožňuje čl. 6. odst. 1 písm. b)
-						Nařízení. Tyto osobní údaje budou společností Zelené
-						stavění PS s.r.o. zpracovávány po dobu jednání o
-						uzavření smlouvy mezi vámi a Zelené stavění PS s.r.o.,
-						nejdéle 1 rok od vaší poptávky, pokud neudělíte souhlas
-						k dalšímu zpracování.
-					</p>
+					<div className="space-y-4">
+						<p>
+							2. Jméno, příjmení, emailovou adresu, telefon a text
+							zprávy je nutné zpracovat pro vytvoření nabídky
+							služeb, jednání o této nabídce nebo za účelem
+							odpovědi na Vámi vznesený dotaz. Takové zpracování
+							umožňuje čl. 6. odst. 1 písm. b) nařízení. Tyto
+							osobní údaje budou společností Zelené stavění PS
+							s.r.o. zpracovávány po dobu jednání o uzavření
+							smlouvy mezi vámi a Zelené stavění PS s.r.o.,
+							nejdéle 1 rok od vaší poptávky, pokud neudělíte
+							souhlas k dalšímu zpracování.
+						</p>
+						<p>
+							Pro klienty se službou zprostředkování dotace na
+							zelenou střechu je nutné zpracovat jméno, příjmení,
+							emailovou adresu, telefon, adresu realizace a
+							trvalého bydliště a číslo bankovního účtu. A to z
+							důvodu povinosti uchování všech dokladů a dokumentů
+							jakkoliv souvisejících s žádostí o podporu a
+							realizací podporovaných opatření. Tyto doklady a
+							dokumenty si fond může při zpochybnění správnosti
+							dotace vyžádat. Takové zpracování umožňuje čl. 6.
+							odst. 1 písm. b) a c) nařízení. Tyto osobní údaje
+							budou společností Zelené stavění PS s.r.o.
+							zpracovávány po dobu administrace a udržitelnosti
+							dotace, nejdéle však 10 let ode dne vydání
+							rozhodnutí o poskytnutí podpory.
+						</p>
+					</div>
 					<div>
 						<p>
 							3. Vezměte, prosíme, na vědomí, že podle zákona o
