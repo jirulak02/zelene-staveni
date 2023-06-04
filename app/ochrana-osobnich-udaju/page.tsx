@@ -2,8 +2,8 @@ import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
 
 export const metadata = {
-	title: "Zásady ochrany osobních údajů",
-	description: "TODO SEO",
+	title: "Zásady ochrany osobních údajů - Zelené stavění.cz",
+	description: "Přečtěte si jak ukládáme a chráníme Vaše osobní údaje.",
 };
 
 export default function ZasadyOsobnichUdaju() {

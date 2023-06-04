@@ -4,8 +4,9 @@ import Employees from "@/components/ContactPage/Employees";
 import ContactForm from "@/components/ContactPage/ContactForm";
 
 export const metadata = {
-	title: "Kontakt",
-	description: "TODO SEO",
+	title: "Kontakt - Zelené stavění.cz",
+	description:
+		"Zkontaktujte nás na telefonu 608 974 908 nebo mailem na info@zelenestaveni.cz.",
 };
 
 export default function Kontakt() {

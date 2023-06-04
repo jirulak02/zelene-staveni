@@ -11,8 +11,9 @@ import Types from "@/components/ServicesPage/StrechyPage/Types";
 import { dataStrechy } from "@/components/data/SluzbyStrechy";
 
 export const metadata = {
-	title: "Zelené střechy",
-	description: "TODO SEO",
+	title: "Zelené střechy - Zelené stavění.cz",
+	description:
+		"ZELENÉ STŘECHY. Realizujeme zelené střechy od A do Z. Email: info@zelenestaveni.cz telefon: 608 974 908.",
 };
 
 export default function ZeleneStrechy() {

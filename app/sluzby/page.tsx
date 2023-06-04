@@ -5,8 +5,9 @@ import ScrollUp from "@/components/layout/ScrollUp";
 import Button from "@/components/ui/Button";
 
 export const metadata = {
-	title: "Služby",
-	description: "TODO SEO",
+	title: "Služby - Zelené stavění.cz",
+	description:
+		"Nabýzíme realizaci zelených střech a kořenových čistíren, blower door test, měření termovizí či získání státní podpory. Email: info@zelenestaveni.cz telefon: 608 974 908.",
 };
 
 export default function Sluzby() {

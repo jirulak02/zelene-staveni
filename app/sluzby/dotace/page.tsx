@@ -1,4 +1,3 @@
-import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
 import BlowerDoor from "@/components/ServicesPage/DotacePage/BlowerDoor";
 import Fungovani from "@/components/ServicesPage/DotacePage/Fungovani";
@@ -6,8 +5,9 @@ import Usnadneni from "@/components/ServicesPage/DotacePage/Usnadneni";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
 
 export const metadata = {
-	title: "Dotace",
-	description: "TODO SEO",
+	title: "Dotace - Zelené stavění.cz",
+	description:
+		"DOTACE. Komplet Vám vyřídíme získání státní podpory na zelenou střechu. Email: dotace@zelenestaveni.cz telefon: 777 898 501.",
 };
 
 export default function Dotace() {
@@ -16,7 +16,7 @@ export default function Dotace() {
 			<ScrollUp />
 			<ServicesImage
 				name="Dotace"
-				url="https://uploadthing.com/f/3ef65a29-2ac9-47da-bdd6-091130518e1e_dotace_hero.jpg"
+				url="https://uploadthing.com/f/34e8344d-a7c9-4444-946e-6f843c8a657c_dotace_hero.jpg"
 			/>
 			<Usnadneni />
 			<Fungovani />

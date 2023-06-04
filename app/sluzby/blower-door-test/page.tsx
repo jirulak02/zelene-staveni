@@ -7,8 +7,9 @@ import Showcase from "@/components/ServicesPage/BlowerPage/Showcase";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
 
 export const metadata = {
-	title: "Blower Door test",
-	description: "TODO SEO",
+	title: "Blower Door test - Zelené stavění.cz",
+	description:
+		"BLOWER DOOR TEST. Profesionální test vzduchotěsnosti obálky budov a bytů. Email: info@zelenestaveni.cz telefon: 608 974 908.",
 };
 
 export default function BlowerDoor() {

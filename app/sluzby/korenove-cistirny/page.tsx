@@ -1,4 +1,3 @@
-import Showcase from "@/components/HomePage/Showcase";
 import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
 import Realizace from "@/components/ServicesPage/Korenovky/Realizace";
@@ -8,8 +7,9 @@ import Zajistime from "@/components/ServicesPage/Korenovky/Zajistime";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
 
 export const metadata = {
-	title: "Kořenové čistírny",
-	description: "TODO SEO",
+	title: "Kořenové čistírny - Zelené stavění.cz",
+	description:
+		"KOŘENOVÉ ČISTÍRNY. Uděláme plnou realizaci kořenové čističky. Email: info@zelenestaveni.cz telefon: 608 974 908.",
 };
 
 export default function Korenovky() {

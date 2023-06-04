@@ -48,7 +48,7 @@ export default function Achievments() {
 				<div className="space-y-3">
 					<div className="text-7xl text-zelena">200</div>
 					<h3 className="text-zelena">PROJEKTŮ NZÚ</h3>
-					<p>Dodáme vše potřebné pro získání dotace.</p>
+					<p>Vyřídíme celý proces získání dotace za Vás.</p>
 				</div>
 			</div>
 		</Container>

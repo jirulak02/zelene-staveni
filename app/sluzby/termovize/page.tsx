@@ -7,8 +7,9 @@ import Unik from "@/components/ServicesPage/TermovizePage/Unik";
 import Zjistime from "@/components/ServicesPage/TermovizePage/Zjistime";
 
 export const metadata = {
-	title: "Termovize",
-	description: "TODO SEO",
+	title: "Termovize - Zelené stavění.cz",
+	description:
+		"TERMOVIZE. Provádíme zjišťování úniků tepla termovizí. Email: info@zelenestaveni.cz telefon: 608 974 908.",
 };
 
 export default function Termovize() {

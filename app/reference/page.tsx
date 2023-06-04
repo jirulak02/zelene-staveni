@@ -10,8 +10,9 @@ import {
 import ScrollButton from "@/components/ui/ScrollButton";
 
 export const metadata = {
-	title: "Reference",
-	description: "TODO SEO",
+	title: "Reference - Zelené stavění.cz",
+	description:
+		"Prohlédněte si naše předchozí realizace, ať víte, jakou kvalitu můžete očekávat. Email: info@zelenestaveni.cz telefon: 608 974 908.",
 };
 
 export default function Reference() {
@@ -19,7 +20,7 @@ export default function Reference() {
 		<>
 			<Container>
 				<h1 className="my-10 text-zelena">Reference</h1>
-				<p>Prohlédněte si fotografie našich prací</p>
+				<p>Prohlédněte si fotografie našich prací.</p>
 				<div className="my-10 grid grid-cols-4">
 					<ScrollButton id="galerie-zelene-strechy">
 						ZELENÉ STŘECHY

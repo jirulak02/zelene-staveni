@@ -72,9 +72,11 @@ function Types() {
 			</p>
 			<button
 				id="typ1"
-				onClick={() => {
-					dispatch({ type: "VEGETACE" });
-					window.location.href = "/sluzby/zelene-strechy#typ1";
+				onClick={async () => {
+					await dispatch({ type: "VEGETACE" });
+					document.getElementById("typ1")?.scrollIntoView({
+						behavior: "smooth",
+					});
 				}}
 				className={`mt-10 w-full border-t border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena  ${
 					state.vegetace ? "bg-close" : "bg-plus"
@@ -125,9 +127,11 @@ function Types() {
 			)}
 			<button
 				id="typ2"
-				onClick={() => {
-					dispatch({ type: "ZATIZENI" });
-					window.location.href = "/sluzby/zelene-strechy#typ2";
+				onClick={async () => {
+					await dispatch({ type: "ZATIZENI" });
+					document.getElementById("typ2")?.scrollIntoView({
+						behavior: "smooth",
+					});
 				}}
 				className={`w-full border-t border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena ${
 					state.zatizeni ? "bg-close" : "bg-plus"
@@ -153,9 +157,11 @@ function Types() {
 			)}
 			<button
 				id="typ3"
-				onClick={() => {
-					dispatch({ type: "SKLON" });
-					window.location.href = "/sluzby/zelene-strechy#typ3";
+				onClick={async () => {
+					await dispatch({ type: "SKLON" });
+					document.getElementById("typ3")?.scrollIntoView({
+						behavior: "smooth",
+					});
 				}}
 				className={`w-full border-t border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena ${
 					state.sklon ? "bg-close" : "bg-plus"
@@ -182,9 +188,11 @@ function Types() {
 			)}
 			<button
 				id="typ4"
-				onClick={() => {
-					dispatch({ type: "CENA" });
-					window.location.href = "/sluzby/zelene-strechy#typ4";
+				onClick={async () => {
+					await dispatch({ type: "CENA" });
+					document.getElementById("typ4")?.scrollIntoView({
+						behavior: "smooth",
+					});
 				}}
 				className={`w-full border-t border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena ${
 					state.cena ? "bg-close" : "bg-plus"
@@ -244,9 +252,11 @@ function Types() {
 			)}
 			<button
 				id="typ5"
-				onClick={() => {
-					dispatch({ type: "NAROCNOST" });
-					window.location.href = "/sluzby/zelene-strechy#typ5";
+				onClick={async () => {
+					await dispatch({ type: "NAROCNOST" });
+					document.getElementById("typ5")?.scrollIntoView({
+						behavior: "smooth",
+					});
 				}}
 				className={`w-full border-neutral-300 bg-99center bg-no-repeat py-5 text-left text-base font-normal text-zelena ${
 					state.narocnost ? "border-t bg-close" : "border-y bg-plus"
