@@ -1,15 +1,15 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
 import { dataPocasi } from "@/components/data/SluzbyStrechy";
+import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function Cukr() {
 	return (
-		<Container className="my-20">
+		<ContainerBila>
 			<h3 className="my-5 text-center text-hneda">
 				"Nejsme z cukru. Děláme tak, jak je potřeba."
 			</h3>
-			<div className="grid grid-cols-auto gap-2">
+			<div className="grid grid-cols-1 gap-2 md:grid-cols-auto">
 				{dataPocasi.map((item) => (
 					<div
 						key={item.id}
@@ -26,6 +26,6 @@ export default function Cukr() {
 					</div>
 				))}
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

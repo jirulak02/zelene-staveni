@@ -1,17 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Container from "./Container";
+import ContainerBezova from "./ContainerBezova";
 
 export default function Footer() {
 	const year = new Date().getFullYear();
 
 	return (
-		<Container className="bg-bezova py-20">
+		<ContainerBezova>
 			<div className="flex w-full flex-col items-center space-y-3">
 				<Image
-					style={{ width: "425px" }}
-					className="pb-2"
+					className="w-[300px] pb-2 md:w-[425px]"
 					alt="Zelené stavění logo"
 					width="425"
 					height="60"
@@ -52,6 +51,6 @@ export default function Footer() {
 					</Link>
 				</div>
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }

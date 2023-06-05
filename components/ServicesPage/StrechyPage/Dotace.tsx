@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
+import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function Dotace() {
 	return (
-		<Container className="my-20">
-			<div className="grid grid-cols-2 gap-2">
+		<ContainerBila>
+			<div className="grid grid-cols-1 gap-2 space-y-6 md:grid-cols-2 md:space-y-0">
 				<div className="space-y-5">
 					<h3 className="text-hneda">Dotace na zelené střechy</h3>
 					<p>
@@ -39,6 +39,6 @@ export default function Dotace() {
 					src="https://uploadthing.com/f/d2e86f21-10f0-478b-bc11-861adcaa8604_nzu.png"
 				/>
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

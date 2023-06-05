@@ -1,10 +1,10 @@
-import Container from "@/components/layout/Container";
+import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function Potrebujeme() {
 	return (
-		<Container className="bg-bezova py-20">
-			<div className="grid grid-cols-2 gap-4">
-				<div className="space-y-5">
+		<ContainerBezova>
+			<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+				<div className="space-y-4 md:space-y-5">
 					<h3 className="text-hneda">Co od Vás budeme potřebovat</h3>
 					<p>
 						Podklady pro{" "}
@@ -24,7 +24,7 @@ export default function Potrebujeme() {
 						vzduchotechniky musíme po dobu testu utěsnit.
 					</p>
 				</div>
-				<div className="space-y-5">
+				<div className="mt-4 space-y-4 md:mt-0 md:space-y-5">
 					<h3 className="text-hneda">Připravenost budovy</h3>
 					<ul className="ml-4 list-disc space-y-1">
 						<li>
@@ -48,6 +48,6 @@ export default function Potrebujeme() {
 					</ul>
 				</div>
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }

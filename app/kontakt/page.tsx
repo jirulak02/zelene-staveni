@@ -14,8 +14,8 @@ export default function Kontakt() {
 		<>
 			<ScrollUp />
 			<Container>
-				<h1 className="my-10 text-zelena">Kontakt</h1>
-				<div className="my-10">
+				<h1 className="mb-6 mt-10 text-zelena md:mb-10">Kontakt</h1>
+				<div className="mb-6 md:mb-10">
 					<p>Zelené stavění PS s.r.o.</p>
 					<p>Panská 212, Tehov, 251 01</p>
 					<p>IČ: 05749565</p>
@@ -23,9 +23,9 @@ export default function Kontakt() {
 				</div>
 				<Employees />
 				<h2 className="mb-5 mt-10 text-zelena">Napište nám</h2>
-				<div className="mb-20 grid grid-cols-2 gap-8">
+				<div className="mb-20 grid grid-cols-1 gap-8 lg:grid-cols-2">
 					<ContactForm />
-					<div className="h-full rounded-3xl border-2 border-neutral-200">
+					<div className="h-80 rounded-3xl border-2 border-neutral-200 lg:h-full">
 						<iframe
 							width="100%"
 							height="100%"

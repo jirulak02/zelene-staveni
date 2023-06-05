@@ -1,7 +1,6 @@
-import Image from "next/image";
-
-import Container from "../layout/Container";
 import Button from "../ui/Button";
+import ContainerBila from "../layout/ContainerBila";
+import Images from "../layout/Images";
 
 type ShowCaseProps = {
 	title: string;
@@ -14,25 +13,14 @@ type ShowCaseProps = {
 
 export default function Showcase({ title, data }: ShowCaseProps) {
 	return (
-		<Container className="my-20">
-			<div className="space-y-10">
+		<ContainerBila>
+			<div className="space-y-6 md:space-y-10">
 				<h2 className="text-center text-zelena">{title}</h2>
-				<div className="grid grid-cols-auto gap-2">
-					{data.map((item) => (
-						<Image
-							key={item.id}
-							style={{ width: "200px" }}
-							alt={`Ukázka realizace v lokalitě ${item.name}`}
-							width="400"
-							height="300"
-							src={item.url}
-						/>
-					))}
-				</div>
+				<Images data={data} />
 				<Button href="/reference#galerie-zelene-strechy">
 					ZOBRAZIT VŠECHNY REALIZACE
 				</Button>
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

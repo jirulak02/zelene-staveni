@@ -1,17 +1,20 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
 import { dataSkladba } from "@/components/data/SluzbyKorenovky";
+import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function SkladbaKorenovky() {
 	return (
-		<Container className="my-20">
-			<h2 className="mb-10 text-center text-zelena">
+		<ContainerBila>
+			<h2 className="text-center text-zelena md:mb-10">
 				Skladba kořenové čistírny
 			</h2>
 			{dataSkladba.map((item) => (
-				<div key={item.id} className="grid grid-cols-2 gap-2 py-5">
-					<div className="space-y-5">
+				<div
+					key={item.id}
+					className="grid grid-cols-1 gap-2 py-5 md:grid-cols-2"
+				>
+					<div className="space-y-2 md:space-y-5">
 						<h3 className="text-hneda">{item.name}</h3>
 						<p>{item.description}</p>
 					</div>
@@ -25,6 +28,6 @@ export default function SkladbaKorenovky() {
 					/>
 				</div>
 			))}
-		</Container>
+		</ContainerBila>
 	);
 }

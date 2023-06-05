@@ -6,14 +6,8 @@ import Button from "../ui/Button";
 export default function Hero() {
 	return (
 		<div className="-mt-image pb-12">
-			<div className="relative" style={{ height: "700px" }}>
-				<div
-					style={{
-						position: "relative",
-						overflow: "hidden",
-						height: "700px",
-					}}
-				>
+			<div className="relative h-[400px] md:h-[700px]">
+				<div className="relative h-[400px] overflow-hidden md:h-[700px]">
 					<Image
 						src="https://uploadthing.com/f/8e0d18f4-fe62-45f8-ab70-0ba16909ab8e_strechy_hero.jpg"
 						alt="Ukázka realizace"
@@ -23,14 +17,14 @@ export default function Hero() {
 					/>
 				</div>
 				<div className="absolute top-0 flex h-full w-full flex-col items-center justify-center bg-shadow text-neutral-100">
-					<h1 className="text-7xl">ZELENÉ</h1>
-					<h1 className="text-7xl">STAVĚNÍ</h1>
+					<h1 className="md:text-7xl">ZELENÉ</h1>
+					<h1 className="md:text-7xl">STAVĚNÍ</h1>
 					<h3 className="mt-3 font-normal">
 						... trochu jiné stavění
 					</h3>
 				</div>
 			</div>
-			<Container className="relative z-10 -mt-24">
+			<Container className="relative z-10 -mt-16 md:-mt-24">
 				<Image
 					style={{ width: "1280px" }}
 					alt="Zkrášlovací prvek trávy"
@@ -39,8 +33,8 @@ export default function Hero() {
 					priority
 					src="https://uploadthing.com/f/9cf7d25b-ef5b-4d2c-af1e-bff3321a4813_grass.png"
 				/>
-				<div className="-mt-1 grid grid-cols-4 bg-neutral-100 shadow-lg shadow-neutral-400">
-					<div className="my-10 flex flex-col items-center space-y-3 border-r-2 border-neutral-300 bg-neutral-100 px-10 text-center">
+				<div className="-mt-1 grid grid-cols-1 bg-neutral-100 shadow-lg shadow-neutral-400 sm:grid-cols-2 lg:grid-cols-4">
+					<div className="flex flex-col items-center space-y-2 border-b-2 border-neutral-300 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 sm:border-r-2 lg:my-10 lg:border-b-0 lg:px-10">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona skalničky"
@@ -55,7 +49,7 @@ export default function Hero() {
 							ZJISTIT VÍCE
 						</Button>
 					</div>
-					<div className="my-10 flex flex-col items-center space-y-3 border-r-2 border-neutral-300 bg-neutral-100 px-10 text-center">
+					<div className="flex flex-col items-center space-y-2 border-b-2 border-neutral-300 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 lg:my-10 lg:border-b-0 lg:border-r-2 lg:px-10">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona recyklace kytek"
@@ -70,7 +64,7 @@ export default function Hero() {
 							ZJISTIT VÍCE
 						</Button>
 					</div>
-					<div className="my-10 flex flex-col items-center space-y-3 border-r-2 border-neutral-300 bg-neutral-100 px-10 text-center">
+					<div className="flex flex-col items-center space-y-2 border-b-2 border-neutral-300 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 sm:border-b-0 sm:border-r-2 lg:my-10 lg:px-10">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona fénu"
@@ -85,7 +79,7 @@ export default function Hero() {
 							ZJISTIT VÍCE
 						</Button>
 					</div>
-					<div className="my-10 flex flex-col items-center space-y-3 bg-neutral-100 px-10 text-center">
+					<div className="flex flex-col items-center space-y-2 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 lg:my-10 lg:px-10">
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikona kamery v domě"

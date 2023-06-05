@@ -12,7 +12,7 @@ export default function Button({ children, href }: ButtonProps) {
 				href={href}
 				className="inline-block scroll-smooth rounded-3xl"
 			>
-				<div className="rounded-3xl bg-zelena px-5 py-3 text-base text-neutral-100 hover:bg-neutral-800">
+				<div className="rounded-3xl bg-zelena px-4 py-2 text-neutral-100 hover:bg-neutral-800 md:px-5 md:py-3">
 					{children}
 				</div>
 			</Link>

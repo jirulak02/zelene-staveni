@@ -2,7 +2,7 @@
 
 import { useReducer } from "react";
 
-import Container from "@/components/layout/Container";
+import ContainerBezova from "@/components/layout/ContainerBezova";
 
 type TypesState = {
 	vegetace: boolean;
@@ -45,8 +45,8 @@ function Types() {
 	const [state, dispatch] = useReducer(reducer, initialState);
 
 	return (
-		<Container className="bg-bezova py-20">
-			<h2 className="pb-5 text-center text-zelena">
+		<ContainerBezova>
+			<h2 className="pb-2 text-center text-zelena md:pb-5">
 				Typy zelených střech
 			</h2>
 			<p className="my-4">
@@ -288,7 +288,7 @@ function Types() {
 					</p>
 				</div>
 			)}
-		</Container>
+		</ContainerBezova>
 	);
 }
 

@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
+import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function Zjistime() {
 	return (
-		<Container className="my-20">
-			<h2 className="mb-6 text-zelena">Co lze měřením zjistit</h2>
-			<div className="grid grid-cols-2 gap-2">
+		<ContainerBila>
+			<h2 className="mb-4 text-zelena md:mb-6">Co lze měřením zjistit</h2>
+			<div className="grid grid-cols-1 gap-2 md:grid-cols-2">
 				<ul className="list-disc space-y-1 pl-4">
 					<li>
 						Nedostatky v zateplení budovy, špatné provedení izolací
@@ -27,8 +27,7 @@ export default function Zjistime() {
 
 				<div>
 					<Image
-						style={{ width: "400px" }}
-						className="m-auto"
+						className="m-auto w-[250px] md:w-[400px]"
 						alt="Ukázka měření termokamerou"
 						width="800"
 						height="600"
@@ -36,6 +35,6 @@ export default function Zjistime() {
 					/>
 				</div>
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

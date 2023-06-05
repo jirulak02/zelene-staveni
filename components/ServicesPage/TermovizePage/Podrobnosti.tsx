@@ -1,22 +1,21 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
+import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function Vysvetleni() {
 	return (
-		<Container className="bg-bezova py-20">
-			<div className="grid grid-cols-3 gap-2">
+		<ContainerBezova>
+			<div className="grid grid-cols-1 gap-2 md:grid-cols-3">
 				<div>
 					<Image
-						style={{ width: "350px" }}
-						className="m-auto rounded-full"
+						className="m-auto w-[250px] rounded-full md:w-[350px]"
 						alt="Ukázka měření termokamerou"
 						width="450"
 						height="450"
 						src="https://uploadthing.com/f/e814bfc0-4853-4f4f-b2d9-800c3edc7fe3_ir11circle.png"
 					/>
 				</div>
-				<div className="col-span-2 space-y-6">
+				<div className="space-y-6 md:col-span-2">
 					<div className="space-y-4">
 						<h3 className="text-hneda">Kdy provádět měření</h3>
 						<p>
@@ -49,6 +48,6 @@ export default function Vysvetleni() {
 					</div>
 				</div>
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }

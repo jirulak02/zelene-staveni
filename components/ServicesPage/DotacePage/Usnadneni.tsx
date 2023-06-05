@@ -1,19 +1,19 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
+import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function Usnadneni() {
 	return (
-		<Container className="my-20">
+		<ContainerBila>
 			<h2 className="text-center text-zelena">
 				Dotace na zelenou střechu
 			</h2>
-			<h3 className="mx-auto mt-8 max-w-xl text-center text-hneda">
+			<h3 className="mx-auto mt-6 max-w-xl text-center text-hneda md:mt-8">
 				Nechte si usnadnit cestu k získání finanční podpory na vaši
 				střechu
 			</h3>
-			<div className="mt-8 grid grid-cols-2 gap-2">
-				<div className="space-y-5">
+			<div className="mt-4 grid grid-cols-1 gap-2 md:mt-8 md:grid-cols-2">
+				<div className="space-y-4 md:space-y-5">
 					<p>
 						Od ledna 2017 je možno žádat o dotaci na realizaci
 						zelené střechy, kterou Vám rádi jakožto{" "}
@@ -54,6 +54,6 @@ export default function Usnadneni() {
 					src="https://uploadthing.com/f/d2e86f21-10f0-478b-bc11-861adcaa8604_nzu.png"
 				/>
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

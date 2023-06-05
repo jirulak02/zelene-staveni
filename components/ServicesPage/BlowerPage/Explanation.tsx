@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
+import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function Explanation() {
 	return (
-		<Container className="my-20">
-			<div className="grid grid-cols-2 gap-4">
+		<ContainerBila>
+			<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
 				<div className="space-y-5">
 					<h2 className="text-zelena">
 						Test průvzdušnosti obálky budov
@@ -24,9 +24,9 @@ export default function Explanation() {
 						projektu Nová zelená úsporám.
 					</p>
 				</div>
-				<div className="flex justify-center">
+				<div className="flex items-center justify-center">
 					<Image
-						style={{ width: "400px" }}
+						style={{ width: "400px", height: "200px" }}
 						alt="Logo programu Nová zelená úsporám"
 						width="800"
 						height="400"
@@ -35,7 +35,7 @@ export default function Explanation() {
 					/>
 				</div>
 			</div>
-			<div className="mt-20 grid grid-cols-2 gap-4">
+			<div className="mt-12 grid grid-cols-1 gap-4 md:mt-20 md:grid-cols-2">
 				<div className="flex items-center justify-center">
 					<Image
 						className="rounded-full"
@@ -46,8 +46,8 @@ export default function Explanation() {
 						src="https://uploadthing.com/f/a0208a4e-7aed-4a40-a807-f2fdf31d9042_blowercircle.png"
 					/>
 				</div>
-				<div className="space-y-5">
-					<h3 className="text-hneda">Kdy se test provádí</h3>
+				<div className="row-start-1 md:row-start-auto">
+					<h3 className="mb-2 text-hneda">Kdy se test provádí</h3>
 					<p>
 						Test Blower Door je vyžadován především u pasivních a
 						nízkoenergetických domů. Test je vhodné provést již v
@@ -55,7 +55,9 @@ export default function Explanation() {
 						dveří, kdy je možno ještě relativně snadno opravit
 						zjištěné netěsnosti.
 					</p>
-					<h3 className="text-hneda">Co Blower Door test obsahuje</h3>
+					<h3 className="mb-2 mt-5 text-hneda">
+						Co Blower Door test obsahuje
+					</h3>
 					<ul className="ml-4 list-disc space-y-1">
 						<li>příprava budovy</li>
 						<li>
@@ -82,6 +84,6 @@ export default function Explanation() {
 					</ul>
 				</div>
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

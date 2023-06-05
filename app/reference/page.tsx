@@ -8,6 +8,9 @@ import {
 	dataBlowerdoor,
 } from "@/components/data/ReferencesPage";
 import ScrollButton from "@/components/ui/ScrollButton";
+import ContainerBezova from "@/components/layout/ContainerBezova";
+import ContainerBila from "@/components/layout/ContainerBila";
+import Images from "@/components/layout/Images";
 
 export const metadata = {
 	title: "Reference - Zelené stavění.cz",
@@ -19,9 +22,9 @@ export default function Reference() {
 	return (
 		<>
 			<Container>
-				<h1 className="my-10 text-zelena">Reference</h1>
+				<h1 className="mb-6 mt-10 text-zelena md:mb-10">Reference</h1>
 				<p>Prohlédněte si fotografie našich prací.</p>
-				<div className="my-10 grid grid-cols-4">
+				<div className="mb-10 mt-4 grid grid-cols-1 gap-3 md:mt-10 md:grid-cols-4">
 					<ScrollButton id="galerie-zelene-strechy">
 						ZELENÉ STŘECHY
 					</ScrollButton>
@@ -36,58 +39,36 @@ export default function Reference() {
 					</ScrollButton>
 				</div>
 			</Container>
-			<Container className="bg-bezova py-10">
+			<ContainerBezova>
 				<h2
 					id="galerie-zelene-strechy"
-					className="py-10 text-center text-zelena"
+					className="pb-6 text-center text-zelena md:pb-10"
 				>
 					Zelené střechy
 				</h2>
-				<div className="mb-10 grid grid-cols-auto gap-2">
-					{dataStrechy.map((item) => (
-						<Image
-							key={item.id}
-							style={{ width: "200px" }}
-							alt={`Ukázka realizace v lokalitě ${item.name}`}
-							width="400"
-							height="300"
-							src={item.url}
-						/>
-					))}
-				</div>
-			</Container>
-			<Container className="py-10">
+				<Images data={dataStrechy} />
+			</ContainerBezova>
+			<ContainerBila>
 				<h2
 					id="galerie-korenove-cistirny"
-					className="py-10 text-center text-zelena"
+					className="pb-6 text-center text-zelena md:pb-10"
 				>
 					Kořenové čistírny
 				</h2>
-				<div className="mb-10 grid grid-cols-auto gap-2">
-					{dataKorenovky.map((item) => (
-						<Image
-							key={item.id}
-							style={{ width: "200px" }}
-							alt="Ukázka realizace kořenové čističky"
-							width="400"
-							height="300"
-							src={item.url}
-						/>
-					))}
-				</div>
-			</Container>
-			<Container className="bg-bezova py-10">
+				<Images data={dataKorenovky} />
+			</ContainerBila>
+			<ContainerBezova>
 				<h2
 					id="galerie-blower-door-test"
-					className="py-10 text-center text-zelena"
+					className="pb-6 text-center text-zelena md:pb-10"
 				>
 					Blower Door test
 				</h2>
-				<div className="mb-10 grid grid-cols-auto gap-2">
+				<div className="grid grid-cols-2 gap-2 sm:grid-cols-auto">
 					{dataBlowerdoor.map((item) => (
 						<Image
 							key={item.id}
-							style={{ width: "200px" }}
+							className="m-auto w-[200px] sm:m-0"
 							alt={item.name}
 							width="400"
 							height="532"
@@ -95,27 +76,16 @@ export default function Reference() {
 						/>
 					))}
 				</div>
-			</Container>
-			<Container className="py-10">
+			</ContainerBezova>
+			<ContainerBila>
 				<h2
 					id="galerie-termovize"
-					className="py-10 text-center text-zelena"
+					className="pb-6 text-center text-zelena md:pb-10"
 				>
 					Termovize
 				</h2>
-				<div className="mb-10 grid grid-cols-auto gap-2">
-					{dataTermovize.map((item) => (
-						<Image
-							key={item.id}
-							style={{ width: "200px" }}
-							alt="Ukázka udělaného měření termokamerou"
-							width="400"
-							height="281"
-							src={item.url}
-						/>
-					))}
-				</div>
-			</Container>
+				<Images data={dataTermovize} />
+			</ContainerBila>
 		</>
 	);
 }

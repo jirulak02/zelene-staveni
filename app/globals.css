@@ -54,37 +54,55 @@ svg {
 }
 
 h1 {
-	font-size: 3.75rem; /* 60px */
-	line-height: 1;
-	font-weight: 600;
-}
-
-h2 {
 	font-size: 3rem; /* 48px */
 	line-height: 1;
 	font-weight: 600;
 }
 
+h2 {
+	font-size: 2.25rem; /* 36px */
+	line-height: 2.5rem; /* 40px */
+	font-weight: 600;
+}
+
 h3 {
-	font-size: 1.875rem; /* 30px */
-	line-height: 2.25rem; /* 36px */
+	font-size: 1.5rem; /* 24px */
+	line-height: 2rem; /* 32px */
 	font-weight: 600;
 }
 
 h4 {
-	font-size: 1.25rem; /* 20px */
-	line-height: 1.75rem; /* 28px */
-	font-weight: 600;
-}
-
-h5 {
 	font-size: 1rem; /* 16px */
 	line-height: 1.5rem; /* 24px */
 	font-weight: 600;
 }
 
 a,
-p {
+p,
+span,
+div {
 	font-size: 1rem; /* 16px */
 	line-height: 1.5rem; /* 24px */
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 3.75rem; /* 60px */
+		line-height: 1;
+	}
+
+	h2 {
+		font-size: 3rem; /* 48px */
+		line-height: 1;
+	}
+
+	h3 {
+		font-size: 1.875rem; /* 30px */
+		line-height: 2.25rem; /* 36px */
+	}
+
+	h4 {
+		font-size: 1.25rem; /* 20px */
+		line-height: 1.75rem; /* 28px */
+	}
 }

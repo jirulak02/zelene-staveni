@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import Container from "../layout/Container";
 import Button from "../ui/Button";
+import ContainerBezova from "../layout/ContainerBezova";
 
 export default function Achievments() {
 	return (
-		<Container className="bg-bezova py-20 text-center">
-			<div className="space-y-8">
+		<ContainerBezova>
+			<div className="space-y-4 text-center md:space-y-6">
 				<h2 className="text-hneda">
 					Více než 100 úspěšných realizací!
 				</h2>
@@ -16,13 +16,13 @@ export default function Achievments() {
 				</p>
 				<Button href="/kontakt">ZEPTEJTE SE NÁS</Button>
 			</div>
-			<div className="mt-16 grid grid-cols-auto gap-2">
-				<div className="space-y-3">
-					<div className="text-7xl text-zelena">20</div>
+			<div className="mt-8 grid grid-cols-1 gap-2 text-center sm:grid-cols-auto md:mt-16">
+				<div className="space-y-2 px-3 sm:space-y-3">
+					<div className="text-6xl text-zelena sm:text-7xl">20</div>
 					<h3 className="text-zelena">LET V OBORU</h3>
 					<p>Nezávazná konzultace vhodných řešení zdarma.</p>
 				</div>
-				<div className="flex items-center justify-center">
+				<div className="hidden items-center justify-center lg:flex">
 					<Image
 						style={{ width: "150px" }}
 						alt="Ikona bílého domečku"
@@ -31,12 +31,12 @@ export default function Achievments() {
 						src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
 					/>
 				</div>
-				<div className="space-y-3">
-					<div className="text-7xl text-zelena">100</div>
+				<div className="space-y-2 px-3 text-center sm:space-y-3">
+					<div className="text-6xl text-zelena sm:text-7xl">100</div>
 					<h3 className="text-zelena">REALIZACÍ</h3>
 					<p>Cenovou nabídku vypracujeme zdarma.</p>
 				</div>
-				<div className="flex items-center justify-center">
+				<div className="hidden items-center justify-center text-center lg:flex">
 					<Image
 						style={{ width: "150px" }}
 						alt="Ikona bílého domečku"
@@ -45,12 +45,12 @@ export default function Achievments() {
 						src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
 					/>
 				</div>
-				<div className="space-y-3">
-					<div className="text-7xl text-zelena">200</div>
+				<div className="space-y-2 px-3 text-center sm:space-y-3">
+					<div className="text-6xl text-zelena sm:text-7xl">200</div>
 					<h3 className="text-zelena">PROJEKTŮ NZÚ</h3>
 					<p>Vyřídíme celý proces získání dotace za Vás.</p>
 				</div>
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }

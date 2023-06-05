@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
 import { dataZajistime } from "@/components/data/SluzbyKorenovky";
+import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function Zajistime() {
 	return (
-		<Container className="bg-bezova py-20">
+		<ContainerBezova>
 			<h3 className="text-center text-hneda">
 				Co všechno pro vás zajistíme
 			</h3>
@@ -13,7 +13,7 @@ export default function Zajistime() {
 				{dataZajistime.map((item) => (
 					<div
 						key={item.id}
-						className="my-10 flex flex-col items-center space-y-8 text-center"
+						className="my-4 flex flex-col items-center space-y-4 text-center md:my-10 md:space-y-8"
 					>
 						<Image
 							style={{ width: "50px" }}
@@ -26,6 +26,6 @@ export default function Zajistime() {
 					</div>
 				))}
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }

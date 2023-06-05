@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
+import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function Considerations() {
 	return (
-		<Container className="bg-bezova py-20">
-			<h2 className="mb-10 text-center text-zelena">
+		<ContainerBezova>
+			<h2 className="mb-6 text-center text-zelena md:mb-10">
 				Realizujeme zelené střechy od A do Z
 			</h2>
 			<h3 className="text-center text-hneda">
@@ -14,8 +14,8 @@ export default function Considerations() {
 			<h3 className="text-center text-hneda">
 				Ujasněte si tyto základní body:
 			</h3>
-			<div className="mt-5 grid grid-cols-3 gap-2">
-				<div className="flex flex-col items-center space-y-3 p-4 text-center">
+			<div className="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-3">
+				<div className="flex flex-col items-center space-y-3 p-2 text-center sm:p-4">
 					<div
 						className="flex items-center justify-center rounded-full bg-neutral-100"
 						style={{ width: "120px", height: "120px" }}
@@ -30,7 +30,7 @@ export default function Considerations() {
 					</div>
 					<h5>Jaký styl se Vám líbí</h5>
 				</div>
-				<div className="flex flex-col items-center space-y-3 p-4 text-center">
+				<div className="flex flex-col items-center space-y-3 p-2 text-center sm:p-4">
 					<div
 						className="flex items-center justify-center rounded-full bg-neutral-100"
 						style={{ width: "120px", height: "120px" }}
@@ -45,7 +45,7 @@ export default function Considerations() {
 					</div>
 					<h5>Kolik chcete investovat</h5>
 				</div>
-				<div className="flex flex-col items-center space-y-3 p-4 text-center">
+				<div className="flex flex-col items-center space-y-3 p-2 text-center sm:p-4">
 					<div
 						className="flex items-center justify-center rounded-full bg-neutral-100"
 						style={{ width: "120px", height: "120px" }}
@@ -61,6 +61,6 @@ export default function Considerations() {
 					<h5>Možné zatížení střešní konstrukce</h5>
 				</div>
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }

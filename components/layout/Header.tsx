@@ -1,30 +1,12 @@
-"use client";
-
-import Link from "next/link";
-import Image from "next/image";
-import { usePathname } from "next/navigation";
-
 import Container from "./Container";
 import Navbar from "./Navbar";
 
-export const paths = [
-	"/",
-	"/sluzby/zelene-strechy",
-	"/sluzby/korenove-cistirny",
-	"/sluzby/blower-door-test",
-	"/sluzby/termovize",
-	"/sluzby/dotace",
-];
-
 function Header() {
-	const pathname = usePathname();
-	let white = paths.includes(pathname);
-
 	return (
 		<header className="justify-right relative z-30 w-full border-b border-neutral-800">
 			<Container className="border-b border-neutral-300 bg-neutral-100">
-				<div className="flex h-12 space-x-12 text-zelena">
-					<div className="flex items-center space-x-2">
+				<div className="flex h-12 space-x-4 text-zelena sm:space-x-12">
+					<div className="flex items-center space-x-1 sm:space-x-2">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							height="16"
@@ -41,7 +23,7 @@ function Header() {
 							608 974 908
 						</a>
 					</div>
-					<div className="flex items-center space-x-2">
+					<div className="flex items-center space-x-1 sm:space-x-2">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							height="16"
@@ -60,25 +42,7 @@ function Header() {
 					</div>
 				</div>
 			</Container>
-			<Container className="border-b border-neutral-100">
-				<div className="flex h-20 items-center justify-between">
-					<Link href="/">
-						<Image
-							style={{ width: "212px" }}
-							className="pb-2"
-							alt="Zelené stavění logo"
-							width="425"
-							height="60"
-							src={`${
-								white
-									? "https://uploadthing.com/f/060f0ca7-f91e-48e4-b29e-7bcda594aa70_logo%20white.png"
-									: "https://uploadthing.com/f/326f6103-6c38-49a4-9615-3b1846a1a9f2_logo.png"
-							}`}
-						/>
-					</Link>
-					<Navbar />
-				</div>
-			</Container>
+			<Navbar />
 		</header>
 	);
 }

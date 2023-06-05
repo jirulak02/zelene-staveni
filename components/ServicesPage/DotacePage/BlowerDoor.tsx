@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
+import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function BlowerDoor() {
 	return (
-		<Container className="my-20">
+		<ContainerBila>
 			<h2 className="text-center text-zelena">
 				Dotace na energetickou náročnost
 			</h2>
@@ -31,6 +31,6 @@ export default function BlowerDoor() {
 					/>
 				</div>
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

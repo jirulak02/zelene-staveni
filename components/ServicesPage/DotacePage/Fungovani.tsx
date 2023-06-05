@@ -1,10 +1,10 @@
-import Container from "@/components/layout/Container";
+import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function Fungovani() {
 	return (
-		<Container className="bg-bezova py-20">
+		<ContainerBezova>
 			<h3 className="text-center text-hneda">Jak to funguje</h3>
-			<div className="mx-auto mt-8 max-w-xl space-y-4">
+			<div className="mx-auto mt-4 max-w-xl space-y-4 md:mt-8 md:space-y-4">
 				<p>
 					Náš tým odborníků v oblasti stavebnictví a dotací se postará
 					o kompletní administrativní proces. Připravíme a podáme
@@ -32,6 +32,6 @@ export default function Fungovani() {
 					.
 				</p>
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }

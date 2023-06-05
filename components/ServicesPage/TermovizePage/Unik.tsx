@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
+import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function Unik() {
 	return (
-		<Container>
-			<div className="my-20 grid grid-cols-3 gap-2">
-				<div className="col-span-2 space-y-6">
+		<ContainerBila>
+			<div className="grid grid-cols-1 gap-2 md:grid-cols-3">
+				<div className="space-y-4 md:col-span-2 md:space-y-6">
 					<h2 className="text-zelena">Měření úniku tepla</h2>
 					<p>
 						Nabízíme měření úniku tepla kvalitní termokamerou Fluke
@@ -22,8 +22,7 @@ export default function Unik() {
 				</div>
 				<div>
 					<Image
-						style={{ width: "400px" }}
-						className="m-auto"
+						className="m-auto w-[280px] md:w-[400px]"
 						alt="Termokamera Fluke Ti10"
 						width="800"
 						height="600"
@@ -31,6 +30,6 @@ export default function Unik() {
 					/>
 				</div>
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

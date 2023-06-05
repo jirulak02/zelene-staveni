@@ -1,4 +1,4 @@
-import Container from "@/components/layout/Container";
+import ContainerBila from "@/components/layout/ContainerBila";
 import ScrollUp from "@/components/layout/ScrollUp";
 import Realizace from "@/components/ServicesPage/Korenovky/Realizace";
 import Rostliny from "@/components/ServicesPage/Korenovky/Rostliny";
@@ -20,11 +20,11 @@ export default function Korenovky() {
 				name="Kořenové čistírny"
 				url="https://uploadthing.com/f/adeba4cf-aea7-4929-96f3-1d0fc91ba9b5_korenovky_hero.jpg"
 			/>
-			<Container className="my-20">
+			<ContainerBila>
 				<h2 className="text-center text-zelena">
 					Kořenové čístírny odpadních vod
 				</h2>
-				<div className="m-auto mt-10 max-w-xl space-y-4">
+				<div className="m-auto mt-6 max-w-xl space-y-4 md:mt-10">
 					<p>
 						Kořenová čistírna odpadních vod je vlastně takový malý
 						přírodní mokřad.
@@ -45,7 +45,7 @@ export default function Korenovky() {
 						okolí.
 					</p>
 				</div>
-			</Container>
+			</ContainerBila>
 			<Zajistime />
 			<SkladbaKorenovky />
 			<Realizace />

@@ -1,32 +1,24 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
 import { dataPrace } from "@/components/data/SluzbyStrechy";
+import ContainerBila from "@/components/layout/ContainerBila";
+import Images from "@/components/layout/Images";
 
 export default function Skladba() {
 	return (
-		<Container className="my-20">
+		<ContainerBila>
 			<h2 className="text-center text-zelena">
 				Dokážeme udělat celou skladbu střechy
 			</h2>
 			<h3 className="my-8 text-center text-hneda">
 				Ručíme Vám tak za celou střechu
 			</h3>
-			<div className="mb-10 grid grid-cols-auto gap-2">
-				{dataPrace.map((item) => (
-					<Image
-						key={item.id}
-						style={{ width: "200px" }}
-						alt="Ukázka toho jak na střechách makáme"
-						width="400"
-						height="300"
-						src={item.url}
-					/>
-				))}
-			</div>
-			<div className="grid grid-cols-2 items-center gap-4">
-				<div className="ml-auto">
-					<h4 className="mb-8 text-hneda">Skladba zelené střechy</h4>
+			<Images data={dataPrace} />
+			<div className="mt-10 grid grid-cols-1 items-center gap-4 md:grid-cols-2">
+				<div className="mx-auto md:mx-0 md:ml-auto">
+					<h4 className="mb-4 text-hneda md:mb-8">
+						Skladba zelené střechy
+					</h4>
 					<ul className="space-y-1">
 						<li>✓ Rostliny</li>
 						<li>✓ Substrát</li>
@@ -38,13 +30,13 @@ export default function Skladba() {
 				</div>
 				<Image
 					style={{ width: "300px" }}
-					className="ml-5 items-center"
+					className="md:mx0 mx-auto items-center md:ml-5"
 					alt="Rozbor jednotlivých částí skladby zelené střechy"
 					width="400"
 					height="466"
 					src="https://uploadthing.com/f/3b435311-a6dc-4481-8de2-89e4cadeccd3_skladba.png"
 				/>
 			</div>
-		</Container>
+		</ContainerBila>
 	);
 }

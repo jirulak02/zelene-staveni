@@ -1,12 +1,13 @@
 import Image from "next/image";
 
-import Container from "@/components/layout/Container";
 import { dataKytky } from "@/components/data/SluzbyStrechy";
+import ContainerBezova from "@/components/layout/ContainerBezova";
+import Images from "@/components/layout/Images";
 
 export default function Plantaz() {
 	return (
-		<Container className="bg-bezova py-20">
-			<div className="flex flex-col space-y-5">
+		<ContainerBezova>
+			<div className="flex flex-col space-y-3 md:space-y-5">
 				<div
 					className="m-auto flex items-center justify-center rounded-full bg-neutral-100"
 					style={{ width: "120px", height: "120px" }}
@@ -20,19 +21,8 @@ export default function Plantaz() {
 					/>
 				</div>
 				<h3 className="text-center text-hneda">Máme vlastní plantáž</h3>
-				<div className="grid grid-cols-auto gap-2">
-					{dataKytky.map((item) => (
-						<Image
-							key={item.id}
-							style={{ width: "200px" }}
-							alt="Ukázka našich překrásných suchomilných rostlin"
-							width="400"
-							height="300"
-							src={item.url}
-						/>
-					))}
-				</div>
+				<Images data={dataKytky} />
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }

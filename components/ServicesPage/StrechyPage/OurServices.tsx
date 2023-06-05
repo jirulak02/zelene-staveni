@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 
-import Container from "@/components/layout/Container";
 import { messages } from "@/components/data/SluzbyStrechy";
+import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function OurServices() {
 	const [message, setMessage] = useState(messages[0].name);
@@ -19,11 +19,11 @@ export default function OurServices() {
 	}
 
 	return (
-		<Container className="bg-bezova py-20">
+		<ContainerBezova>
 			<div className="flex flex-col items-center space-y-6 text-center">
 				<h2 className="text-zelena">Naše služby</h2>
 				<div className="w-full">
-					<div>
+					<div className="overflow-y-hidden whitespace-nowrap">
 						{messages.map((button) => (
 							<button
 								key={button.title}
@@ -60,6 +60,6 @@ export default function OurServices() {
 					.
 				</p>
 			</div>
-		</Container>
+		</ContainerBezova>
 	);
 }
