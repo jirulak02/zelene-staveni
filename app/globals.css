@@ -49,6 +49,29 @@ select {
 	background-position-y: 70%;
 }
 
+.loader {
+	display: flex;
+}
+
+.loader::after {
+	content: "";
+	width: 43px;
+	height: 43px;
+	border: 10px solid #dddddd;
+	border-top-color: var(--main-green);
+	border-radius: 50%;
+	animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+	from {
+		transform: rotate(0turn);
+	}
+	to {
+		transform: rotate(1turn);
+	}
+}
+
 svg {
 	fill: var(--main-green);
 }
