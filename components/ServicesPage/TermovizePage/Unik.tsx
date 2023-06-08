@@ -8,10 +8,7 @@ export default function Unik() {
 			<div className="grid grid-cols-1 gap-2 md:grid-cols-3">
 				<div className="space-y-4 md:col-span-2 md:space-y-6">
 					<h2 className="text-zelena">Měření úniku tepla</h2>
-					<p>
-						Nabízíme měření úniku tepla kvalitní termokamerou Fluke
-						Ti10 amerického výrobce.
-					</p>
+					<p>Nabízíme měření úniku tepla termokamerou.</p>
 					<p>
 						Kromě infračerveného snímku současně zaznamenává také
 						obraz digitální a tyto obrazy umožňuje splynout

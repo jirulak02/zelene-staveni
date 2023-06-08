@@ -63,10 +63,10 @@ export default function Employees() {
 				<Image
 					style={{ width: "250px" }}
 					className="row-start-1 m-auto mt-4 items-center rounded-full lg:row-start-auto"
-					alt="TODO"
+					alt="Simona Krausová"
 					width="250"
 					height="250"
-					src="/square.jpeg"
+					src="https://uploadthing.com/f/1f19ac60-e620-4ba2-bbe8-5a4015bd8b8f_simona.png"
 				/>
 			</div>
 			<div className="grid grid-cols-1 gap-3 text-center">
@@ -96,10 +96,10 @@ export default function Employees() {
 				<Image
 					style={{ width: "250px" }}
 					className="row-start-1 m-auto mt-4 items-center rounded-full lg:row-start-auto"
-					alt="TODO"
+					alt="Jiří Šimeček"
 					width="250"
 					height="250"
-					src="/square.jpeg"
+					src="https://uploadthing.com/f/2c83f1f7-0888-456e-a462-6a585d2f30b8_jirka.png"
 				/>
 			</div>
 		</div>

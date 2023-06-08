@@ -19,7 +19,7 @@ const paths = [
 function Navbar() {
 	const [openBurger, setOpenBurger] = useState(false);
 	const [openSluzby, setOpenSluzby] = useState(false);
-	const [white, setWhite] = useState(false);
+	const [white, setWhite] = useState(true);
 	const pathname = usePathname();
 
 	useEffect(() => {
@@ -120,7 +120,7 @@ function Navbar() {
 							onBlur={async () =>
 								await setTimeout(
 									() => setOpenSluzby(false),
-									100
+									500
 								)
 							}
 							className={`block w-full rounded-xl px-3 py-4 text-left hover:bg-neutral-200 sm:rounded-none sm:hover:bg-transparent ${
