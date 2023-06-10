@@ -41,6 +41,8 @@ export default function Hero() {
 							width="100"
 							height="100"
 							priority
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
 						/>
 						<h3 className="text-hneda">ZELENÉ STŘECHY</h3>
@@ -56,6 +58,8 @@ export default function Hero() {
 							width="100"
 							height="100"
 							priority
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
 						/>
 						<h3 className="text-hneda">KOŘENOVÉ ČISTÍRNY</h3>
@@ -71,6 +75,8 @@ export default function Hero() {
 							width="100"
 							height="100"
 							priority
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/559f37bf-3c19-40df-b84c-1b83e0276705_fan.png"
 						/>
 						<h3 className="text-hneda">BLOWER DOOR TEST</h3>
@@ -86,6 +92,8 @@ export default function Hero() {
 							width="100"
 							height="100"
 							priority
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/13337481-8d83-45a8-8a3a-f12cc76a72c3_camera.png"
 						/>
 						<h3 className="text-hneda">MĚŘENÍ ÚNIKU TEPLA</h3>

@@ -10,7 +10,7 @@ export default function GoToTop() {
 					behavior: "smooth",
 				})
 			}
-			className="fixed bottom-6 right-6 z-50 h-12 w-12 cursor-pointer rounded-full bg-neutral-800/25 hover:bg-zelena"
+			className="fixed bottom-4 right-4 z-50 h-12 w-12 cursor-pointer rounded-full bg-neutral-800/25 hover:bg-zelena md:bottom-6 md:right-6"
 		>
 			<div className="absolute top-1.5 h-8 w-full rounded-full bg-top"></div>
 		</div>

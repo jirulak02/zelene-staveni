@@ -23,6 +23,8 @@ export default function Unik() {
 						alt="Termokamera Fluke Ti10"
 						width="800"
 						height="600"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/20fec890-7b8e-4ae2-a8f2-6265998f3027_kamera.png"
 					/>
 				</div>

@@ -31,6 +31,8 @@ export default function Explanation() {
 						width="800"
 						height="400"
 						priority
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/d2e86f21-10f0-478b-bc11-861adcaa8604_nzu.png"
 					/>
 				</div>
@@ -43,6 +45,8 @@ export default function Explanation() {
 						alt="Ukázka zapojení techniky k měření ve dveřích"
 						width="640"
 						height="640"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/a0208a4e-7aed-4a40-a807-f2fdf31d9042_blowercircle.png"
 					/>
 				</div>
@@ -74,7 +78,7 @@ export default function Explanation() {
 							měření ke stažení{" "}
 							<a
 								className="border-b border-neutral-100 text-zelena hover:border-zelena"
-								href="https://www.zelenestaveni.cz/wp-content/uploads/2021/02/Protokol_blower-door_ukazka.pdf"
+								href="https://uploadthing.com/f/a41e8847-d592-4483-9074-f43b6151605b_protokol_ukazka_blowerdoor.pdf"
 								target="_blank"
 							>
 								ZDE

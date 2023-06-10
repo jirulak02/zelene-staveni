@@ -31,6 +31,7 @@ function Navbar() {
 	}, [pathname]);
 
 	function toggleHandler() {
+		setOpenSluzby(false);
 		setOpenBurger((prevState) => !prevState);
 	}
 

@@ -39,7 +39,7 @@ export default function Potrebujeme() {
 						<li>
 							<a
 								className="border-b border-bezova text-zelena hover:border-zelena"
-								href="https://www.zelenestaveni.cz/wp-content/uploads/2021/03/Upresneni-pravidel-pro-mereni-pruvdzusnosti-budovy-RD-vystavba-rekuperace.pdf"
+								href="https://uploadthing.com/f/3fa7f6e4-22c2-4c53-a027-e62f40044ba5_blowerdoor_pravidla_rd.pdf"
 								target="_blank"
 							>
 								Více viz kapitola 6.3 Metodického pokynu zde

@@ -33,6 +33,8 @@ export default function Employees() {
 					alt="Petr Šimeček"
 					width="500"
 					height="500"
+					placeholder="blur"
+					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 					src="https://uploadthing.com/f/501c7f3e-f1d9-4381-b93a-5e898a2dc19c_petr.png"
 				/>
 			</div>
@@ -64,8 +66,10 @@ export default function Employees() {
 					style={{ width: "250px" }}
 					className="row-start-1 m-auto mt-4 items-center rounded-full lg:row-start-auto"
 					alt="Simona Krausová"
-					width="250"
-					height="250"
+					width="500"
+					height="500"
+					placeholder="blur"
+					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 					src="https://uploadthing.com/f/1f19ac60-e620-4ba2-bbe8-5a4015bd8b8f_simona.png"
 				/>
 			</div>
@@ -97,8 +101,10 @@ export default function Employees() {
 					style={{ width: "250px" }}
 					className="row-start-1 m-auto mt-4 items-center rounded-full lg:row-start-auto"
 					alt="Jiří Šimeček"
-					width="250"
-					height="250"
+					width="500"
+					height="500"
+					placeholder="blur"
+					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 					src="https://uploadthing.com/f/2c83f1f7-0888-456e-a462-6a585d2f30b8_jirka.png"
 				/>
 			</div>

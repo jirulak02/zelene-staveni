@@ -24,6 +24,8 @@ export default function Sluzby() {
 								priority
 								fill={true}
 								className="object-cover"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/b6b46bf0-3b24-41e4-b15c-a2427e5a35fb_klokocna.png"
 							/>
 						</div>
@@ -33,6 +35,8 @@ export default function Sluzby() {
 								alt="Ikona skalničky"
 								width="100"
 								height="100"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
 							/>
 							<h2 className="text-hneda">ZELENÉ STŘECHY</h2>
@@ -53,6 +57,8 @@ export default function Sluzby() {
 								alt="Ikona recyklace kytek"
 								width="100"
 								height="100"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
 							/>
 							<h2 className="text-hneda">KOŘENOVÉ ČISTÍRNY</h2>
@@ -70,6 +76,8 @@ export default function Sluzby() {
 								alt="Ukázka realizace kořenové čistírny"
 								fill={true}
 								className="object-cover"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/cb34b41a-adb9-4205-b398-a7f052a86422_rko5.png"
 							/>
 						</div>
@@ -80,6 +88,8 @@ export default function Sluzby() {
 								alt="Ukázka měření blower door testu"
 								fill={true}
 								className="object-cover"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/952afa6a-d900-459d-b39e-b619267a3070_bytovy_dum_velky.png"
 							/>
 						</div>
@@ -89,6 +99,8 @@ export default function Sluzby() {
 								alt="Ikona fénu"
 								width="100"
 								height="100"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/559f37bf-3c19-40df-b84c-1b83e0276705_fan.png"
 							/>
 							<h2 className="text-hneda">BLOWER DOOR TEST</h2>
@@ -112,6 +124,8 @@ export default function Sluzby() {
 								alt="Ikona kamery v domě"
 								width="100"
 								height="100"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/13337481-8d83-45a8-8a3a-f12cc76a72c3_camera.png"
 							/>
 							<h2 className="text-hneda">TERMOVIZE</h2>
@@ -130,6 +144,8 @@ export default function Sluzby() {
 								alt="Ukázka měření temovizí"
 								fill={true}
 								className="object-cover"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/f94bf8dc-61c3-4574-ae59-b95ca908cdfd_budova_velka.png"
 							/>
 						</div>
@@ -140,6 +156,8 @@ export default function Sluzby() {
 								alt="Ukázka měření blower door testu"
 								fill={true}
 								className="object-cover"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/730e35a9-00ed-44e6-a622-0efac7da8d80_dotace_sluzby.png"
 							/>
 						</div>
@@ -149,6 +167,8 @@ export default function Sluzby() {
 								alt="Ikona fénu"
 								width="100"
 								height="100"
+								placeholder="blur"
+								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/8b8ac783-5332-40bc-8707-8f157dabc550_analytics.png"
 							/>
 							<h2 className="text-hneda">Dotace</h2>

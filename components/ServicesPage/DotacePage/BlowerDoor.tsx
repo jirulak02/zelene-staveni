@@ -27,6 +27,8 @@ export default function BlowerDoor() {
 						alt="Ukázka zapojení techniky k měření ve dveřích"
 						width="400"
 						height="532"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/e75f622d-f3e4-4aae-aaa3-d6f4a5e57e87_blower2.png"
 					/>
 				</div>

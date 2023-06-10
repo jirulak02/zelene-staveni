@@ -43,6 +43,8 @@ export default function Zajistime() {
 							alt="Ikony na podporu vysvětlení"
 							width="100"
 							height="100"
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src={item.url}
 						/>
 						<h5>{item.name}</h5>

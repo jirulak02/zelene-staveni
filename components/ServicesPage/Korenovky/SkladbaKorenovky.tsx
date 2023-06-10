@@ -24,6 +24,8 @@ export default function SkladbaKorenovky() {
 						alt="Ukázka jednotlivých částí kořenové čistírny"
 						width="300"
 						height="225"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src={item.url}
 					/>
 				</div>

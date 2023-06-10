@@ -15,7 +15,7 @@ export default function Cenik() {
 					<div className="grid grid-cols-2 gap-3">
 						<p>
 							Rodinný dům (cca 30 až 60 snímků podle potřeby,
-							protokol v PDF, vše na CD)
+							protokol v PDF)
 						</p>
 						<p>2000 Kč</p>
 					</div>

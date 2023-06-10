@@ -20,6 +20,8 @@ export default function Cukr() {
 							alt="Ukázka toho jak nás žádné počasí nezastaví"
 							width="800"
 							height="500"
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src={item.url}
 						/>
 						<h4 className="text-zelena">{item.name}</h4>

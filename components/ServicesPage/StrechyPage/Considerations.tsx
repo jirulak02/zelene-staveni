@@ -25,6 +25,8 @@ export default function Considerations() {
 							alt="Ikona porovnávání"
 							width="100"
 							height="100"
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/c102cf57-d4cb-42d2-8756-8890be141c4b_compare.png"
 						/>
 					</div>
@@ -40,6 +42,8 @@ export default function Considerations() {
 							alt="Ikona šetřícího prasátka"
 							width="100"
 							height="100"
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/5c5f462a-8170-4d09-8bed-21787099faf0_savings.png"
 						/>
 					</div>
@@ -55,6 +59,8 @@ export default function Considerations() {
 							alt="Ikona kolapsujícího domu"
 							width="100"
 							height="100"
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/186eae08-60f8-4d0f-a853-70686d80b3fe_foundation.png"
 						/>
 					</div>

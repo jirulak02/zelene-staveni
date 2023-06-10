@@ -18,6 +18,8 @@ export default function Images({ data }: ImageProps) {
 					alt={`Ukázka realizace v lokalitě ${item.name}`}
 					width="400"
 					height="300"
+					placeholder="blur"
+					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 					src={item.url}
 				/>
 			))}

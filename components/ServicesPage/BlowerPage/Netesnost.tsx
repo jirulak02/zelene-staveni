@@ -19,6 +19,8 @@ export default function Netesnost() {
 						alt="Měření pomocí vyvíječe kouře"
 						width="400"
 						height="532"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/3abab34b-5fc0-43bd-b5d9-e40d4c362c22_kour.png"
 					/>
 					<Image
@@ -26,6 +28,8 @@ export default function Netesnost() {
 						alt="Kontrola těsnosti vzduchotechnických rozvodů"
 						width="400"
 						height="532"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/ac4ea7eb-861e-47f6-ba60-3c48dc9dd3f8_duct2.png"
 					/>
 					<Image
@@ -33,6 +37,8 @@ export default function Netesnost() {
 						alt="Měření pomocí anemometru"
 						width="400"
 						height="281"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/b376f13a-8eba-4b98-973f-91054366db1b_anemometr.png"
 					/>
 					<Image
@@ -40,6 +46,8 @@ export default function Netesnost() {
 						alt="Měření pomocí termovize"
 						width="400"
 						height="281"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/65d3c4d3-6f9d-4aa8-94fd-a326bd83927c_infra.png"
 					/>
 				</div>
@@ -50,6 +58,8 @@ export default function Netesnost() {
 							alt="Ikona úspěchu"
 							width="100"
 							height="100"
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/e53ce9d3-e19d-4a66-9be2-dc0236dd032a_done.png"
 						/>
 						<p className="px-4">
@@ -66,6 +76,8 @@ export default function Netesnost() {
 							alt="Ikona nářadí"
 							width="100"
 							height="100"
+							placeholder="blur"
+							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/6f631673-48aa-4c26-b785-2e18107f8861_fix.png"
 						/>
 						<p className="px-4">

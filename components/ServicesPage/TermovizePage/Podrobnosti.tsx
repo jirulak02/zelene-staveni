@@ -12,6 +12,8 @@ export default function Vysvetleni() {
 						alt="Ukázka měření termokamerou"
 						width="450"
 						height="450"
+						placeholder="blur"
+						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/e814bfc0-4853-4f4f-b2d9-800c3edc7fe3_ir11circle.png"
 					/>
 				</div>
