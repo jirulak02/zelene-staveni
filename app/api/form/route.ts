@@ -5,7 +5,7 @@ type FieldsType = {
 	[key: string]: string;
 };
 
-const CONTACT_MESSAGE_FIELDS: FieldsType = {
+const ContactMessageFields: FieldsType = {
 	jmeno: "Jméno a příjmení:",
 	email: "Email:",
 	tel: "Telefon:",
@@ -19,11 +19,11 @@ const CONTACT_MESSAGE_FIELDS: FieldsType = {
 function generateEmailContent(data: Data) {
 	const stringData = Object.entries(data).reduce(
 		(str, [key, val]) =>
-			(str += `${CONTACT_MESSAGE_FIELDS[key]}: \n${val} \n \n`),
+			(str += `${ContactMessageFields[key]}: \n${val} \n \n`),
 		""
 	);
 	const htmlData = Object.entries(data).reduce((str, [key, val]) => {
-		return (str += `<h3 class="form-heading" align="left">${CONTACT_MESSAGE_FIELDS[key]}</h3><p class="form-answer" align="left">${val}</p>`);
+		return (str += `<h3 class="form-heading" align="left">${ContactMessageFields[key]}</h3><p class="form-answer" align="left">${val}</p>`);
 	}, "");
 
 	return {
