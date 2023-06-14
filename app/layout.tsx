@@ -1,4 +1,5 @@
 import { Montserrat } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 import Header from "@/components/layout/Header";
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: Children) {
 				<CookieConsent />
 				<Footer />
 				<GoToTop />
+				<Analytics />
 			</body>
 		</html>
 	);

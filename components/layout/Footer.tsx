@@ -40,7 +40,7 @@ export default function Footer() {
 				</div>
 				<div className="text-center">
 					<p className="text-xs">
-						Copyright © {year} Zelené stavění | Všechna práva
+						Copyright © 2010-{year} Zelené stavění | Všechna práva
 						vyhrazena.
 					</p>
 					<Link
