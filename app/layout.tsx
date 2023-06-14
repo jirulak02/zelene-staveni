@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import GoToTop from "@/components/ui/GoToTop";
+import CookieConsent from "@/components/ui/CookieConsent";
 
 const montserrat = Montserrat({
 	subsets: ["latin"],
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: Children) {
 			<body className="flex flex-col">
 				<Header />
 				<main>{children}</main>
+				<CookieConsent />
 				<Footer />
 				<GoToTop />
 			</body>

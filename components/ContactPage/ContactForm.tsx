@@ -9,6 +9,7 @@ import { sendContactForm } from "@/lib/api";
 export default function ContactForm() {
 	const [isSpinning, setIsSpinning] = useState(false);
 	const [error, setError] = useState(false);
+	const [sent, setSent] = useState(false);
 	const {
 		value: jmeno,
 		isValid: jmenoIsValid,
@@ -104,12 +105,15 @@ export default function ContactForm() {
 		};
 
 		setError(false);
+		setSent(false);
 		setIsSpinning(true);
 
 		await sendContactForm(data)
 			.then((status: number) => {
 				if (status !== 200) {
 					setError(true);
+				} else {
+					setSent(true);
 				}
 			})
 			.then(() => {
@@ -335,6 +339,9 @@ export default function ContactForm() {
 				<p className="text-sm text-red-500">
 					Nepodařilo se formulář odeslat.
 				</p>
+			)}
+			{sent && (
+				<p className="text-sm text-zelena">Formulář byl odeslán.</p>
 			)}
 		</form>
 	);

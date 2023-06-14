@@ -38,16 +38,16 @@ export default function ZasadyOsobnichUdaju() {
 					</div>
 					<div className="space-y-4">
 						<p>
-							2. Jméno, příjmení, emailovou adresu, telefon a text
-							zprávy je nutné zpracovat pro vytvoření nabídky
-							služeb, jednání o této nabídce nebo za účelem
-							odpovědi na Vámi vznesený dotaz. Takové zpracování
-							umožňuje čl. 6. odst. 1 písm. b) nařízení. Tyto
-							osobní údaje budou společností Zelené stavění PS
-							s.r.o. zpracovávány po dobu jednání o uzavření
-							smlouvy mezi vámi a Zelené stavění PS s.r.o.,
-							nejdéle 1 rok od vaší poptávky, pokud neudělíte
-							souhlas k dalšímu zpracování.
+							2. Jméno, příjmení, emailovou adresu, adresu
+							realizace, telefon a text zprávy je nutné zpracovat
+							pro vytvoření nabídky služeb, jednání o této nabídce
+							nebo za účelem odpovědi na Vámi vznesený dotaz.
+							Takové zpracování umožňuje čl. 6. odst. 1 písm. b)
+							nařízení. Tyto osobní údaje budou společností Zelené
+							stavění PS s.r.o. zpracovávány po dobu jednání o
+							uzavření smlouvy mezi vámi a Zelené stavění PS
+							s.r.o., nejdéle 1 rok od vaší poptávky, pokud
+							neudělíte souhlas k dalšímu zpracování.
 						</p>
 						<p>
 							Pro klienty se službou zprostředkování dotace na

@@ -20,10 +20,10 @@ export default function Employees() {
 						Email:{" "}
 						<a
 							className="border-b border-neutral-100 hover:border-neutral-800"
-							href="mailto:info@zelenestaveni.cz"
+							href="mailto:simecek@zelenestaveni.cz"
 							target="_blank"
 						>
-							info@zelenestaveni.cz
+							simecek@zelenestaveni.cz
 						</a>
 					</p>
 				</div>
