@@ -7,6 +7,7 @@ type ShowCaseProps = {
 	data: {
 		id: string;
 		name: string;
+		alt: string;
 		url: string;
 	}[];
 };
