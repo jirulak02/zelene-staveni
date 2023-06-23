@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { dataRealizace } from "@/components/data/SluzbyBlowerdoor";
 import ContainerBila from "@/components/layout/ContainerBila";
+import ImagesVertical from "@/components/layout/ImagesVertical";
 
 export default function Showcase() {
 	return (
@@ -14,21 +15,7 @@ export default function Showcase() {
 					Měření provádíme i v bytových domech nebo průmyslových
 					objektech, kde je potřeba použít více měřících souprav.
 				</p>
-				<div className="grid grid-cols-2 gap-2 sm:grid-cols-auto">
-					{dataRealizace.map((item) => (
-						<Image
-							key={item.id}
-							style={{ width: "200px" }}
-							className="mx-auto sm:mx-0"
-							alt={item.name}
-							width="400"
-							height="532"
-							placeholder="blur"
-							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-							src={item.url}
-						/>
-					))}
-				</div>
+				<ImagesVertical data={dataRealizace} />
 			</div>
 		</ContainerBila>
 	);

@@ -6,7 +6,7 @@ type ModalProps = {
 	close: () => void;
 };
 
-export default function Modal({ item, close }: ModalProps) {
+export default function ModalVertical({ item, close }: ModalProps) {
 	return (
 		<div className="fixed left-0 top-0 z-50 flex h-full w-full">
 			<div
@@ -25,10 +25,10 @@ export default function Modal({ item, close }: ModalProps) {
 					<div className="h-6 w-6 bg-close" />
 				</button>
 				<Image
-					className="w-[800px]"
+					className="w-[400px]"
 					alt={item.alt}
-					width="1600"
-					height="1200"
+					width="800"
+					height="1064"
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 					src={item.url}

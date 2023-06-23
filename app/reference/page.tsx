@@ -11,6 +11,7 @@ import ScrollButton from "@/components/ui/ScrollButton";
 import ContainerBezova from "@/components/layout/ContainerBezova";
 import ContainerBila from "@/components/layout/ContainerBila";
 import Images from "@/components/layout/Images";
+import ImagesVertical from "@/components/layout/ImagesVertical";
 
 export const metadata = {
 	title: "Reference - Zelené stavění.cz",
@@ -64,20 +65,7 @@ export default function Reference() {
 				>
 					Blower Door test
 				</h2>
-				<div className="grid grid-cols-2 gap-2 sm:grid-cols-auto">
-					{dataBlowerdoor.map((item) => (
-						<Image
-							key={item.id}
-							className="m-auto w-[200px] sm:m-0"
-							alt={item.name}
-							width="400"
-							height="532"
-							placeholder="blur"
-							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-							src={item.url}
-						/>
-					))}
-				</div>
+				<ImagesVertical data={dataBlowerdoor} />
 			</ContainerBezova>
 			<ContainerBila>
 				<h2

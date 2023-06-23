@@ -3,27 +3,10 @@
 import Image from "next/image";
 import { useState } from "react";
 
-import Modal from "../ui/Modal";
+import { ImageProps, ImagesProps, startItem } from "./Images";
+import ModalVertical from "../ui/ModalVertical";
 
-export type ImagesProps = {
-	data: ImageProps[];
-};
-
-export type ImageProps = {
-	id: string;
-	name?: string;
-	alt: string;
-	url: string;
-};
-
-export const startItem: ImageProps = {
-	id: "",
-	name: "",
-	alt: "",
-	url: "",
-};
-
-export default function Images({ data }: ImagesProps) {
+export default function ImagesVertical({ data }: ImagesProps) {
 	const [openModal, setOpenModel] = useState(false);
 	const [itemState, setItemState] = useState(startItem);
 
@@ -44,7 +27,7 @@ export default function Images({ data }: ImagesProps) {
 					className="m-auto w-[200px] cursor-pointer sm:m-0"
 					alt={item.alt}
 					width="400"
-					height="300"
+					height="532"
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 					src={item.url}
@@ -53,7 +36,7 @@ export default function Images({ data }: ImagesProps) {
 					}}
 				/>
 			))}
-			{openModal && <Modal item={itemState} close={closeModal} />}
+			{openModal && <ModalVertical item={itemState} close={closeModal} />}
 		</div>
 	);
 }
