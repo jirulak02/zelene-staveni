@@ -10,7 +10,7 @@ type RevealProps = {
 
 export default function Reveal({ children, className }: RevealProps) {
 	const motionRef = useRef(null);
-	const isInView = useInView(motionRef, { once: false });
+	const isInView = useInView(motionRef, { once: true });
 	const controls = useAnimation();
 
 	useEffect(() => {

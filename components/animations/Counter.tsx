@@ -16,7 +16,7 @@ type CounterProps = {
 
 export default function Counter({ countTo, className }: CounterProps) {
 	const counterRef = useRef(null);
-	const isInView = useInView(counterRef, { once: false });
+	const isInView = useInView(counterRef, { once: true });
 	const count = useMotionValue(0);
 	const rounded = useTransform(count, Math.round);
 
