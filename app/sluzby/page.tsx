@@ -3,6 +3,7 @@ import Image from "next/image";
 import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
 import Button from "@/components/ui/Button";
+import Reveal from "@/components/animations/Reveal";
 
 export const metadata = {
 	title: "Služby - Zelené stavění.cz",
@@ -51,7 +52,7 @@ export default function Sluzby() {
 						</div>
 					</div>
 					<div className="grid grid-cols-1 lg:grid-cols-2">
-						<div className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
+						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
 								style={{ width: "50px" }}
 								alt="Ikona recyklace kytek"
@@ -70,8 +71,8 @@ export default function Sluzby() {
 							<Button href="/sluzby/korenove-cistirny">
 								ZJISTIT VÍCE
 							</Button>
-						</div>
-						<div className="relative row-start-1 h-[280px] overflow-hidden lg:row-start-auto lg:h-[480px]">
+						</Reveal>
+						<Reveal className="relative row-start-1 h-[280px] overflow-hidden lg:row-start-auto lg:h-[480px]">
 							<Image
 								alt="Ukázka realizace kořenové čistírny"
 								fill={true}
@@ -80,10 +81,10 @@ export default function Sluzby() {
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/cb34b41a-adb9-4205-b398-a7f052a86422_rko5.png"
 							/>
-						</div>
+						</Reveal>
 					</div>
 					<div className="grid grid-cols-1 lg:grid-cols-2">
-						<div className="relative row-start-1 h-[280px] overflow-hidden lg:h-[480px]">
+						<Reveal className="relative row-start-1 h-[280px] overflow-hidden lg:h-[480px]">
 							<Image
 								alt="Ukázka měření blower door testu"
 								fill={true}
@@ -92,8 +93,8 @@ export default function Sluzby() {
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/952afa6a-d900-459d-b39e-b619267a3070_bytovy_dum_velky.png"
 							/>
-						</div>
-						<div className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
+						</Reveal>
+						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
 								style={{ width: "50px" }}
 								alt="Ikona fénu"
@@ -115,10 +116,10 @@ export default function Sluzby() {
 							<Button href="/sluzby/blower-door-test">
 								ZJISTIT VÍCE
 							</Button>
-						</div>
+						</Reveal>
 					</div>
 					<div className="grid grid-cols-1 lg:grid-cols-2">
-						<div className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
+						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
 								style={{ width: "50px" }}
 								alt="Ikona kamery v domě"
@@ -138,8 +139,8 @@ export default function Sluzby() {
 							<Button href="/sluzby/termovize">
 								ZJISTIT VÍCE
 							</Button>
-						</div>
-						<div className="relative row-start-1 h-[280px] overflow-hidden lg:row-start-auto lg:h-[480px]">
+						</Reveal>
+						<Reveal className="relative row-start-1 h-[280px] overflow-hidden lg:row-start-auto lg:h-[480px]">
 							<Image
 								alt="Ukázka měření temovizí"
 								fill={true}
@@ -148,10 +149,10 @@ export default function Sluzby() {
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/f94bf8dc-61c3-4574-ae59-b95ca908cdfd_budova_velka.png"
 							/>
-						</div>
+						</Reveal>
 					</div>
 					<div className="grid grid-cols-1 lg:grid-cols-2">
-						<div className="relative h-[280px] overflow-hidden lg:h-[480px]">
+						<Reveal className="relative h-[280px] overflow-hidden lg:h-[480px]">
 							<Image
 								alt="Ukázka měření blower door testu"
 								fill={true}
@@ -160,8 +161,8 @@ export default function Sluzby() {
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/730e35a9-00ed-44e6-a622-0efac7da8d80_dotace_sluzby.png"
 							/>
-						</div>
-						<div className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
+						</Reveal>
+						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
 								style={{ width: "50px" }}
 								alt="Ikona fénu"
@@ -179,7 +180,7 @@ export default function Sluzby() {
 								vyřídíme.
 							</p>
 							<Button href="/sluzby/dotace">ZJISTIT VÍCE</Button>
-						</div>
+						</Reveal>
 					</div>
 				</div>
 			</Container>

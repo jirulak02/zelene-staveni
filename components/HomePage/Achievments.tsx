@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import Button from "../ui/Button";
 import ContainerBezova from "../layout/ContainerBezova";
+import Counter from "../animations/Counter";
 
 export default function Achievments() {
 	return (
@@ -18,7 +19,10 @@ export default function Achievments() {
 			</div>
 			<div className="mt-8 grid grid-cols-1 gap-2 text-center sm:grid-cols-auto md:mt-16">
 				<div className="space-y-2 px-3 sm:space-y-3">
-					<div className="text-6xl text-zelena sm:text-7xl">20</div>
+					<Counter
+						countTo={20}
+						className="text-6xl text-zelena sm:text-7xl"
+					/>
 					<h3 className="text-zelena">LET V OBORU</h3>
 					<p>Nezávazná konzultace vhodných řešení zdarma.</p>
 				</div>
@@ -34,7 +38,10 @@ export default function Achievments() {
 					/>
 				</div>
 				<div className="space-y-2 px-3 text-center sm:space-y-3">
-					<div className="text-6xl text-zelena sm:text-7xl">100</div>
+					<Counter
+						countTo={100}
+						className="text-6xl text-zelena sm:text-7xl"
+					/>
 					<h3 className="text-zelena">REALIZACÍ</h3>
 					<p>Cenovou nabídku vypracujeme zdarma.</p>
 				</div>
@@ -50,7 +57,10 @@ export default function Achievments() {
 					/>
 				</div>
 				<div className="space-y-2 px-3 text-center sm:space-y-3">
-					<div className="text-6xl text-zelena sm:text-7xl">200</div>
+					<Counter
+						countTo={200}
+						className="text-6xl text-zelena sm:text-7xl"
+					/>
 					<h3 className="text-zelena">PROJEKTŮ NZÚ</h3>
 					<p>Vyřídíme celý proces získání dotace za Vás.</p>
 				</div>
