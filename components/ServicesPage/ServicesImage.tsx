@@ -14,6 +14,7 @@ export default function ServicesImage({ name, url }: ServicesImageProps) {
 				src={url}
 				alt="Ukázka realizace"
 				fill={true}
+				quality={100}
 				priority
 				className="object-cover"
 			/>

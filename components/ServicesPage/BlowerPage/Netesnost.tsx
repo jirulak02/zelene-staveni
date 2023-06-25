@@ -15,49 +15,48 @@ export default function Netesnost() {
 				</p>
 				<div className="mx-auto grid grid-cols-2 gap-2 sm:grid-cols-auto">
 					<Image
-						className="mb:mx-0 mx-auto w-[200px]"
+						className="mb:mx-0 mx-auto"
 						alt="Měření pomocí vyvíječe kouře"
-						width="400"
-						height="532"
+						width="200"
+						height="250"
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-						src="https://uploadthing.com/f/3abab34b-5fc0-43bd-b5d9-e40d4c362c22_kour.png"
+						src="https://uploadthing.com/f/e6837ebd-9046-4dfe-a127-c9312e347c33_kour.png"
 					/>
 					<Image
-						className="mb:mx-0 mx-auto w-[200px]"
+						className="mb:mx-0 mx-auto"
 						alt="Kontrola těsnosti vzduchotechnických rozvodů"
-						width="400"
-						height="532"
+						width="200"
+						height="250"
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-						src="https://uploadthing.com/f/ac4ea7eb-861e-47f6-ba60-3c48dc9dd3f8_duct2.png"
+						src="https://uploadthing.com/f/b823821f-e8d9-42ea-87b6-ec3410f31e89_duct2.png"
 					/>
 					<Image
-						className="mb:mx-0 mx-auto w-[200px]"
+						className="mb:mx-0 mx-auto"
 						alt="Měření pomocí anemometru"
-						width="400"
-						height="281"
+						width="200"
+						height="140"
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-						src="https://uploadthing.com/f/b376f13a-8eba-4b98-973f-91054366db1b_anemometr.png"
+						src="https://uploadthing.com/f/25eb9e20-6e2f-4b6f-86c5-c87d86327d3b_anemometr.png"
 					/>
 					<Image
-						className="mb:mx-0 mx-auto w-[200px]"
+						className="mb:mx-0 mx-auto"
 						alt="Měření pomocí termovize"
-						width="400"
-						height="281"
+						width="200"
+						height="140"
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-						src="https://uploadthing.com/f/65d3c4d3-6f9d-4aa8-94fd-a326bd83927c_infra.png"
+						src="https://uploadthing.com/f/ed38ffe1-a3dd-4811-bdf3-86ae7e4e6259_infra.png"
 					/>
 				</div>
 				<div className="grid grid-cols-1 sm:grid-cols-2">
 					<div className="mt-10 flex flex-col items-center space-y-4">
 						<Image
-							style={{ width: "50px" }}
 							alt="Ikona úspěchu"
-							width="100"
-							height="100"
+							width="50"
+							height="50"
 							placeholder="blur"
 							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/e53ce9d3-e19d-4a66-9be2-dc0236dd032a_done.png"
@@ -72,10 +71,9 @@ export default function Netesnost() {
 					</div>
 					<div className="mt-10 flex flex-col items-center space-y-4">
 						<Image
-							style={{ width: "50px" }}
 							alt="Ikona nářadí"
-							width="100"
-							height="100"
+							width="50"
+							height="50"
 							placeholder="blur"
 							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src="https://uploadthing.com/f/6f631673-48aa-4c26-b785-2e18107f8861_fix.png"

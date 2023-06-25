@@ -22,8 +22,9 @@ export default function SkladbaKorenovky() {
 						style={{ width: "300px" }}
 						className="m-auto"
 						alt="Ukázka jednotlivých částí kořenové čistírny"
-						width="300"
-						height="225"
+						width={300}
+						height={225}
+						quality={100}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src={item.url}

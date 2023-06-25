@@ -7,7 +7,7 @@ export default function Realizace() {
 		<ContainerBezova>
 			<div className="space-y-6 md:space-y-10">
 				<h2 className="text-center text-zelena">Realizace</h2>
-				<Images data={dataRealizace} />
+				<Images data={dataRealizace} width={200} height={150} />
 			</div>
 		</ContainerBezova>
 	);

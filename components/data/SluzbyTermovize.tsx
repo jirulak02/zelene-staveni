@@ -2,31 +2,31 @@ export const data = [
 	{
 		id: "data_sluzby_termovize_1",
 		alt: "Ukázka výsledků měření termovizí",
-		url: "https://uploadthing.com/f/f3417328-3d99-40a1-bc3e-df3e57dd6568_ir7.png",
+		url: "https://uploadthing.com/f/7fa7313d-566c-44ba-8cf5-4cd75bd3299c_ir7.png",
 	},
 	{
 		id: "data_sluzby_termovize_2",
 		alt: "Ukázka výsledků měření termovizí",
-		url: "https://uploadthing.com/f/9f7e2ccf-a6bc-4f50-9a06-07b4d8ce467e_ir8.png",
+		url: "https://uploadthing.com/f/ca43c87c-0b32-4f8b-9c5e-fe4a49acadcc_ir8.png",
 	},
 	{
 		id: "data_sluzby_termovize_3",
 		alt: "Ukázka výsledků měření termovizí",
-		url: "https://uploadthing.com/f/d96d2be5-c71f-487d-8644-8783459df12c_ir5.png",
+		url: "https://uploadthing.com/f/01ecebaa-cad4-45be-b995-2284e8fb7f10_ir5.png",
 	},
 	{
 		id: "data_sluzby_termovize_4",
 		alt: "Ukázka výsledků měření termovizí",
-		url: "https://uploadthing.com/f/5790bfa5-38e0-48f5-bc6b-2af9eeead616_ir2.png",
+		url: "https://uploadthing.com/f/70f0bf47-dfc5-4871-bda7-3ee4abc1b75c_ir2.png",
 	},
 	{
 		id: "data_sluzby_termovize_5",
 		alt: "Ukázka výsledků měření termovizí",
-		url: "https://uploadthing.com/f/a344793e-e2a6-408c-a525-260bff8bff35_ir1.png",
+		url: "https://uploadthing.com/f/f22a6d48-11ab-47a0-bf42-3bbe653f14f1_ir1.png",
 	},
 	{
 		id: "data_sluzby_termovize_6",
 		alt: "Ukázka výsledků měření termovizí",
-		url: "https://uploadthing.com/f/2ee095a6-ab1d-420f-b661-9d745794b05c_ir12.png",
+		url: "https://uploadthing.com/f/bb105f2b-98d8-47a4-8cd6-099e64a2cf44_ir12.png",
 	},
 ];

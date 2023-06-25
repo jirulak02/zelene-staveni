@@ -24,6 +24,8 @@ export default function Sluzby() {
 								alt="Ukázka realizace zelené střechy"
 								priority
 								fill={true}
+								sizes="(min-width: 1024px) 640px, 100vw"
+								quality={100}
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -32,10 +34,10 @@ export default function Sluzby() {
 						</div>
 						<div className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
-								style={{ width: "50px" }}
 								alt="Ikona skalničky"
-								width="100"
-								height="100"
+								width={50}
+								height={50}
+								quality={100}
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
@@ -54,10 +56,10 @@ export default function Sluzby() {
 					<div className="grid grid-cols-1 lg:grid-cols-2">
 						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
-								style={{ width: "50px" }}
 								alt="Ikona recyklace kytek"
-								width="100"
-								height="100"
+								width={50}
+								height={50}
+								quality={100}
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
@@ -76,6 +78,8 @@ export default function Sluzby() {
 							<Image
 								alt="Ukázka realizace kořenové čistírny"
 								fill={true}
+								sizes="(min-width: 1024px) 640px, 100vw"
+								quality={100}
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -88,6 +92,8 @@ export default function Sluzby() {
 							<Image
 								alt="Ukázka měření blower door testu"
 								fill={true}
+								sizes="(min-width: 1024px) 640px, 100vw"
+								quality={100}
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -96,10 +102,10 @@ export default function Sluzby() {
 						</Reveal>
 						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
-								style={{ width: "50px" }}
 								alt="Ikona fénu"
-								width="100"
-								height="100"
+								width={50}
+								height={50}
+								quality={100}
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/559f37bf-3c19-40df-b84c-1b83e0276705_fan.png"
@@ -121,10 +127,10 @@ export default function Sluzby() {
 					<div className="grid grid-cols-1 lg:grid-cols-2">
 						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
-								style={{ width: "50px" }}
 								alt="Ikona kamery v domě"
-								width="100"
-								height="100"
+								width={50}
+								height={50}
+								quality={100}
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/13337481-8d83-45a8-8a3a-f12cc76a72c3_camera.png"
@@ -144,6 +150,8 @@ export default function Sluzby() {
 							<Image
 								alt="Ukázka měření temovizí"
 								fill={true}
+								sizes="(min-width: 1024px) 640px, 100vw"
+								quality={100}
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -156,6 +164,8 @@ export default function Sluzby() {
 							<Image
 								alt="Ukázka měření blower door testu"
 								fill={true}
+								sizes="(min-width: 1024px) 640px, 100vw"
+								quality={100}
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -164,10 +174,10 @@ export default function Sluzby() {
 						</Reveal>
 						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
 							<Image
-								style={{ width: "50px" }}
 								alt="Ikona fénu"
-								width="100"
-								height="100"
+								width={50}
+								height={50}
+								quality={100}
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 								src="https://uploadthing.com/f/8b8ac783-5332-40bc-8707-8f157dabc550_analytics.png"

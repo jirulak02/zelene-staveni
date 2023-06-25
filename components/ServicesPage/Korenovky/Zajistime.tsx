@@ -41,8 +41,9 @@ export default function Zajistime() {
 						<Image
 							style={{ width: "50px" }}
 							alt="Ikony na podporu vysvětlení"
-							width="100"
-							height="100"
+							width={50}
+							height={50}
+							quality={100}
 							placeholder="blur"
 							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src={item.url}

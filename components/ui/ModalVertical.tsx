@@ -15,9 +15,9 @@ export default function ModalVertical({ item, close }: ModalProps) {
 					close();
 				}}
 			/>
-			<div className="relative m-auto flex flex-col justify-center rounded-sm bg-neutral-100 p-6 sm:p-10 md:p-16">
+			<div className="relative m-auto flex max-h-screen flex-col justify-center rounded-sm bg-neutral-100 p-10 md:p-16">
 				<button
-					className="absolute right-0 top-0 sm:p-2 md:p-5"
+					className="absolute right-0 top-0 p-2 md:p-5"
 					onClick={() => {
 						close();
 					}}
@@ -25,15 +25,15 @@ export default function ModalVertical({ item, close }: ModalProps) {
 					<div className="h-6 w-6 bg-close" />
 				</button>
 				<Image
-					className="w-[400px]"
+					className="z-20 max-h-[calc(100vh-2.5rem)] w-auto"
 					alt={item.alt}
-					width="800"
-					height="1064"
-					placeholder="blur"
-					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
+					width={400}
+					height={500}
+					quality={100}
 					src={item.url}
 				/>
-				<h3 className="absolute -bottom-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-center sm:bottom-1 md:bottom-3.5">
+				<div className="loader absolute left-1/2 top-1/2 z-10 flex -translate-x-1/2 -translate-y-1/2" />
+				<h3 className="absolute bottom-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-center md:bottom-3.5">
 					{item.name}
 				</h3>
 			</div>

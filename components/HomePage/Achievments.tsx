@@ -28,10 +28,9 @@ export default function Achievments() {
 				</div>
 				<div className="hidden items-center justify-center lg:flex">
 					<Image
-						style={{ width: "150px" }}
 						alt="Ikona bílého domečku"
-						width="150"
-						height="150"
+						width={150}
+						height={150}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
@@ -47,10 +46,9 @@ export default function Achievments() {
 				</div>
 				<div className="hidden items-center justify-center text-center lg:flex">
 					<Image
-						style={{ width: "150px" }}
 						alt="Ikona bílého domečku"
-						width="150"
-						height="150"
+						width={150}
+						height={150}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"

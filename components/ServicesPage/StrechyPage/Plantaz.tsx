@@ -13,17 +13,17 @@ export default function Plantaz() {
 					style={{ width: "120px", height: "120px" }}
 				>
 					<Image
-						style={{ width: "50px" }}
 						alt="Ikona skalničky"
-						width="100"
-						height="100"
+						width={50}
+						height={50}
+						quality={100}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
 					/>
 				</div>
 				<h3 className="text-center text-hneda">Máme vlastní plantáž</h3>
-				<Images data={dataKytky} />
+				<Images data={dataKytky} width={200} height={150} />
 			</div>
 		</ContainerBezova>
 	);

@@ -49,8 +49,9 @@ export default function Usnadneni() {
 					style={{ width: "400px" }}
 					className="m-auto"
 					alt="Logo programu Nová zelená úsporám"
-					width="800"
-					height="400"
+					width={400}
+					height={200}
+					quality={100}
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 					src="https://uploadthing.com/f/d2e86f21-10f0-478b-bc11-861adcaa8604_nzu.png"

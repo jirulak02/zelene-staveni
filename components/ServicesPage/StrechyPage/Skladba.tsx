@@ -13,7 +13,7 @@ export default function Skladba() {
 			<h3 className="my-8 text-center text-hneda">
 				Ručíme Vám tak za celou střechu
 			</h3>
-			<Images data={dataPrace} />
+			<Images data={dataPrace} width={200} height={150} />
 			<div className="mt-10 grid grid-cols-1 items-center gap-4 md:grid-cols-2">
 				<div className="mx-auto md:mx-0 md:ml-auto">
 					<h4 className="mb-4 text-hneda md:mb-8">
@@ -29,14 +29,13 @@ export default function Skladba() {
 					</ul>
 				</div>
 				<Image
-					style={{ width: "300px" }}
 					className="md:mx0 mx-auto items-center md:ml-5"
 					alt="Rozbor jednotlivých částí skladby zelené střechy"
-					width="400"
-					height="466"
+					width={300}
+					height={350}
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-					src="https://uploadthing.com/f/3b435311-a6dc-4481-8de2-89e4cadeccd3_skladba.png"
+					src="https://uploadthing.com/f/da49b2a9-1ce7-469c-8462-a0f7bc789952_skladba.png"
 				/>
 			</div>
 		</ContainerBila>

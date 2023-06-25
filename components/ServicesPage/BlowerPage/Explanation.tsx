@@ -28,8 +28,9 @@ export default function Explanation() {
 					<Image
 						style={{ width: "400px", height: "200px" }}
 						alt="Logo programu Nová zelená úsporám"
-						width="800"
-						height="400"
+						width={400}
+						height={200}
+						quality={100}
 						priority
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -43,8 +44,9 @@ export default function Explanation() {
 						className="rounded-full"
 						style={{ width: "320px" }}
 						alt="Ukázka zapojení techniky k měření ve dveřích"
-						width="640"
-						height="640"
+						width={320}
+						height={320}
+						quality={100}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/a0208a4e-7aed-4a40-a807-f2fdf31d9042_blowercircle.png"

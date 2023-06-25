@@ -29,8 +29,9 @@ export default function Zjistime() {
 					<Image
 						className="m-auto w-[250px] md:w-[400px]"
 						alt="Ukázka měření termokamerou"
-						width="800"
-						height="600"
+						width={400}
+						height={300}
+						quality={100}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/f94bf8dc-61c3-4574-ae59-b95ca908cdfd_budova_velka.png"

@@ -18,8 +18,9 @@ export default function Cukr() {
 						<Image
 							style={{ width: "400px" }}
 							alt="Ukázka toho jak nás žádné počasí nezastaví"
-							width="800"
-							height="500"
+							width={400}
+							height={250}
+							quality={100}
 							placeholder="blur"
 							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 							src={item.url}

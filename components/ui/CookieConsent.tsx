@@ -39,6 +39,7 @@ export default function CookieConsent() {
 				onClick={() => {
 					setShowConsent(true);
 				}}
+				aria-label="Zavřít cookies"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Container from "@/components/layout/Container";
 import {
 	dataStrechy,
@@ -11,7 +9,6 @@ import ScrollButton from "@/components/ui/ScrollButton";
 import ContainerBezova from "@/components/layout/ContainerBezova";
 import ContainerBila from "@/components/layout/ContainerBila";
 import Images from "@/components/layout/Images";
-import ImagesVertical from "@/components/layout/ImagesVertical";
 
 export const metadata = {
 	title: "Reference - Zelené stavění.cz",
@@ -47,7 +44,7 @@ export default function Reference() {
 				>
 					Zelené střechy
 				</h2>
-				<Images data={dataStrechy} />
+				<Images data={dataStrechy} width={200} height={150} />
 			</ContainerBezova>
 			<ContainerBila>
 				<h2
@@ -56,7 +53,7 @@ export default function Reference() {
 				>
 					Kořenové čistírny
 				</h2>
-				<Images data={dataKorenovky} />
+				<Images data={dataKorenovky} width={200} height={150} />
 			</ContainerBila>
 			<ContainerBezova>
 				<h2
@@ -65,7 +62,7 @@ export default function Reference() {
 				>
 					Blower Door test
 				</h2>
-				<ImagesVertical data={dataBlowerdoor} />
+				<Images data={dataBlowerdoor} width={200} height={250} />
 			</ContainerBezova>
 			<ContainerBila>
 				<h2
@@ -74,7 +71,7 @@ export default function Reference() {
 				>
 					Termovize
 				</h2>
-				<Images data={dataTermovize} />
+				<Images data={dataTermovize} width={200} height={140} />
 			</ContainerBila>
 		</>
 	);

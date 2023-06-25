@@ -4,9 +4,12 @@ import Image from "next/image";
 import { useState } from "react";
 
 import Modal from "../ui/Modal";
+import ModalVertical from "../ui/ModalVertical";
 
 export type ImagesProps = {
 	data: ImageProps[];
+	width: number;
+	height: number;
 };
 
 export type ImageProps = {
@@ -23,7 +26,7 @@ export const startItem: ImageProps = {
 	url: "",
 };
 
-export default function Images({ data }: ImagesProps) {
+export default function Images({ data, width, height }: ImagesProps) {
 	const [openModal, setOpenModel] = useState(false);
 	const [itemState, setItemState] = useState(startItem);
 
@@ -41,10 +44,11 @@ export default function Images({ data }: ImagesProps) {
 			{data.map((item) => (
 				<Image
 					key={item.id}
-					className="m-auto w-[200px] cursor-pointer sm:m-0"
+					className="m-auto cursor-pointer sm:m-0"
 					alt={item.alt}
-					width="400"
-					height="300"
+					width={width}
+					height={height}
+					quality={100}
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 					src={item.url}
@@ -53,7 +57,30 @@ export default function Images({ data }: ImagesProps) {
 					}}
 				/>
 			))}
-			{openModal && <Modal item={itemState} close={closeModal} />}
+			{openModal && height == 150 && (
+				<Modal
+					item={itemState}
+					close={closeModal}
+					width={800}
+					height={600}
+				/>
+			)}
+			{openModal && height == 250 && (
+				<Modal
+					item={itemState}
+					close={closeModal}
+					width={400}
+					height={500}
+				/>
+			)}
+			{openModal && height == 140 && (
+				<Modal
+					item={itemState}
+					close={closeModal}
+					width={800}
+					height={560}
+				/>
+			)}
 		</div>
 	);
 }

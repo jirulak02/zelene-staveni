@@ -69,17 +69,17 @@ export const dataPocasi = [
 	{
 		id: "data_sluzby_strechy_pocasi_1",
 		name: "V ZIMĚ",
-		url: "https://uploadthing.com/f/48753fe8-1d7e-48ea-9054-46cbb2e18922_snih.png",
+		url: "https://uploadthing.com/f/0df9341a-f8d0-48a4-b6d0-b8ee7438469a_snih.png",
 	},
 	{
 		id: "data_sluzby_strechy_pocasi_2",
 		name: "V NOCI",
-		url: "https://uploadthing.com/f/53639df5-5b51-4fe9-94df-1135960b092a_tma.png",
+		url: "https://uploadthing.com/f/4271f5ec-3f58-42f8-8713-26b2b9dbe4e0_tma.png",
 	},
 	{
 		id: "data_sluzby_strechy_pocasi_3",
 		name: "V DEŠTI",
-		url: "https://uploadthing.com/f/c87be914-0ae3-4b98-9f30-8b405a82eedf_dest.png",
+		url: "https://uploadthing.com/f/002b39c4-d887-440b-a951-af61e09c4695_dest.png",
 	},
 ];
 

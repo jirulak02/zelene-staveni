@@ -12,6 +12,7 @@ export default function Hero() {
 						src="https://uploadthing.com/f/8e0d18f4-fe62-45f8-ab70-0ba16909ab8e_strechy_hero.jpg"
 						alt="Ukázka realizace"
 						fill={true}
+						quality={100}
 						priority
 						style={{ objectFit: "cover" }}
 					/>
@@ -28,18 +29,18 @@ export default function Hero() {
 				<Image
 					style={{ width: "1280px" }}
 					alt="Zkrášlovací prvek trávy"
-					width="1440"
-					height="20"
+					width={1440}
+					height={20}
 					priority
 					src="https://uploadthing.com/f/9cf7d25b-ef5b-4d2c-af1e-bff3321a4813_grass.png"
 				/>
 				<div className="-mt-1 grid grid-cols-1 bg-neutral-100 shadow-lg shadow-neutral-400 sm:grid-cols-2 lg:grid-cols-4">
 					<div className="flex flex-col items-center space-y-2 border-b-2 border-neutral-300 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 sm:border-r-2 lg:my-10 lg:border-b-0 lg:px-10">
 						<Image
-							style={{ width: "50px" }}
 							alt="Ikona skalničky"
-							width="100"
-							height="100"
+							width={50}
+							height={50}
+							quality={100}
 							priority
 							placeholder="blur"
 							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -53,10 +54,10 @@ export default function Hero() {
 					</div>
 					<div className="flex flex-col items-center space-y-2 border-b-2 border-neutral-300 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 lg:my-10 lg:border-b-0 lg:border-r-2 lg:px-10">
 						<Image
-							style={{ width: "50px" }}
 							alt="Ikona recyklace kytek"
-							width="100"
-							height="100"
+							width={50}
+							height={50}
+							quality={100}
 							priority
 							placeholder="blur"
 							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -70,10 +71,10 @@ export default function Hero() {
 					</div>
 					<div className="flex flex-col items-center space-y-2 border-b-2 border-neutral-300 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 sm:border-b-0 sm:border-r-2 lg:my-10 lg:px-10">
 						<Image
-							style={{ width: "50px" }}
 							alt="Ikona fénu"
-							width="100"
-							height="100"
+							width={50}
+							height={50}
+							quality={100}
 							priority
 							placeholder="blur"
 							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
@@ -87,10 +88,10 @@ export default function Hero() {
 					</div>
 					<div className="flex flex-col items-center space-y-2 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 lg:my-10 lg:px-10">
 						<Image
-							style={{ width: "50px" }}
 							alt="Ikona kamery v domě"
-							width="100"
-							height="100"
+							width={50}
+							height={50}
+							quality={100}
 							priority
 							placeholder="blur"
 							blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="

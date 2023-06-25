@@ -47,23 +47,24 @@ function Navbar() {
 	return (
 		<Container className="border-b border-neutral-100">
 			<div className="relative flex h-20 items-center justify-between">
-				<Link href="/">
+				<Link href="/" className="pb-2">
 					<Image
-						style={{ width: "212px" }}
-						className="pb-2"
+						className=""
 						alt="Zelené stavění logo"
-						width="425"
-						height="60"
+						width={210}
+						height={30}
+						quality={100}
 						src={`${
 							white
-								? "https://uploadthing.com/f/060f0ca7-f91e-48e4-b29e-7bcda594aa70_logo%20white.png"
-								: "https://uploadthing.com/f/326f6103-6c38-49a4-9615-3b1846a1a9f2_logo.png"
+								? "https://uploadthing.com/f/dbd12939-af8b-484b-9d4f-07687e4152d9_logo%20white.png"
+								: "https://uploadthing.com/f/88dc353c-e7e5-4caa-a27c-5f228c000a41_logo.png"
 						}`}
 					/>
 				</Link>
 				<button
 					className="translate-x-4 cursor-pointer p-5 sm:hidden"
 					onClick={toggleHandler}
+					aria-label="Menu"
 				>
 					<svg
 						width="28"

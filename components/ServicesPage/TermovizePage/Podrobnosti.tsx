@@ -8,10 +8,11 @@ export default function Vysvetleni() {
 			<div className="grid grid-cols-1 gap-2 md:grid-cols-3">
 				<div>
 					<Image
-						className="m-auto w-[250px] rounded-full md:w-[350px]"
+						className="m-auto rounded-full md:w-[350px]"
 						alt="Ukázka měření termokamerou"
-						width="450"
-						height="450"
+						width={250}
+						height={250}
+						quality={100}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
 						src="https://uploadthing.com/f/e814bfc0-4853-4f4f-b2d9-800c3edc7fe3_ir11circle.png"
