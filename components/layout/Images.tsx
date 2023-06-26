@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useState } from "react";
 
 import Modal from "../ui/Modal";
-import ModalVertical from "../ui/ModalVertical";
 
 export type ImagesProps = {
 	data: ImageProps[];
@@ -39,6 +38,24 @@ export default function Images({ data, width, height }: ImagesProps) {
 		setOpenModel(false);
 	}
 
+	function getNewItem(side: string, item: ImageProps) {
+		let index = data.indexOf(item);
+		if (side === "left") {
+			if (index === 0) {
+				setItemState(data[data.length - 1]);
+			} else {
+				setItemState(data[index - 1]);
+			}
+		}
+		if (side === "right") {
+			if (index === data.length - 1) {
+				setItemState(data[0]);
+			} else {
+				setItemState(data[index + 1]);
+			}
+		}
+	}
+
 	return (
 		<div className="grid grid-cols-2 gap-2 sm:grid-cols-auto">
 			{data.map((item) => (
@@ -61,6 +78,7 @@ export default function Images({ data, width, height }: ImagesProps) {
 				<Modal
 					item={itemState}
 					close={closeModal}
+					getNewItem={getNewItem}
 					width={800}
 					height={600}
 				/>
@@ -69,6 +87,7 @@ export default function Images({ data, width, height }: ImagesProps) {
 				<Modal
 					item={itemState}
 					close={closeModal}
+					getNewItem={getNewItem}
 					width={400}
 					height={500}
 				/>
@@ -77,6 +96,7 @@ export default function Images({ data, width, height }: ImagesProps) {
 				<Modal
 					item={itemState}
 					close={closeModal}
+					getNewItem={getNewItem}
 					width={800}
 					height={560}
 				/>
