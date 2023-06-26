@@ -10,9 +10,9 @@ export default function Footer() {
 		<ContainerBezova>
 			<div className="flex w-full flex-col items-center space-y-3">
 				<Image
-					className="w-[300px] pb-2 md:w-[425px]"
+					className="w-[300px] pb-2 md:w-[420px]"
 					alt="Zelené stavění logo"
-					width="425"
+					width="420"
 					height="60"
 					src="https://uploadthing.com/f/88dc353c-e7e5-4caa-a27c-5f228c000a41_logo.png"
 				/>
