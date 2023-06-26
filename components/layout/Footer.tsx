@@ -24,6 +24,7 @@ export default function Footer() {
 							className="border-b border-bezova hover:border-neutral-800"
 							href="tel:+420608974908"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							+420 608 974 908
 						</a>
@@ -34,6 +35,7 @@ export default function Footer() {
 							className="border-b border-bezova hover:border-neutral-800"
 							href="mailto:info@zelenestaveni.cz"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							info@zelenestaveni.cz
 						</a>

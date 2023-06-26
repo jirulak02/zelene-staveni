@@ -26,6 +26,7 @@ export default function Fungovani() {
 						className="border-b border-bezova text-zelena hover:border-zelena"
 						href="mailto:dotace@zelenestaveni.cz"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						dotace@zelenestaveni.cz
 					</a>

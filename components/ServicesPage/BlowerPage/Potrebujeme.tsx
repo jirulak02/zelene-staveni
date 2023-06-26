@@ -41,6 +41,7 @@ export default function Potrebujeme() {
 								className="border-b border-bezova text-zelena hover:border-zelena"
 								href="https://uploadthing.com/f/3fa7f6e4-22c2-4c53-a027-e62f40044ba5_blowerdoor_pravidla_rd.pdf"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								Více viz kapitola 6.3 Metodického pokynu zde
 							</a>

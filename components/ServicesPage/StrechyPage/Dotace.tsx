@@ -20,6 +20,7 @@ export default function Dotace() {
 							className="border-b border-neutral-100 text-zelena hover:border-zelena"
 							href="http://www.novazelenausporam.cz/"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							Nová zelená úsporám
 						</a>

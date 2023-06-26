@@ -54,6 +54,7 @@ export default function OurServices() {
 						className="border-b border-bezova text-zelena hover:border-zelena"
 						href="https://uploadthing.com/f/273a8f54-192f-40c8-9474-281e1245ea80_zelene_strechy_standardy.pdf"
 						target="_blank"
+						rel="noopener noreferrer"
 					>
 						standardy Zelených střech
 					</a>

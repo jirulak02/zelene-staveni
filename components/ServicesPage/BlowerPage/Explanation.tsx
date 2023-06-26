@@ -18,6 +18,7 @@ export default function Explanation() {
 							className="border-b border-neutral-100 text-zelena hover:border-zelena"
 							href="https://registrace.novazelenausporam.cz/vyhledavani/dodavatel/SOD7412/mgr-simecek-petr/"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							seznamu odborných dodavatelů
 						</a>{" "}
@@ -49,7 +50,7 @@ export default function Explanation() {
 						quality={100}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-						src="https://uploadthing.com/f/a0208a4e-7aed-4a40-a807-f2fdf31d9042_blowercircle.png"
+						src="https://uploadthing.com/f/6fcd6a31-bfeb-4d56-8601-9057f441d4ad_blowercircle.png"
 					/>
 				</div>
 				<div className="row-start-1 md:row-start-auto">
@@ -82,6 +83,7 @@ export default function Explanation() {
 								className="border-b border-neutral-100 text-zelena hover:border-zelena"
 								href="https://uploadthing.com/f/a41e8847-d592-4483-9074-f43b6151605b_protokol_ukazka_blowerdoor.pdf"
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								ZDE
 							</a>

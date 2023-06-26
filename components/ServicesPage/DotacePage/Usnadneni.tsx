@@ -21,6 +21,7 @@ export default function Usnadneni() {
 							className="border-b border-neutral-100 text-zelena hover:border-zelena"
 							href="https://registrace.novazelenausporam.cz/vyhledavani/dodavatel/SOD7412/mgr-simecek-petr/"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							registrováný odborný dodavatel
 						</a>{" "}
@@ -39,6 +40,7 @@ export default function Usnadneni() {
 							className="border-b border-neutral-100 text-zelena hover:border-zelena"
 							href="http://www.novazelenausporam.cz/"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							Nová zelená úsporám
 						</a>

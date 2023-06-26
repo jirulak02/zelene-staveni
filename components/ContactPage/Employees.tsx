@@ -12,6 +12,7 @@ export default function Employees() {
 							className="border-b border-neutral-100 hover:border-neutral-800"
 							href="tel:+420608974908"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							+420 608 974 908
 						</a>
@@ -22,6 +23,7 @@ export default function Employees() {
 							className="border-b border-neutral-100 hover:border-neutral-800"
 							href="mailto:simecek@zelenestaveni.cz"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							simecek@zelenestaveni.cz
 						</a>
@@ -47,6 +49,7 @@ export default function Employees() {
 							className="border-b border-neutral-100 hover:border-neutral-800"
 							href="tel:+420773225535"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							+420 773 225 535
 						</a>
@@ -57,6 +60,7 @@ export default function Employees() {
 							className="border-b border-neutral-100 hover:border-neutral-800"
 							href="mailto:krausova@zelenestaveni.cz"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							krausova@zelenestaveni.cz
 						</a>
@@ -82,6 +86,7 @@ export default function Employees() {
 							className="border-b border-neutral-100 hover:border-neutral-800"
 							href="tel:+420777898501"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							+420 777 898 501
 						</a>
@@ -92,6 +97,7 @@ export default function Employees() {
 							className="border-b border-neutral-100 hover:border-neutral-800"
 							href="mailto:dotace@zelenestaveni.cz"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							dotace@zelenestaveni.cz
 						</a>

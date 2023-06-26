@@ -19,6 +19,7 @@ function Header() {
 							className="border-b border-neutral-100 hover:border-zelena"
 							href="tel:+420608974908"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							608 974 908
 						</a>
@@ -36,6 +37,7 @@ function Header() {
 							className="border-b border-neutral-100 hover:border-zelena"
 							href="mailto:info@zelenestaveni.cz"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							info@zelenestaveni.cz
 						</a>
