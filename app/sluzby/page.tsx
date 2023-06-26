@@ -29,7 +29,7 @@ export default function Sluzby() {
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-								src="https://uploadthing.com/f/b6b46bf0-3b24-41e4-b15c-a2427e5a35fb_klokocna.png"
+								src="https://uploadthing.com/f/468ee74c-416f-4625-9d4a-359a92855562_strechy_sluzby.png"
 							/>
 						</div>
 						<div className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
@@ -83,7 +83,7 @@ export default function Sluzby() {
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-								src="https://uploadthing.com/f/cb34b41a-adb9-4205-b398-a7f052a86422_rko5.png"
+								src="https://uploadthing.com/f/74f65524-a186-4419-b836-b48006c900f2_korenovky_sluzby.png"
 							/>
 						</Reveal>
 					</div>
@@ -97,7 +97,7 @@ export default function Sluzby() {
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-								src="https://uploadthing.com/f/952afa6a-d900-459d-b39e-b619267a3070_bytovy_dum_velky.png"
+								src="https://uploadthing.com/f/e2e498dc-f3cb-469c-9475-8a4806c97245_blowerdoor_sluzby.png"
 							/>
 						</Reveal>
 						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
@@ -155,7 +155,7 @@ export default function Sluzby() {
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-								src="https://uploadthing.com/f/f94bf8dc-61c3-4574-ae59-b95ca908cdfd_budova_velka.png"
+								src="https://uploadthing.com/f/2fc25db7-2ca1-4a22-a8d9-bed01b4a84b9_termovize_sluzby.png"
 							/>
 						</Reveal>
 					</div>
@@ -169,7 +169,7 @@ export default function Sluzby() {
 								className="object-cover"
 								placeholder="blur"
 								blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-								src="https://uploadthing.com/f/730e35a9-00ed-44e6-a622-0efac7da8d80_dotace_sluzby.png"
+								src="https://uploadthing.com/f/ec841236-3dfd-4ff0-85e8-1d27fcdfe034_dotace_sluzby.png"
 							/>
 						</Reveal>
 						<Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">

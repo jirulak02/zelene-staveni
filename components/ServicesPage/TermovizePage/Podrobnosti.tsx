@@ -10,12 +10,12 @@ export default function Vysvetleni() {
 					<Image
 						className="m-auto rounded-full md:w-[350px]"
 						alt="Ukázka měření termokamerou"
-						width={250}
-						height={250}
+						width={350}
+						height={350}
 						quality={100}
 						placeholder="blur"
 						blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-						src="https://uploadthing.com/f/e814bfc0-4853-4f4f-b2d9-800c3edc7fe3_ir11circle.png"
+						src="https://uploadthing.com/f/34ba025e-b2d3-4b44-beac-fbba8da75f9b_ir11circle.png"
 					/>
 				</div>
 				<div className="space-y-6 md:col-span-2">

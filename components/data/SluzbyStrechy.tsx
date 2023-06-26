@@ -26,42 +26,42 @@ export const dataPrace = [
 	{
 		id: "data_sluzby_strechy_prace_1",
 		alt: "Ukázka našich zdatných pracovníků na střeše",
-		url: "https://uploadthing.com/f/5f8cf8c6-daa8-4365-aa67-8096821aeb3f_prace1.png",
+		url: "https://uploadthing.com/f/446bedc1-6efe-4448-8cfe-99c3f20f0e2c_prace1.png",
 	},
 	{
 		id: "data_sluzby_strechy_prace_2",
 		alt: "Ukázka našich zdatných pracovníků na střeše",
-		url: "https://uploadthing.com/f/d3750751-1007-46d1-ade0-f548337fe1e9_prace2.png",
+		url: "https://uploadthing.com/f/3a74a32b-f410-49f3-aa54-874a7204ac17_prace2.png",
 	},
 	{
 		id: "data_sluzby_strechy_prace_3",
 		alt: "Ukázka našich zdatných pracovníků na střeše",
-		url: "https://uploadthing.com/f/65f53e8a-8f11-4899-8155-d01f37833fd7_prace3.png",
+		url: "https://uploadthing.com/f/8d1ae73d-9d1b-4b0a-b781-28cd25491a10_prace3.png",
 	},
 	{
 		id: "data_sluzby_strechy_prace_4",
 		alt: "Ukázka našich zdatných pracovníků na střeše",
-		url: "https://uploadthing.com/f/93372d23-3a6d-47f1-9745-655c3a179dff_prace4.png",
+		url: "https://uploadthing.com/f/e432b56a-3fe4-466f-8f66-d71b3d3078f8_prace4.png",
 	},
 	{
 		id: "data_sluzby_strechy_prace_5",
 		alt: "Ukázka našich zdatných pracovníků na střeše",
-		url: "https://uploadthing.com/f/597e4452-fbaf-43b0-a294-448d6bf1401f_prace5.png",
+		url: "https://uploadthing.com/f/1d10fa52-e4b1-4d34-bb81-6ebf8e0b000a_prace5.png",
 	},
 	{
 		id: "data_sluzby_strechy_prace_6",
 		alt: "Ukázka našich zdatných pracovníků na střeše",
-		url: "https://uploadthing.com/f/46a152fd-f34f-473a-942c-07056d86e69b_prace6.png",
+		url: "https://uploadthing.com/f/a659b74c-26b6-4ca4-944b-99852da904fd_prace6.png",
 	},
 	{
 		id: "data_sluzby_strechy_prace_7",
 		alt: "Ukázka našich zdatných pracovníků na střeše",
-		url: "https://uploadthing.com/f/04c3ba9b-caeb-4de1-b771-b0dae1feef09_prace7.png",
+		url: "https://uploadthing.com/f/77cca716-3159-47b2-8914-6a2afd128c48_prace7.png",
 	},
 	{
 		id: "data_sluzby_strechy_prace_8",
 		alt: "Ukázka našich zdatných pracovníků na střeše",
-		url: "https://uploadthing.com/f/0e373706-e58b-4547-8df0-9bdb8a7ec9bf_prace8.png",
+		url: "https://uploadthing.com/f/cf902394-562d-4b88-a38b-4074bbd02ff7_prace8.png",
 	},
 ];
 
@@ -88,37 +88,37 @@ export const dataStrechy = [
 		id: "data_sluzby_strechy_1",
 		name: "Načeradec",
 		alt: "Ukázka realizace zelené střechy v Načeradci",
-		url: "https://uploadthing.com/f/a0451f2e-31b6-42c7-853d-8d7f88dcaa38_naceradec.png",
+		url: "https://uploadthing.com/f/a208f3c1-60b5-4506-81c3-51d7e007be14_naceradec.png",
 	},
 	{
 		id: "data_sluzby_strechy_2",
 		name: "Radotín",
 		alt: "Ukázka realizace zelené střechy v Radotíně",
-		url: "https://uploadthing.com/f/c1153aad-d203-4d38-8fd5-406c39fcdaa2_radotin.png",
+		url: "https://uploadthing.com/f/43b3905c-c39b-4ad8-ab61-c71b4eb22126_radotin.png",
 	},
 	{
 		id: "data_sluzby_strechy_3",
 		name: "Ostřešany",
 		alt: "Ukázka realizace zelené střechy v Ostřešanech",
-		url: "https://uploadthing.com/f/8e3689a5-a2d2-4c11-a23a-c3680d4e67c3_ostresany.png",
+		url: "https://uploadthing.com/f/d6df12a6-e46c-4827-a9f0-80d6fc3fc0c9_ostresany.png",
 	},
 	{
 		id: "data_sluzby_strechy_4",
 		name: "Kunratice",
 		alt: "Ukázka realizace zelené střechy v Kunraticích",
-		url: "https://uploadthing.com/f/6cce81ef-6a01-4c6a-bbbb-98ea2e74a11a_nalada.png",
+		url: "https://uploadthing.com/f/724b0d5a-067b-458c-a5b8-cb36b4856969_nalada.png",
 	},
 	{
 		id: "data_sluzby_strechy_5",
 		name: "Klokočná",
 		alt: "Ukázka realizace zelené střechy v Klokočné",
-		url: "https://uploadthing.com/f/b6b46bf0-3b24-41e4-b15c-a2427e5a35fb_klokocna.png",
+		url: "https://uploadthing.com/f/5c912b62-5f64-447e-9e55-b2072ed02687_klokocna.png",
 	},
 	{
 		id: "data_sluzby_strechy_6",
 		name: "Křivoklát",
 		alt: "Ukázka realizace zelené střechy v Křivoklátě",
-		url: "https://uploadthing.com/f/555bd2cb-783e-44bc-a890-f42d316b9358_krivoklat.png",
+		url: "https://uploadthing.com/f/608938fd-cceb-4562-9237-27ab43ba5f3a_krivoklat.png",
 	},
 ];
 
@@ -126,31 +126,31 @@ export const dataKytky = [
 	{
 		id: "data_sluzby_strechy_kytky_1",
 		alt: "Ukázka našich překrásných rostlin",
-		url: "https://uploadthing.com/f/2516a892-dca2-4a44-ac51-3c3395238944_kytky1.png",
+		url: "https://uploadthing.com/f/7cf0983b-e27a-4a19-934f-ebd8794e1b5d_kytky1.png",
 	},
 	{
 		id: "data_sluzby_strechy_kytky_2",
 		alt: "Ukázka našich překrásných rostlin",
-		url: "https://uploadthing.com/f/2a23ea91-c165-45ee-bcb5-b66401e82e63_plantaz1.png",
+		url: "https://uploadthing.com/f/5f295553-e693-4457-8b38-ae6e6e44235d_plantaz1.png",
 	},
 	{
 		id: "data_sluzby_strechy_kytky_3",
 		alt: "Ukázka našich překrásných rostlin",
-		url: "https://uploadthing.com/f/3647d147-b9e6-46b8-ae9c-d79e9c47c5e2_plantaz2.png",
+		url: "https://uploadthing.com/f/7cda6848-7a77-408a-a8a5-f79c5ae1e2d6_plantaz2.png",
 	},
 	{
 		id: "data_sluzby_strechy_kytky_4",
 		alt: "Ukázka našich překrásných rostlin",
-		url: "https://uploadthing.com/f/745aa020-a5e2-4dc8-b766-dbcc418b8b00_kytky2.png",
+		url: "https://uploadthing.com/f/97992469-bb77-4ef3-ba29-e12a939e1bb1_kytky2.png",
 	},
 	{
 		id: "data_sluzby_strechy_kytky_5",
 		alt: "Ukázka našich překrásných rostlin",
-		url: "https://uploadthing.com/f/6354b653-45dc-4df7-9a1f-396fd5e9dbd5_kytky3.png",
+		url: "https://uploadthing.com/f/67c79318-7ce7-4a99-81a1-3d0d076ad0eb_kytky3.png",
 	},
 	{
 		id: "data_sluzby_strechy_kytky_6",
 		alt: "Ukázka našich překrásných rostlin",
-		url: "https://uploadthing.com/f/20c27901-d202-42d9-b3d8-022b3535ec0a_kytky4.png",
+		url: "https://uploadthing.com/f/310b9db0-4fae-4d4b-935f-1756df4bf30a_kytky4.png",
 	},
 ];

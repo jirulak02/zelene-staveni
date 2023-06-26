@@ -39,7 +39,7 @@ export default function Dotace() {
 					quality={100}
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-					src="https://uploadthing.com/f/d2e86f21-10f0-478b-bc11-861adcaa8604_nzu.png"
+					src="https://uploadthing.com/f/c7234a1b-6321-4eda-9ff2-178cc9c27355_nzu.png"
 				/>
 			</div>
 		</ContainerBila>

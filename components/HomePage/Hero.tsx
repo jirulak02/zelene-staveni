@@ -29,10 +29,10 @@ export default function Hero() {
 				<Image
 					style={{ width: "1280px" }}
 					alt="Zkrášlovací prvek trávy"
-					width={1440}
-					height={20}
+					width={1280}
+					height={18}
 					priority
-					src="https://uploadthing.com/f/9cf7d25b-ef5b-4d2c-af1e-bff3321a4813_grass.png"
+					src="https://uploadthing.com/f/9f519bb7-eb54-4d37-b958-b7da531941df_grass.png"
 				/>
 				<div className="-mt-1 grid grid-cols-1 bg-neutral-100 shadow-lg shadow-neutral-400 sm:grid-cols-2 lg:grid-cols-4">
 					<div className="flex flex-col items-center space-y-2 border-b-2 border-neutral-300 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 sm:border-r-2 lg:my-10 lg:border-b-0 lg:px-10">

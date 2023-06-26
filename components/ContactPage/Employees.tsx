@@ -35,7 +35,7 @@ export default function Employees() {
 					quality={100}
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-					src="https://uploadthing.com/f/501c7f3e-f1d9-4381-b93a-5e898a2dc19c_petr.png"
+					src="https://uploadthing.com/f/e279f5dd-aeaa-46f8-abd9-6e17f52f35c3_petr.png"
 				/>
 			</div>
 			<div className="grid grid-cols-1 gap-3 text-center">
@@ -70,7 +70,7 @@ export default function Employees() {
 					quality={100}
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-					src="https://uploadthing.com/f/1f19ac60-e620-4ba2-bbe8-5a4015bd8b8f_simona.png"
+					src="https://uploadthing.com/f/1197a86b-3f7e-400d-a8a3-135f5cc29731_simona.png"
 				/>
 			</div>
 			<div className="grid grid-cols-1 gap-3 text-center">
@@ -105,7 +105,7 @@ export default function Employees() {
 					quality={100}
 					placeholder="blur"
 					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-					src="https://uploadthing.com/f/2c83f1f7-0888-456e-a462-6a585d2f30b8_jirka.png"
+					src="https://uploadthing.com/f/44fc68f8-9525-4ee2-b973-97adb6346b5f_jirka.png"
 				/>
 			</div>
 		</div>

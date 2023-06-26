@@ -89,7 +89,9 @@ export default function ContactForm() {
 			jmenoBlurHandler();
 			emailBlurHandler();
 			telBlurHandler();
-			setCheckboxHasError(true);
+			if (!checkbox) {
+				setCheckboxHasError(true);
+			}
 			return;
 		}
 
@@ -183,7 +185,7 @@ export default function ContactForm() {
 						type="email"
 						id="email"
 						name="email"
-						placeholder="info@zelenestaveni.cz"
+						placeholder="simecek@zelenestaveni.cz"
 						autoComplete="email"
 					/>
 					{emailHasError && (
