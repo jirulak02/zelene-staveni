@@ -41,7 +41,7 @@ export const dataSkladba = [
 		name: "3. Kořenový filtr",
 		description:
 			"Z pulzní šachty proudí odpadní voda potrubím do kořenového filtračního pole. Je to stavebně mělká zemní nádrž, 80 cm hluboká. Dno se sklonem 1% a boky nádrže jsou kryty hydroizolační fólií. Plocha filtru se dimenzuje tak, aby na každého obyvatele připadalo alespoň 5 m2. Filtr je tvořen oblázky různých frakcí. Nádrž je naplněna vodou cca 10 cm pod povrchem filtru. Je tak vyloučeno, že se v nádrži budou líhnout komáři. V kořenovém poli jsou osázeny mokřadní rostliny jako například: kosatec žlutý, kosatec sibiřský, tužebník jilmový, sítina rozkladitá, skřípina lesní. Na kořenech rostlin žijí bakterie, které aerobním procesem rozkládají nečistoty.",
-		url: "https://uploadthing.com/f/951cd42c-4e70-4c90-a289-a3f66ae906fb_rko2.png",
+		url: "https://uploadthing.com/f/9dccee66-8ba6-4753-b945-23bdc8c60de4_rko2.png",
 	},
 	{
 		id: "data_sluzby_korenovky_skladba_4",
