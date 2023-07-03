@@ -22,10 +22,6 @@ function Navbar() {
 	const [white, setWhite] = useState(true);
 	const pathname = usePathname();
 
-	const isTouchDevice =
-		typeof window !== "undefined" &&
-		window.matchMedia("(pointer: coarse)").matches;
-
 	useEffect(() => {
 		setWhite(paths.includes(pathname));
 	}, [pathname]);
@@ -127,21 +123,14 @@ function Navbar() {
 					</button>
 					<div className="relative ml-0">
 						<button
-							onFocus={() => {
-								if (!isTouchDevice) {
-									openSluzbyHandler();
-								}
-							}}
 							onBlur={async () =>
 								await setTimeout(
 									() => setOpenSluzby(false),
 									500
 								)
 							}
-							onTouchStart={() => {
-								if (isTouchDevice) {
-									openSluzbyHandler();
-								}
+							onMouseDown={() => {
+								openSluzbyHandler();
 							}}
 							className={`block w-full rounded-xl px-3 py-4 text-left hover:bg-neutral-200 sm:rounded-none sm:hover:bg-transparent ${
 								white && "sm:text-neutral-100"
