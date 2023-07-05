@@ -39,7 +39,7 @@ export default function Potrebujeme() {
 						<li>
 							<a
 								className="border-b border-bezova text-zelena hover:border-zelena"
-								href="https://uploadthing.com/f/3fa7f6e4-22c2-4c53-a027-e62f40044ba5_blowerdoor_pravidla_rd.pdf"
+								href="https://uploadthing.com/f/80ffe9a8-1dee-4efc-a55f-4d9a2198d4b3_blowerdoor_pravidla_rd.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 							>

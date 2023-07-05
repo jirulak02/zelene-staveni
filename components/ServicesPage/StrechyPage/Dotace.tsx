@@ -18,7 +18,7 @@ export default function Dotace() {
 						dozvíte na stránkách{" "}
 						<a
 							className="border-b border-neutral-100 text-zelena hover:border-zelena"
-							href="http://www.novazelenausporam.cz/"
+							href="https://www.novazelenausporam.cz/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

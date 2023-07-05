@@ -13,8 +13,8 @@ export const messages = [
 		name: "Možnost dodání pouze materiálu včetně rostlin.",
 	},
 	{
-		title: "Zprostředkování dotace",
-		name: "Zajistíme kompletní vyřízení dotace na střechu.",
+		title: "Dotace",
+		name: "Obstaráme kompletní technickou dokumentaci k dotaci na střechu.",
 	},
 	{
 		title: "Údržba střechy",

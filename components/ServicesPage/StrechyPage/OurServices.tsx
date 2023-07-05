@@ -52,7 +52,7 @@ export default function OurServices() {
 					Dodržujeme{" "}
 					<a
 						className="border-b border-bezova text-zelena hover:border-zelena"
-						href="https://uploadthing.com/f/273a8f54-192f-40c8-9474-281e1245ea80_zelene_strechy_standardy.pdf"
+						href="https://uploadthing.com/f/ab8783bf-6134-4c7d-8b2b-cc7eda10b400_zelene_strachy_standardy.pdf"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

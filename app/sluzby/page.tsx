@@ -36,7 +36,7 @@ export default function Sluzby() {
 							alt="Ikona skalničky"
 							img="https://uploadthing.com/f/e3b98002-4bf2-4acc-8f1c-be888af923e2_flowers.png"
 							heading="ZELENÉ STŘECHY"
-							text="Zelené střechy ukládají vodu, vážou prach a nezahřívají se. Realizujeme zelené střechy od A do Z. Vyřídíme i dotaci Nová zelená úsporám."
+							text="Zelené střechy ukládají vodu, vážou prach a nezahřívají se. Realizujeme zelené střechy od A do Z. Pomůžeme i s dotací Nová zelená úsporám."
 							href="/sluzby/zelene-strechy"
 						/>
 					</div>
@@ -128,7 +128,7 @@ export default function Sluzby() {
 							alt="Ikona fénu"
 							img="https://uploadthing.com/f/8b8ac783-5332-40bc-8707-8f157dabc550_analytics.png"
 							heading="Dotace"
-							text="Nechte si usnadnit cestu k získání finanční podpory na vaši střechu. Dotaci k programu Nová zelená úsporám Vám bezstarostně komplet vyřídíme."
+							text="Nechte si usnadnit cestu k získání finanční podpory na vaši střechu. Pro dotaci programu Nová zelená úsporám Vám dodáme kompletní potřebnou dokumentaci."
 							href="/sluzby/dotace"
 						/>
 					</Reveal>

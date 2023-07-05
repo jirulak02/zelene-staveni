@@ -62,7 +62,7 @@ export default function Achievments() {
 						className="text-6xl text-zelena sm:text-7xl"
 					/>
 					<h3 className="text-zelena">PROJEKTŮ NZÚ</h3>
-					<p>Vyřídíme celý proces získání dotace za Vás.</p>
+					<p>Dodáme potřebné dokumenty pro získání dotace.</p>
 				</div>
 			</div>
 		</ContainerBezova>

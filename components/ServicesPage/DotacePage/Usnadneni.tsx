@@ -25,20 +25,45 @@ export default function Usnadneni() {
 						>
 							registrováný odborný dodavatel
 						</a>{" "}
-						projektu Nová zelená úsporám komplet vyřídíme.
+						projektu Nová zelená úsporám pomůžeme vyřídit.
+					</p>
+					<p>
+						Bohužel od července 2023 lze dotace na zelenou střechu
+						podávát zase{" "}
+						<span className="font-semibold">
+							jen spolu s další oblastní podpory
+						</span>
+						. Mezi ty patří:
+						<ul className="list-disc pl-5">
+							<li>Oblast A - zateplení</li>
+							<li>Oblast B - novostavba</li>
+							<li>Oblast C.1 - výměna zdrojů tepla</li>
+							<li>Oblast C.2 - příprava teplé vody</li>
+							<li>Oblast C.3 - fotovoltaické systémy</li>
+							<li>Oblast C.4 - větrání</li>
+						</ul>
 					</p>
 					<p>
 						Dotace činí{" "}
-						<span className="font-semibold">700-1000 Kč/m²</span>{" "}
+						<span className="font-semibold">800-1000 Kč/m²</span>{" "}
 						zelené střechy s maximální výší dotace{" "}
 						<span className="font-semibold">100 000 Kč</span>. Cena
 						zelené střechy tedy nemusí být vysoká.
 					</p>
 					<p>
-						Více o dotacích se dozvíte na stránkách{" "}
+						Více o dotacích se dozvíte v aktuálních{" "}
 						<a
 							className="border-b border-neutral-100 text-zelena hover:border-zelena"
-							href="http://www.novazelenausporam.cz/"
+							href="https://uploadthing.com/f/7b4abbc4-9a5b-4c96-9550-da7c7802e2f1_Z%C3%A1vazn%C3%A9%20pokyny.pdf"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							závazných pokynech pro žadatele
+						</a>
+						, nebo přímo na stránkách{" "}
+						<a
+							className="border-b border-neutral-100 text-zelena hover:border-zelena"
+							href="https://www.novazelenausporam.cz/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>

@@ -7,21 +7,19 @@ export default function Fungovani() {
 			<div className="mx-auto mt-4 max-w-xl space-y-4 md:mt-8 md:space-y-4">
 				<p>
 					Náš tým odborníků v oblasti stavebnictví a dotací se postará
-					o kompletní administrativní proces. Připravíme a podáme
-					žádost o dotaci, předložíme potřebnou dokumentaci a
-					zajistíme veškeré formality spojené s procesem získávání
-					státní podpory.
+					o kompletní technickou dokumentaci, kterou budete potřebovat
+					k vyřízení dotace.
 				</p>
 				<p>
-					S naším know-how a zkušenostmi se vyhnete zbytečnému stresu
-					a minimalizujete papírování.
+					Podání dotace Vám vyřídí firma, která Vám zařizuje hlavní
+					oblast podpory.
 				</p>
 				<p>
-					Celý proces i se schválením dotace od úřadů trvá shruba tři
-					měsíce od dokončení stavby střechy.
+					My ale celý proces dobře známe, takže Vám rádi s čímkoli
+					pomůžeme.
 				</p>
 				<p>
-					V případě dotazů ohledně dotace pište na email{" "}
+					V případě dotazů ohledně dotací pište na email{" "}
 					<a
 						className="border-b border-bezova text-zelena hover:border-zelena"
 						href="mailto:dotace@zelenestaveni.cz"
@@ -29,6 +27,15 @@ export default function Fungovani() {
 						rel="noopener noreferrer"
 					>
 						dotace@zelenestaveni.cz
+					</a>{" "}
+					nebo volejte na{" "}
+					<a
+						className="border-b border-bezova text-zelena hover:border-zelena"
+						href="tel:+420777898501"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						777 898 501
 					</a>
 					.
 				</p>
