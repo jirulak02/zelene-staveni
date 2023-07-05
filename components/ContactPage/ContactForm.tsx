@@ -80,6 +80,12 @@ export default function ContactForm() {
 		}
 	}
 
+	function escapeHtml(input: string) {
+		let tempDiv = document.createElement("div");
+		tempDiv.appendChild(document.createTextNode(input));
+		return tempDiv.innerHTML;
+	}
+
 	async function onFormSubmitHandler(
 		event: React.FormEvent<HTMLFormElement>
 	) {
@@ -96,14 +102,14 @@ export default function ContactForm() {
 		}
 
 		const data = {
-			jmeno,
-			email,
-			tel,
-			obec,
-			adresa,
-			psc,
-			select,
-			zprava,
+			jmeno: escapeHtml(jmeno),
+			email: escapeHtml(email),
+			tel: escapeHtml(tel),
+			obec: escapeHtml(obec),
+			adresa: escapeHtml(adresa),
+			psc: escapeHtml(psc),
+			select: escapeHtml(select),
+			zprava: escapeHtml(zprava),
 		};
 
 		setError(false);

@@ -45,7 +45,6 @@ function Navbar() {
 			<div className="relative flex h-20 items-center justify-between">
 				<Link href="/" className="pb-2">
 					<Image
-						className=""
 						alt="Zelené stavění logo"
 						width={210}
 						height={30}
