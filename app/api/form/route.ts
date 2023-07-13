@@ -6,14 +6,14 @@ type FieldsType = {
 };
 
 const ContactMessageFields: FieldsType = {
-	jmeno: "Jméno a příjmení:",
+	name: "Jméno a příjmení:",
 	email: "Email:",
 	tel: "Telefon:",
-	obec: "Obec:",
-	adresa: "Adresa:",
-	psc: "PSČ:",
+	town: "Obec:",
+	address: "Adresa:",
+	postal: "PSČ:",
 	select: "Téma:",
-	zprava: "Zpráva:",
+	message: "Zpráva:",
 };
 
 function generateEmailContent(data: Data) {
@@ -34,7 +34,7 @@ function generateEmailContent(data: Data) {
 
 export async function POST(req: Request) {
 	const data: Data = await req.json();
-	if (!data.jmeno || !data.email || !data.tel || !data.select) {
+	if (!data.name || !data.email || !data.tel || !data.select) {
 		return new Response("Neplatný formulář", {
 			status: 400,
 		});

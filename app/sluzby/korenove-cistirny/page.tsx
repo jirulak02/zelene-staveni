@@ -1,7 +1,7 @@
 import ScrollUp from "@/components/layout/ScrollUp";
-import Realizace from "@/components/ServicesPage/Korenovky/Realizace";
-import SkladbaKorenovky from "@/components/ServicesPage/Korenovky/SkladbaKorenovky";
-import Zajistime from "@/components/ServicesPage/Korenovky/Zajistime";
+import Realization from "@/components/ServicesPage/Korenovky/Realization";
+import Composition from "@/components/ServicesPage/Korenovky/Composition";
+import Details from "@/components/ServicesPage/Korenovky/Details";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
 
 export const metadata = {
@@ -18,9 +18,9 @@ export default function Korenovky() {
 				name="Kořenové čistírny"
 				url="https://uploadthing.com/f/adeba4cf-aea7-4929-96f3-1d0fc91ba9b5_korenovky_hero.jpg"
 			/>
-			<Zajistime />
-			<Realizace />
-			<SkladbaKorenovky />
+			<Details />
+			<Realization />
+			<Composition />
 		</>
 	);
 }

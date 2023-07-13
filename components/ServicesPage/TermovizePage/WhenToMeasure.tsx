@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import ContainerBezova from "@/components/layout/ContainerBezova";
 
-export default function Vysvetleni() {
+export default function WhenToMeasure() {
 	return (
 		<ContainerBezova>
 			<div className="grid grid-cols-1 gap-2 md:grid-cols-3">

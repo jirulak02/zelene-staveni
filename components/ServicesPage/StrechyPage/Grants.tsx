@@ -3,7 +3,7 @@ import Image from "next/image";
 import Button from "@/components/ui/Button";
 import ContainerBila from "@/components/layout/ContainerBila";
 
-export default function Dotace() {
+export default function Grants() {
 	return (
 		<ContainerBila>
 			<div className="grid grid-cols-1 gap-2 space-y-6 md:grid-cols-2 md:space-y-0">

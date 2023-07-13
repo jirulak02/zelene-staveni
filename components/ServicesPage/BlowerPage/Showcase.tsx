@@ -1,4 +1,4 @@
-import { dataRealizace } from "@/components/data/SluzbyBlowerdoor";
+import { dataRealization } from "@/components/data/ServicesBlowerdoor";
 import ContainerBila from "@/components/layout/ContainerBila";
 import Images from "@/components/layout/Images";
 
@@ -13,7 +13,7 @@ export default function Showcase() {
 					Měření provádíme i v bytových domech nebo průmyslových
 					objektech, kde je potřeba použít více měřících souprav.
 				</p>
-				<Images data={dataRealizace} width={200} height={250} />
+				<Images data={dataRealization} width={200} height={250} />
 			</div>
 		</ContainerBila>
 	);

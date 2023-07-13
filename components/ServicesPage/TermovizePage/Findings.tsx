@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import ContainerBila from "@/components/layout/ContainerBila";
 
-export default function Zjistime() {
+export default function Findings() {
 	return (
 		<ContainerBila>
 			<h2 className="mb-4 text-zelena md:mb-6">Co lze měřením zjistit</h2>

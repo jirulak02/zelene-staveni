@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import ContainerBila from "@/components/layout/ContainerBila";
 
-export default function Usnadneni() {
+export default function Details() {
 	return (
 		<ContainerBila>
 			<h2 className="text-center text-zelena">

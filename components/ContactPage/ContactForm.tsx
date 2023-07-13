@@ -11,12 +11,12 @@ export default function ContactForm() {
 	const [error, setError] = useState(false);
 	const [sent, setSent] = useState(false);
 	const {
-		value: jmeno,
-		isValid: jmenoIsValid,
-		hasError: jmenoHasError,
-		valueChangeHandler: jmenoChangeHandler,
-		inputBlurHandler: jmenoBlurHandler,
-		reset: jmenoReset,
+		value: name,
+		isValid: nameIsValid,
+		hasError: nameHasError,
+		valueChangeHandler: nameChangeHandler,
+		inputBlurHandler: nameBlurHandler,
+		reset: nameReset,
 	} = useInput((value) => value.trim() !== "");
 	const {
 		value: email,
@@ -34,30 +34,30 @@ export default function ContactForm() {
 		inputBlurHandler: telBlurHandler,
 		reset: telReset,
 	} = useInput((value) => value.trim().length > 8);
-	const [obec, setObec] = useState("");
-	const [adresa, setAdresa] = useState("");
-	const [psc, setPsc] = useState("");
+	const [town, setTown] = useState("");
+	const [address, setAddress] = useState("");
+	const [postal, setPostal] = useState("");
 	const [select, setSelect] = useState("zelene-strechy");
-	const [zprava, setZprava] = useState("");
+	const [message, setMessage] = useState("");
 	const [checkbox, setCheckbox] = useState(false);
 	const [checkboxHasError, setCheckboxHasError] = useState(false);
 
 	let formIsValid = false;
 
-	if (jmenoIsValid && emailIsValid && telIsValid && checkbox) {
+	if (nameIsValid && emailIsValid && telIsValid && checkbox) {
 		formIsValid = true;
 	}
 
 	function obecChangeHandler(event: React.ChangeEvent<HTMLInputElement>) {
-		setObec(event.target.value);
+		setTown(event.target.value);
 	}
 
 	function adresaChangeHandler(event: React.ChangeEvent<HTMLInputElement>) {
-		setAdresa(event.target.value);
+		setAddress(event.target.value);
 	}
 
 	function pscChangeHandler(event: React.ChangeEvent<HTMLInputElement>) {
-		setPsc(event.target.value);
+		setPostal(event.target.value);
 	}
 
 	function selectChangeHandler(event: React.ChangeEvent<HTMLSelectElement>) {
@@ -67,7 +67,7 @@ export default function ContactForm() {
 	function zpravaChangeHandler(
 		event: React.ChangeEvent<HTMLTextAreaElement>
 	) {
-		setZprava(event.target.value);
+		setMessage(event.target.value);
 	}
 
 	function checkboxChangeHandler(event: React.ChangeEvent<HTMLInputElement>) {
@@ -92,7 +92,7 @@ export default function ContactForm() {
 		event.preventDefault();
 
 		if (!formIsValid) {
-			jmenoBlurHandler();
+			nameBlurHandler();
 			emailBlurHandler();
 			telBlurHandler();
 			if (!checkbox) {
@@ -102,14 +102,14 @@ export default function ContactForm() {
 		}
 
 		const data = {
-			jmeno: escapeHtml(jmeno),
+			name: escapeHtml(name),
 			email: escapeHtml(email),
 			tel: escapeHtml(tel),
-			obec: escapeHtml(obec),
-			adresa: escapeHtml(adresa),
-			psc: escapeHtml(psc),
+			town: escapeHtml(town),
+			address: escapeHtml(address),
+			postal: escapeHtml(postal),
 			select: escapeHtml(select),
-			zprava: escapeHtml(zprava),
+			message: escapeHtml(message),
 		};
 
 		setError(false);
@@ -126,14 +126,14 @@ export default function ContactForm() {
 			})
 			.then(() => {
 				setIsSpinning(false);
-				jmenoReset();
+				nameReset();
 				emailReset();
 				telReset();
-				setObec("");
-				setAdresa("");
-				setPsc("");
+				setTown("");
+				setAddress("");
+				setPostal("");
 				setSelect("zelene-strechy");
-				setZprava("");
+				setMessage("");
 				setCheckbox(false);
 				setCheckboxHasError(false);
 			});
@@ -144,28 +144,28 @@ export default function ContactForm() {
 			<div className="grid grid-cols-1 sm:grid-cols-2">
 				<div
 					className={`flex flex-col sm:mr-2 ${
-						!jmenoHasError && "mb-5"
+						!nameHasError && "mb-5"
 					}`}
 				>
-					<label htmlFor="jmeno" className="ml-4">
+					<label htmlFor="name" className="ml-4">
 						<span className="text-red-500">*</span>Jméno a příjmení:
 					</label>
 					<input
 						className={`rounded-3xl border-2 px-5 py-3 ${
-							jmenoHasError
+							nameHasError
 								? "border-red-500 hover:border-red-500 focus:border-red-500"
 								: "hover:border-zelena focus:border-zelena"
 						}`}
-						value={jmeno}
-						onChange={jmenoChangeHandler}
-						onBlur={jmenoBlurHandler}
+						value={name}
+						onChange={nameChangeHandler}
+						onBlur={nameBlurHandler}
 						type="text"
-						id="jmeno"
-						name="jmeno"
+						id="name"
+						name="name"
 						placeholder="Petr Šimeček"
 						autoComplete="name"
 					/>
-					{jmenoHasError && (
+					{nameHasError && (
 						<p className="pl-6 text-sm text-red-500">
 							Jméno nemůže být prázdné.
 						</p>
@@ -230,48 +230,48 @@ export default function ContactForm() {
 					)}
 				</div>
 				<div className="mb-5 flex flex-col sm:ml-2">
-					<label htmlFor="obec" className="ml-5">
+					<label htmlFor="town" className="ml-5">
 						Obec:
 					</label>
 					<input
 						className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-						value={obec}
+						value={town}
 						onChange={obecChangeHandler}
 						type="text"
-						id="obec"
-						name="obec"
+						id="town"
+						name="town"
 						placeholder="Tehov"
 						autoComplete="address-level2"
 					/>
 				</div>
 				<div className="mb-5 flex flex-col sm:mr-2">
-					<label htmlFor="adresa" className="ml-6">
+					<label htmlFor="address" className="ml-6">
 						Adresa:
 					</label>
 					<input
 						className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-						value={adresa}
+						value={address}
 						onChange={adresaChangeHandler}
 						type="text"
-						id="adresa"
-						name="adresa"
+						id="address"
+						name="address"
 						placeholder="Panská 212"
 						autoComplete="address-line1"
 					/>
 				</div>
 				<div className="mb-5 flex flex-col sm:ml-2">
-					<label htmlFor="psc" className="ml-5">
+					<label htmlFor="postal" className="ml-5">
 						PSČ:
 					</label>
 					<input
 						className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-						value={psc}
+						value={postal}
 						onChange={pscChangeHandler}
 						type="number"
 						min={0}
 						max={99999}
-						id="psc"
-						name="psc"
+						id="postal"
+						name="postal"
 						placeholder="25101"
 						autoComplete="postal-code"
 					/>
@@ -297,15 +297,15 @@ export default function ContactForm() {
 				</select>
 			</div>
 			<div className="mb-2 flex flex-col">
-				<label htmlFor="zprava" className="ml-5">
+				<label htmlFor="message" className="ml-5">
 					Vaše zpráva:
 				</label>
 				<textarea
 					className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-					value={zprava}
+					value={message}
 					onChange={zpravaChangeHandler}
 					placeholder="Doplňte co potřebujete"
-					id="zprava"
+					id="message"
 					rows={6}
 				/>
 			</div>

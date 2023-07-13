@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import ContainerBezova from "@/components/layout/ContainerBezova";
 
-export default function Netesnost() {
+export default function Detection() {
 	return (
 		<ContainerBezova>
 			<div className="space-y-5">

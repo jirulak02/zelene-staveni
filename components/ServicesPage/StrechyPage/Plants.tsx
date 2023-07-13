@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-import { dataKytky } from "@/components/data/SluzbyStrechy";
+import { dataPlants } from "@/components/data/ServicesStrechy";
 import ContainerBezova from "@/components/layout/ContainerBezova";
 import Images from "@/components/layout/Images";
 
-export default function Plantaz() {
+export default function Plants() {
 	return (
 		<ContainerBezova>
 			<div className="flex flex-col space-y-3 md:space-y-5">
@@ -23,7 +23,7 @@ export default function Plantaz() {
 					/>
 				</div>
 				<h3 className="text-center text-hneda">Máme vlastní plantáž</h3>
-				<Images data={dataKytky} width={200} height={150} />
+				<Images data={dataPlants} width={200} height={150} />
 			</div>
 		</ContainerBezova>
 	);

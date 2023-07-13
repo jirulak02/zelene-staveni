@@ -1,6 +1,6 @@
 import ContainerBezova from "@/components/layout/ContainerBezova";
 
-export default function Fungovani() {
+export default function HowItWorks() {
 	return (
 		<ContainerBezova>
 			<h3 className="text-center text-hneda">Jak to funguje</h3>

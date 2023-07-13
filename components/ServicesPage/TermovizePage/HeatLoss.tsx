@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import ContainerBila from "@/components/layout/ContainerBila";
 
-export default function Unik() {
+export default function HeatLoss() {
 	return (
 		<ContainerBila>
 			<div className="grid grid-cols-1 gap-2 md:grid-cols-3">

@@ -1,6 +1,6 @@
 import ContainerBezova from "@/components/layout/ContainerBezova";
 
-export default function Potrebujeme() {
+export default function WeNeed() {
 	return (
 		<ContainerBezova>
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2">

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { messages } from "@/components/data/SluzbyStrechy";
+import { messages } from "@/components/data/ServicesStrechy";
 import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function OurServices() {

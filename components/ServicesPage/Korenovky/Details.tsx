@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import { dataZajistime } from "@/components/data/SluzbyKorenovky";
+import { dataDetails } from "@/components/data/ServicesKorenovky";
 import ContainerBila from "@/components/layout/ContainerBila";
 
-export default function Zajistime() {
+export default function Details() {
 	return (
 		<ContainerBila>
 			<h2 className="text-center text-zelena">
@@ -33,7 +33,7 @@ export default function Zajistime() {
 				Co všechno pro vás zajistíme
 			</h3>
 			<div className="grid grid-cols-auto">
-				{dataZajistime.map((item) => (
+				{dataDetails.map((item) => (
 					<div
 						key={item.id}
 						className="my-4 flex flex-col items-center space-y-4 text-center md:my-10 md:space-y-8"

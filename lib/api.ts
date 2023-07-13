@@ -1,12 +1,12 @@
 export type Data = {
-	jmeno: string;
+	name: string;
 	email: string;
 	tel: string;
-	obec: string;
-	adresa: string;
-	psc: string;
+	town: string;
+	address: string;
+	postal: string;
 	select: string;
-	zprava: string;
+	message: string;
 };
 
 export async function sendContactForm(data: Data): Promise<number> {

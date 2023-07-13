@@ -1,7 +1,7 @@
 import ScrollUp from "@/components/layout/ScrollUp";
 import BlowerDoor from "@/components/ServicesPage/DotacePage/BlowerDoor";
-import Fungovani from "@/components/ServicesPage/DotacePage/Fungovani";
-import Usnadneni from "@/components/ServicesPage/DotacePage/Usnadneni";
+import HowItWorks from "@/components/ServicesPage/DotacePage/HowItWorks";
+import Details from "@/components/ServicesPage/DotacePage/Details";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
 
 export const metadata = {
@@ -18,8 +18,8 @@ export default function Dotace() {
 				name="Dotace"
 				url="https://uploadthing.com/f/34e8344d-a7c9-4444-946e-6f843c8a657c_dotace_hero.jpg"
 			/>
-			<Usnadneni />
-			<Fungovani />
+			<Details />
+			<HowItWorks />
 			<BlowerDoor />
 		</>
 	);

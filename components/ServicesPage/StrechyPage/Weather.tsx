@@ -1,16 +1,16 @@
 import Image from "next/image";
 
-import { dataPocasi } from "@/components/data/SluzbyStrechy";
+import { dataWeather } from "@/components/data/ServicesStrechy";
 import ContainerBila from "@/components/layout/ContainerBila";
 
-export default function Cukr() {
+export default function Weather() {
 	return (
 		<ContainerBila>
 			<h3 className="my-5 text-center text-hneda">
 				"Nejsme z cukru. Děláme tak, jak je potřeba."
 			</h3>
 			<div className="grid grid-cols-1 gap-2 md:grid-cols-auto">
-				{dataPocasi.map((item) => (
+				{dataWeather.map((item) => (
 					<div
 						key={item.id}
 						className="flex flex-col items-center space-y-3 text-center"

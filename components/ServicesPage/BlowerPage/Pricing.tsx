@@ -1,6 +1,6 @@
 import ContainerBila from "@/components/layout/ContainerBila";
 
-export default function Cenik() {
+export default function Pricing() {
 	return (
 		<ContainerBila>
 			<div className="md:grid md:grid-cols-5 md:gap-3">

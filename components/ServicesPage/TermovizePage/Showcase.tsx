@@ -1,9 +1,9 @@
 import Button from "@/components/ui/Button";
-import { data } from "@/components/data/SluzbyTermovize";
+import { data } from "@/components/data/ServicesTermovize";
 import ContainerBezova from "@/components/layout/ContainerBezova";
 import Images from "@/components/layout/Images";
 
-export default function Ukazka() {
+export default function Showcase() {
 	return (
 		<ContainerBezova>
 			<div className="space-y-6 md:space-y-10">

@@ -1,15 +1,15 @@
 import Image from "next/image";
 
-import { dataSkladba } from "@/components/data/SluzbyKorenovky";
+import { dataComposition } from "@/components/data/ServicesKorenovky";
 import ContainerBila from "@/components/layout/ContainerBila";
 
-export default function SkladbaKorenovky() {
+export default function Composition() {
 	return (
 		<ContainerBila>
 			<h2 className="text-center text-zelena md:mb-10">
 				Skladba kořenové čistírny
 			</h2>
-			{dataSkladba.map((item) => (
+			{dataComposition.map((item) => (
 				<div
 					key={item.id}
 					className="grid grid-cols-1 gap-2 py-5 md:grid-cols-2"

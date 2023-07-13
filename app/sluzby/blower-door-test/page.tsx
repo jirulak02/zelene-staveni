@@ -1,8 +1,8 @@
 import ScrollUp from "@/components/layout/ScrollUp";
-import Cenik from "@/components/ServicesPage/BlowerPage/Cenik";
+import Pricing from "@/components/ServicesPage/BlowerPage/Pricing";
 import Explanation from "@/components/ServicesPage/BlowerPage/Explanation";
-import Netesnost from "@/components/ServicesPage/BlowerPage/Netesnost";
-import Potrebujeme from "@/components/ServicesPage/BlowerPage/Potrebujeme";
+import Detection from "@/components/ServicesPage/BlowerPage/Detection";
+import WeNeed from "@/components/ServicesPage/BlowerPage/WeNeed";
 import Showcase from "@/components/ServicesPage/BlowerPage/Showcase";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
 
@@ -21,10 +21,10 @@ export default function BlowerDoor() {
 				url="https://uploadthing.com/f/609a5541-f36b-492c-9f60-1f9db2b3cce7_blowerdoor_hero.jpg"
 			/>
 			<Explanation />
-			<Potrebujeme />
+			<WeNeed />
 			<Showcase />
-			<Netesnost />
-			<Cenik />
+			<Detection />
+			<Pricing />
 		</>
 	);
 }
