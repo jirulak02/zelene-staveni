@@ -14,7 +14,7 @@ export default function Details() {
 			</h3>
 			<div className="mt-4 grid grid-cols-1 gap-2 md:mt-8 md:grid-cols-2">
 				<div className="space-y-4 md:space-y-5">
-					<p>
+					<div>
 						Od ledna 2017 je možno žádat o dotaci na realizaci
 						zelené střechy, kterou Vám rádi jakožto{" "}
 						<a
@@ -26,8 +26,8 @@ export default function Details() {
 							registrováný odborný dodavatel
 						</a>{" "}
 						projektu Nová zelená úsporám pomůžeme vyřídit.
-					</p>
-					<p>
+					</div>
+					<div>
 						Bohužel od července 2023 lze dotace na zelenou střechu
 						podávát zase{" "}
 						<span className="font-semibold">
@@ -42,15 +42,15 @@ export default function Details() {
 							<li>Oblast C.3 - fotovoltaické systémy</li>
 							<li>Oblast C.4 - větrání</li>
 						</ul>
-					</p>
-					<p>
+					</div>
+					<div>
 						Dotace činí{" "}
 						<span className="font-semibold">800-1000 Kč/m²</span>{" "}
 						zelené střechy s maximální výší dotace{" "}
 						<span className="font-semibold">100 000 Kč</span>. Cena
 						zelené střechy tedy nemusí být vysoká.
-					</p>
-					<p>
+					</div>
+					<div>
 						Více o dotacích se dozvíte v aktuálních{" "}
 						<a
 							className="border-b border-neutral-100 text-zelena hover:border-zelena"
@@ -70,7 +70,7 @@ export default function Details() {
 							Nová zelená úsporám
 						</a>
 						.
-					</p>
+					</div>
 				</div>
 				<Image
 					style={{ width: "400px" }}
