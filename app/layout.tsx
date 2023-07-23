@@ -6,7 +6,6 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import GoToTop from "@/components/ui/GoToTop";
 import CookieConsent from "@/components/ui/CookieConsent";
-import TOPlist from "@/lib/TOPlist";
 
 const montserrat = Montserrat({
 	subsets: ["latin"],
@@ -27,7 +26,6 @@ export default function RootLayout({ children }: Children) {
 				<Footer />
 				<GoToTop />
 				<Analytics />
-				<TOPlist />
 			</body>
 		</html>
 	);
