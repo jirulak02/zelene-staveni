@@ -4,9 +4,9 @@ import { useEffect, useRef } from "react";
 
 export default function TOPlist() {
 	const anchorRef = useRef<HTMLAnchorElement>(null);
-	console.log("rerender");
 
 	useEffect(() => {
+		console.log("rerender");
 		const img = document.createElement("img");
 		img.src =
 			"https://toplist.cz/dot.asp?id=1080441&http=" +
