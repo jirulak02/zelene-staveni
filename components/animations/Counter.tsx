@@ -21,15 +21,23 @@ export default function Counter({ countTo, className }: CounterProps) {
 	const rounded = useTransform(count, Math.round);
 
 	useEffect(() => {
-		if (isInView) {
-			const animation = animate(count, countTo, {
-				duration: 3,
-				delay: 0.25,
-			});
+		if (typeof window !== "undefined") {
+			const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-			return animation.stop;
+			if (!prefersReducedMotion) {
+				if (isInView) {
+					const animation = animate(count, countTo, {
+						duration: 3,
+						delay: 0.25,
+					});
+
+					return animation.stop;
+				}
+			} else {
+				count.set(countTo);
+			}
 		}
-	}, [isInView]);
+	}, [isInView, count, countTo]);
 
 	return (
 		<motion.div ref={counterRef} className={className}>

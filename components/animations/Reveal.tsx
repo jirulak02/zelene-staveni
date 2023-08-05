@@ -14,10 +14,18 @@ export default function Reveal({ children, className }: RevealProps) {
 	const controls = useAnimation();
 
 	useEffect(() => {
-		if (isInView) {
-			controls.start("visible");
+		if (typeof window !== "undefined") {
+			const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+			
+			if (!prefersReducedMotion) {
+				if (isInView) {
+					controls.start("visible");
+				}
+			} else {
+				controls.set("visible");
+			}
 		}
-	}, [isInView]);
+	}, [isInView, controls]);
 
 	return (
 		<motion.div
