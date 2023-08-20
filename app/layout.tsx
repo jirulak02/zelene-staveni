@@ -9,26 +9,26 @@ import CookieConsent from "@/components/ui/CookieConsent";
 import TOPlist from "@/lib/TOPlist";
 
 const montserrat = Montserrat({
-	subsets: ["latin"],
-	variable: "--font-montserrat",
+  subsets: ["latin"],
+  variable: "--font-montserrat",
 });
 
 export type Children = {
-	children: React.ReactNode;
+  children: React.ReactNode;
 };
 
 export default function RootLayout({ children }: Children) {
-	return (
-		<html lang="cs" className={`${montserrat.variable} font-sans`}>
-			<body className="flex flex-col">
-				<Header />
-				<main>{children}</main>
-				<CookieConsent />
-				<Footer />
-				<GoToTop />
-				<Analytics />
-				<TOPlist />
-			</body>
-		</html>
-	);
+  return (
+    <html lang="cs" className={`${montserrat.variable} font-sans`}>
+      <body className="flex flex-col">
+        <Header />
+        <main>{children}</main>
+        <CookieConsent />
+        <Footer />
+        <GoToTop />
+        <Analytics />
+        <TOPlist />
+      </body>
+    </html>
+  );
 }
