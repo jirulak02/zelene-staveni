@@ -10,17 +10,13 @@ export type Data = {
 };
 
 export async function sendContactForm(data: Data): Promise<number> {
-	return await fetch("/api/form", {
+	const res = await fetch("/api/form", {
 		method: "POST",
 		body: JSON.stringify(data),
 		headers: {
 			"Content-Type": "application/json",
 			Accept: "application/json",
 		},
-	}).then(async (res) => {
-		if (res.status !== 200) {
-			return 400;
-		}
-		return 200;
 	});
+	return res.status;
 }
