@@ -35,23 +35,39 @@ function generateEmailContent(data: Data) {
 export async function POST(req: Request) {
 	const data: Data = await req.json();
 	if (!data.name || !data.email || !data.tel || !data.select) {
-		return new Response("Neplatný formulář", {
+		return new Response("Invalid form", {
 			status: 400,
 		});
 	}
 
+	const escapedData = escapeData(data);
 	try {
 		await transporter.sendMail({
 			...mailOptions,
-			...generateEmailContent(data),
+			...generateEmailContent(escapedData),
 			subject: "Zelenestaveni.cz formulář",
 		});
-		return new Response("Úspěch", {
+		return new Response("Form sent successfully", {
 			status: 200,
 		});
 	} catch (error) {
-		return new Response("Error", {
-			status: 400,
+		return new Response("Error while sending form", {
+			status: 500,
 		});
 	}
+}
+
+function escapeHtml(str: string) {
+	return str
+		.replace(/&/g, "&amp;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;")
+		.replace(/"/g, "&quot;")
+		.replace(/'/g, "&#039;");
+}
+
+function escapeData(data: Data): Data {
+	return Object.entries(data).reduce((obj, [key, val]) => {
+		return { ...obj, [key]: escapeHtml(val) };
+	}, {} as Data);
 }

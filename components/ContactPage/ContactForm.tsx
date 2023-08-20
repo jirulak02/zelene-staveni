@@ -64,9 +64,7 @@ export default function ContactForm() {
 		setSelect(event.target.value);
 	}
 
-	function zpravaChangeHandler(
-		event: React.ChangeEvent<HTMLTextAreaElement>
-	) {
+	function zpravaChangeHandler(event: React.ChangeEvent<HTMLTextAreaElement>) {
 		setMessage(event.target.value);
 	}
 
@@ -80,15 +78,7 @@ export default function ContactForm() {
 		}
 	}
 
-	function escapeHtml(input: string) {
-		let tempDiv = document.createElement("div");
-		tempDiv.appendChild(document.createTextNode(input));
-		return tempDiv.innerHTML;
-	}
-
-	async function onFormSubmitHandler(
-		event: React.FormEvent<HTMLFormElement>
-	) {
+	async function onFormSubmitHandler(event: React.FormEvent<HTMLFormElement>) {
 		event.preventDefault();
 
 		if (!formIsValid) {
@@ -102,51 +92,44 @@ export default function ContactForm() {
 		}
 
 		const data = {
-			name: escapeHtml(name),
-			email: escapeHtml(email),
-			tel: escapeHtml(tel),
-			town: escapeHtml(town),
-			address: escapeHtml(address),
-			postal: escapeHtml(postal),
-			select: escapeHtml(select),
-			message: escapeHtml(message),
+			name,
+			email,
+			tel,
+			town,
+			address,
+			postal,
+			select,
+			message,
 		};
 
 		setError(false);
 		setSent(false);
 		setIsSpinning(true);
 
-		await sendContactForm(data)
-			.then((status: number) => {
-				if (status !== 200) {
-					setError(true);
-				} else {
-					setSent(true);
-				}
-			})
-			.then(() => {
-				setIsSpinning(false);
-				nameReset();
-				emailReset();
-				telReset();
-				setTown("");
-				setAddress("");
-				setPostal("");
-				setSelect("zelene-strechy");
-				setMessage("");
-				setCheckbox(false);
-				setCheckboxHasError(false);
-			});
+		const status = await sendContactForm(data);
+		if (status !== 200) {
+			setError(true);
+		} else {
+			setSent(true);
+		}
+
+		setIsSpinning(false);
+		nameReset();
+		emailReset();
+		telReset();
+		setTown("");
+		setAddress("");
+		setPostal("");
+		setSelect("zelene-strechy");
+		setMessage("");
+		setCheckbox(false);
+		setCheckboxHasError(false);
 	}
 
 	return (
 		<form className="flex flex-col" onSubmit={onFormSubmitHandler}>
 			<div className="grid grid-cols-1 sm:grid-cols-2">
-				<div
-					className={`flex flex-col sm:mr-2 ${
-						!nameHasError && "mb-5"
-					}`}
-				>
+				<div className={`flex flex-col sm:mr-2 ${!nameHasError && "mb-5"}`}>
 					<label htmlFor="name" className="ml-4">
 						<span className="text-red-500">*</span>Jméno a příjmení:
 					</label>
@@ -171,11 +154,7 @@ export default function ContactForm() {
 						</p>
 					)}
 				</div>
-				<div
-					className={`flex flex-col sm:ml-2 ${
-						!emailHasError && "mb-5"
-					}`}
-				>
+				<div className={`flex flex-col sm:ml-2 ${!emailHasError && "mb-5"}`}>
 					<label htmlFor="email" className="ml-4">
 						<span className="text-red-500">*</span>Email:
 					</label>
@@ -195,16 +174,10 @@ export default function ContactForm() {
 						autoComplete="email"
 					/>
 					{emailHasError && (
-						<p className="pl-6 text-sm text-red-500">
-							Email musí obsahovat @.
-						</p>
+						<p className="pl-6 text-sm text-red-500">Email musí obsahovat @.</p>
 					)}
 				</div>
-				<div
-					className={`flex flex-col sm:mr-2 ${
-						!telHasError && "mb-5"
-					}`}
-				>
+				<div className={`flex flex-col sm:mr-2 ${!telHasError && "mb-5"}`}>
 					<label htmlFor="tel" className="ml-4">
 						<span className="text-red-500">*</span>Telefon:
 					</label>
@@ -309,9 +282,7 @@ export default function ContactForm() {
 					rows={6}
 				/>
 			</div>
-			<div
-				className={`mx-1 flex space-x-3 ${!checkboxHasError && "pb-5"}`}
-			>
+			<div className={`mx-1 flex space-x-3 ${!checkboxHasError && "pb-5"}`}>
 				<input
 					checked={checkbox}
 					onChange={checkboxChangeHandler}
@@ -331,9 +302,7 @@ export default function ContactForm() {
 				</p>
 			</div>
 			{checkboxHasError && (
-				<p className="text-sm text-red-500">
-					Souhlas s podmínkami je povinný.
-				</p>
+				<p className="text-sm text-red-500">Souhlas s podmínkami je povinný.</p>
 			)}
 			<div className={`flex ${!isSpinning && "py-[9px]"}`}>
 				<button type="submit" className="text-left">
@@ -344,13 +313,9 @@ export default function ContactForm() {
 				{isSpinning && <div className="loader ml-2 flex"></div>}
 			</div>
 			{error && (
-				<p className="text-sm text-red-500">
-					Nepodařilo se formulář odeslat.
-				</p>
+				<p className="text-sm text-red-500">Nepodařilo se formulář odeslat.</p>
 			)}
-			{sent && (
-				<p className="text-sm text-zelena">Formulář byl odeslán.</p>
-			)}
+			{sent && <p className="text-sm text-zelena">Formulář byl odeslán.</p>}
 		</form>
 	);
 }
