@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import Link from "next/link";
 
 import "./globals.css";
 import Header from "@/components/layout/Header";
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: Children) {
         <GoToTop />
         <Analytics />
         <TOPlist />
+        <Link href="https://www.jiri-simecek.com/" target="_blank" className="h-0 w-0" />
       </body>
     </html>
   );
