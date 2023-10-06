@@ -1,196 +1,105 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { Form, useForm } from "react-hook-form";
+import { toast, Toaster } from "react-hot-toast";
 
-import useInput from "@/hooks/use-input";
-import { sendContactForm } from "@/lib/api";
+export type ContactFormData = {
+  name: string;
+  email: string;
+  tel: string;
+  town: string;
+  address: string;
+  postal: string;
+  select: string;
+  message: string;
+  checkbox: boolean;
+};
 
 export default function ContactForm() {
-  const [isSpinning, setIsSpinning] = useState(false);
-  const [error, setError] = useState(false);
-  const [sent, setSent] = useState(false);
   const {
-    value: name,
-    isValid: nameIsValid,
-    hasError: nameHasError,
-    valueChangeHandler: nameChangeHandler,
-    inputBlurHandler: nameBlurHandler,
-    reset: nameReset,
-  } = useInput((value) => value.trim() !== "");
-  const {
-    value: email,
-    isValid: emailIsValid,
-    hasError: emailHasError,
-    valueChangeHandler: emailChangeHandler,
-    inputBlurHandler: emailBlurHandler,
-    reset: emailReset,
-  } = useInput((value) => value.includes("@"));
-  const {
-    value: tel,
-    isValid: telIsValid,
-    hasError: telHasError,
-    valueChangeHandler: telChangeHandler,
-    inputBlurHandler: telBlurHandler,
-    reset: telReset,
-  } = useInput((value) => value.trim().length > 8);
-  const [town, setTown] = useState("");
-  const [address, setAddress] = useState("");
-  const [postal, setPostal] = useState("");
-  const [select, setSelect] = useState("zelene-strechy");
-  const [message, setMessage] = useState("");
-  const [checkbox, setCheckbox] = useState(false);
-  const [checkboxHasError, setCheckboxHasError] = useState(false);
-
-  let formIsValid = false;
-
-  if (nameIsValid && emailIsValid && telIsValid && checkbox) {
-    formIsValid = true;
-  }
-
-  const obecChangeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setTown(event.target.value);
-  };
-
-  const adresaChangeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setAddress(event.target.value);
-  };
-
-  const pscChangeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setPostal(event.target.value);
-  };
-
-  const selectChangeHandler = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelect(event.target.value);
-  };
-
-  const zpravaChangeHandler = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
-    setMessage(event.target.value);
-  };
-
-  const checkboxChangeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.checked;
-    setCheckbox(value);
-    if (value) {
-      setCheckboxHasError(false);
-    } else {
-      setCheckboxHasError(true);
-    }
-  };
-
-  const onFormSubmitHandler = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-
-    if (!formIsValid) {
-      nameBlurHandler();
-      emailBlurHandler();
-      telBlurHandler();
-      if (!checkbox) {
-        setCheckboxHasError(true);
-      }
-      return;
-    }
-
-    const data = {
-      name,
-      email,
-      tel,
-      town,
-      address,
-      postal,
-      select,
-      message,
-    };
-
-    setError(false);
-    setSent(false);
-    setIsSpinning(true);
-
-    const status = await sendContactForm(data);
-    if (status !== 200) {
-      setError(true);
-    } else {
-      setSent(true);
-    }
-
-    setIsSpinning(false);
-    nameReset();
-    emailReset();
-    telReset();
-    setTown("");
-    setAddress("");
-    setPostal("");
-    setSelect("zelene-strechy");
-    setMessage("");
-    setCheckbox(false);
-    setCheckboxHasError(false);
-  };
+    register,
+    control,
+    formState: { errors, isSubmitting },
+  } = useForm<ContactFormData>();
 
   return (
-    <form className="flex flex-col" onSubmit={onFormSubmitHandler}>
+    <Form
+      action={"/api/form"}
+      encType="application/json"
+      control={control}
+      onSuccess={() => {
+        toast.success("Formulář byl úspěšně odeslán.");
+      }}
+      onError={() => {
+        toast.error("Formulář se nepodařilo odeslat.");
+      }}
+      className="flex flex-col"
+    >
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className={`flex flex-col sm:mr-2 ${!nameHasError && "mb-5"}`}>
+        <div className={`flex flex-col sm:mr-2 ${!errors.name && "mb-5"}`}>
           <label htmlFor="name" className="ml-4">
             <span className="text-red-500">*</span>Jméno a příjmení:
           </label>
           <input
             className={`rounded-3xl border-2 px-5 py-3 ${
-              nameHasError
+              errors.name
                 ? "border-red-500 hover:border-red-500 focus:border-red-500"
                 : "hover:border-zelena focus:border-zelena"
             }`}
-            value={name}
-            onChange={nameChangeHandler}
-            onBlur={nameBlurHandler}
             type="text"
-            id="name"
-            name="name"
             placeholder="Petr Šimeček"
             autoComplete="name"
+            {...register("name", { required: true })}
+            aria-invalid={errors.name ? "true" : "false"}
           />
-          {nameHasError && <p className="pl-6 text-sm text-red-500">Jméno nemůže být prázdné.</p>}
+          {errors.name?.type === "required" && (
+            <p className="pl-6 text-sm text-red-500">Jméno nemůže být prázdné.</p>
+          )}
         </div>
-        <div className={`flex flex-col sm:ml-2 ${!emailHasError && "mb-5"}`}>
+        <div className={`flex flex-col sm:ml-2 ${!errors.email && "mb-5"}`}>
           <label htmlFor="email" className="ml-4">
             <span className="text-red-500">*</span>Email:
           </label>
           <input
             className={`rounded-3xl border-2 px-5 py-3 ${
-              emailHasError
+              errors.email
                 ? "border-red-500 hover:border-red-500 focus:border-red-500"
                 : "hover:border-zelena focus:border-zelena"
             }`}
-            value={email}
-            onChange={emailChangeHandler}
-            onBlur={emailBlurHandler}
             type="email"
-            id="email"
-            name="email"
             placeholder="simecek@zelenestaveni.cz"
             autoComplete="email"
+            {...register("email", { required: true, pattern: /(.*)+@+(.*)/ })}
+            aria-invalid={errors.email ? "true" : "false"}
           />
-          {emailHasError && <p className="pl-6 text-sm text-red-500">Email musí obsahovat @.</p>}
+          {errors.email?.type === "required" && (
+            <p className="pl-6 text-sm text-red-500">Email nemůže být prázdný.</p>
+          )}
+          {errors.email?.type === "pattern" && (
+            <p className="pl-6 text-sm text-red-500">Email musí obsahovat @.</p>
+          )}
         </div>
-        <div className={`flex flex-col sm:mr-2 ${!telHasError && "mb-5"}`}>
+        <div className={`flex flex-col sm:mr-2 ${!errors.tel && "mb-5"}`}>
           <label htmlFor="tel" className="ml-4">
             <span className="text-red-500">*</span>Telefon:
           </label>
           <input
             className={`rounded-3xl border-2 px-5 py-3 ${
-              telHasError
+              errors.tel
                 ? "border-red-500 hover:border-red-500 focus:border-red-500"
                 : "hover:border-zelena focus:border-zelena"
             }`}
-            value={tel}
-            onChange={telChangeHandler}
-            onBlur={telBlurHandler}
             type="tel"
-            id="tel"
-            name="tel"
             placeholder="608974908"
             autoComplete="tel"
+            {...register("tel", { required: true, minLength: 9 })}
+            aria-invalid={errors.tel ? "true" : "false"}
           />
-          {telHasError && (
+          {errors.tel?.type === "required" && (
+            <p className="pl-6 text-sm text-red-500">Telefon nemůže být prázdný.</p>
+          )}
+          {errors.tel?.type === "minLength" && (
             <p className="pl-6 text-sm text-red-500">Telefon musí mít alespoň 9 číslic.</p>
           )}
         </div>
@@ -200,13 +109,10 @@ export default function ContactForm() {
           </label>
           <input
             className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-            value={town}
-            onChange={obecChangeHandler}
             type="text"
-            id="town"
-            name="town"
             placeholder="Tehov"
             autoComplete="address-level2"
+            {...register("town")}
           />
         </div>
         <div className="mb-5 flex flex-col sm:mr-2">
@@ -215,13 +121,10 @@ export default function ContactForm() {
           </label>
           <input
             className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-            value={address}
-            onChange={adresaChangeHandler}
             type="text"
-            id="address"
-            name="address"
             placeholder="Panská 212"
             autoComplete="address-line1"
+            {...register("address")}
           />
         </div>
         <div className="mb-5 flex flex-col sm:ml-2">
@@ -230,15 +133,12 @@ export default function ContactForm() {
           </label>
           <input
             className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-            value={postal}
-            onChange={pscChangeHandler}
             type="number"
             min={0}
             max={99999}
-            id="postal"
-            name="postal"
             placeholder="25101"
             autoComplete="postal-code"
+            {...register("postal")}
           />
         </div>
       </div>
@@ -248,10 +148,7 @@ export default function ContactForm() {
         </label>
         <select
           className="w-full rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-          value={select}
-          onChange={selectChangeHandler}
-          id="select"
-          name="select"
+          {...register("select")}
         >
           <option value="zelene-strechy">Zelené střechy</option>
           <option value="korenove-cistirny">Kořenové čistírny</option>
@@ -267,20 +164,17 @@ export default function ContactForm() {
         </label>
         <textarea
           className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-          value={message}
-          onChange={zpravaChangeHandler}
           placeholder="Doplňte co potřebujete"
           id="message"
           rows={6}
+          {...register("message")}
         />
       </div>
-      <div className={`mx-1 flex space-x-3 ${!checkboxHasError && "pb-5"}`}>
+      <div className={`mx-1 flex space-x-3 ${!errors.checkbox && "pb-5"}`}>
         <input
-          checked={checkbox}
-          onChange={checkboxChangeHandler}
           type="checkbox"
-          id="souhlas"
-          name="souhlas"
+          {...register("checkbox", { required: true })}
+          aria-invalid={errors.checkbox ? "true" : "false"}
         />
         <p className="text-sm">
           <span className="text-sm text-red-500">*</span>Souhlasím s{" "}
@@ -293,17 +187,37 @@ export default function ContactForm() {
           .
         </p>
       </div>
-      {checkboxHasError && <p className="text-sm text-red-500">Souhlas s podmínkami je povinný.</p>}
-      <div className={`flex ${!isSpinning && "py-[9px]"}`}>
-        <button type="submit" className="text-left">
-          <span className="rounded-3xl bg-zelena px-5 py-3 text-base text-neutral-100 hover:bg-neutral-800">
-            ODESLAT ZPRÁVU
+      {errors.checkbox?.type === "required" && (
+        <p className="text-sm text-red-500">Souhlas s podmínkami je povinný.</p>
+      )}
+      <div className={`flex ${!isSubmitting && "py-[9px] "}`}>
+        <button type="submit" {...(isSubmitting && { disabled: true })} className="text-left">
+          <span
+            className={`rounded-3xl px-5 py-3 text-base ${
+              isSubmitting
+                ? "cursor-not-allowed bg-gray-400 text-gray-300"
+                : "bg-zelena text-neutral-100 hover:bg-neutral-800"
+            }`}
+          >
+            {isSubmitting ? "ODESÍLÁ SE" : "ODESLAT ZPRÁVU"}
           </span>
         </button>
-        {isSpinning && <div className="loader ml-2 flex"></div>}
+        {isSubmitting && <div className="loader ml-2 flex"></div>}
       </div>
-      {error && <p className="text-sm text-red-500">Nepodařilo se formulář odeslat.</p>}
-      {sent && <p className="text-sm text-zelena">Formulář byl odeslán.</p>}
-    </form>
+      <Toaster
+        toastOptions={{
+          success: {
+            duration: 3000,
+            position: "bottom-center",
+            className: "text-lg font-semibold h-16 border-2 border-zelena",
+          },
+          error: {
+            duration: 3000,
+            position: "bottom-center",
+            className: "text-lg font-semibold h-16 border-2 border-red-500",
+          },
+        }}
+      />
+    </Form>
   );
 }
