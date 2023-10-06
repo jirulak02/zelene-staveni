@@ -35,7 +35,6 @@ function generateEmailContent(data: Data) {
   const htmlData = Object.entries(data).reduce((str, [key, val]) => {
     return (str += `<h3 class="form-heading" align="left">${ContactMessageFields[key]}</h3><p class="form-answer" align="left">${val}</p>`);
   }, "");
-
   const mailTitle = "Nová zpráva z formuláře na webu.";
 
   return {
