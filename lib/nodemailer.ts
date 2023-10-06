@@ -16,5 +16,5 @@ export const transporter = createTransport({
 
 export const mailOptions = {
   from: email,
-  to: "simecek@zelenestaveni.cz",
+  to: "jirulak02@gmail.com",
 };
