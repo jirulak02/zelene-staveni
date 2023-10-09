@@ -36,7 +36,7 @@ export default function Kontakt() {
               className="rounded-3xl"
               loading="lazy"
               allowFullScreen
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin"
               src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJRVGxxwuJC0cRLZls-GrzDTI&zoom=15&key=${process.env.GOOGLE_API}`}
             ></iframe>
           </div>

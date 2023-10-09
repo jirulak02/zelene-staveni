@@ -38,7 +38,7 @@ export default function Details() {
             </ul>
           </div>
           <div>
-            Dotace činí <span className="font-semibold">800-1000 Kč/m²</span> zelené střechy s
+            Dotace činí <span className="font-semibold">700-1000 Kč/m²</span> zelené střechy s
             maximální výší dotace <span className="font-semibold">100 000 Kč</span>. Cena zelené
             střechy tedy nemusí být vysoká.
           </div>

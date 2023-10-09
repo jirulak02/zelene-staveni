@@ -48,6 +48,7 @@ export default function ContactForm() {
                 : "hover:border-zelena focus:border-zelena"
             }`}
             type="text"
+            id="name"
             placeholder="Petr Šimeček"
             autoComplete="name"
             {...register("name", { required: true })}
@@ -68,16 +69,17 @@ export default function ContactForm() {
                 : "hover:border-zelena focus:border-zelena"
             }`}
             type="email"
+            id="email"
             placeholder="simecek@zelenestaveni.cz"
             autoComplete="email"
-            {...register("email", { required: true, pattern: /(.*)+@+(.*)/ })}
+            {...register("email", { required: true, pattern: /^.+@.+\..+$/i })}
             aria-invalid={errors.email ? "true" : "false"}
           />
           {errors.email?.type === "required" && (
             <p className="pl-6 text-sm text-red-500">Email nemůže být prázdný.</p>
           )}
           {errors.email?.type === "pattern" && (
-            <p className="pl-6 text-sm text-red-500">Email musí obsahovat @.</p>
+            <p className="pl-6 text-sm text-red-500">Email musí být ve správném formátu.</p>
           )}
         </div>
         <div className={`flex flex-col sm:mr-2 ${!errors.tel && "mb-5"}`}>
@@ -91,6 +93,7 @@ export default function ContactForm() {
                 : "hover:border-zelena focus:border-zelena"
             }`}
             type="tel"
+            id="tel"
             placeholder="608974908"
             autoComplete="tel"
             {...register("tel", { required: true, minLength: 9 })}
@@ -110,6 +113,7 @@ export default function ContactForm() {
           <input
             className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
             type="text"
+            id="town"
             placeholder="Tehov"
             autoComplete="address-level2"
             {...register("town")}
@@ -122,6 +126,7 @@ export default function ContactForm() {
           <input
             className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
             type="text"
+            id="address"
             placeholder="Panská 212"
             autoComplete="address-line1"
             {...register("address")}
@@ -134,8 +139,8 @@ export default function ContactForm() {
           <input
             className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
             type="number"
+            id="postal"
             min={0}
-            max={99999}
             placeholder="25101"
             autoComplete="postal-code"
             {...register("postal")}
@@ -148,6 +153,7 @@ export default function ContactForm() {
         </label>
         <select
           className="w-full rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
+          id="select"
           {...register("select")}
         >
           <option value="zelene-strechy">Zelené střechy</option>
@@ -164,8 +170,8 @@ export default function ContactForm() {
         </label>
         <textarea
           className="rounded-3xl border-2 px-5 py-3 hover:border-zelena focus:border-zelena"
-          placeholder="Doplňte co potřebujete"
           id="message"
+          placeholder="Doplňte co potřebujete"
           rows={6}
           {...register("message")}
         />
