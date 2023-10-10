@@ -10,27 +10,27 @@
     "analyze": "next bundle-analyze"
   },
   "dependencies": {
-    "@types/node": "18.16.1",
-    "@types/react": "^18.2.18",
-    "@types/react-dom": "^18.2.7",
-    "@vercel/analytics": "^1.0.1",
-    "autoprefixer": "10.4.14",
-    "cookies-next": "^2.1.2",
-    "framer-motion": "^10.12.17",
-    "next": "^13.4.4",
-    "nodemailer": "^6.9.3",
-    "postcss": "^8.4.27",
+    "@types/node": "20.8.4",
+    "@types/react": "^18.2.27",
+    "@types/react-dom": "^18.2.12",
+    "@vercel/analytics": "^1.1.0",
+    "autoprefixer": "10.4.16",
+    "cookies-next": "^4.0.0",
+    "framer-motion": "^10.16.4",
+    "next": "^13.5.4",
+    "nodemailer": "^6.9.6",
+    "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.47.0",
     "react-hot-toast": "^2.4.1",
     "tailwindcss": "^3.3.3",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.13",
-    "@types/nodemailer": "^6.4.8",
-    "prettier": "^3.0.1",
-    "prettier-plugin-tailwindcss": "^0.4.1"
+    "@next/bundle-analyzer": "^13.5.4",
+    "@types/nodemailer": "^6.4.11",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5"
   }
 }
