@@ -1,4 +1,4 @@
-# Zelene-staveni - 2023
+# zelene-staveni - 2023
 
 This is a business website for a client.
 
