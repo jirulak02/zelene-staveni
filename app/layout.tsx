@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { AxiomWebVitals } from "next-axiom";
 import Link from "next/link";
 
 import "./globals.css";
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: Children) {
         <Footer />
         <GoToTop />
         <Analytics />
+        <AxiomWebVitals />
         <TOPlist />
         <Link href="https://www.jiri-simecek.com/" target="_blank" className="h-0 w-0" />
       </body>

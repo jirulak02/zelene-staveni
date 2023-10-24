@@ -1,3 +1,5 @@
+import { withAxiom, AxiomRequest } from "next-axiom";
+
 import { mailOptions, transporter } from "@/lib/nodemailer";
 
 type FieldsType = {
@@ -43,9 +45,11 @@ function generateEmailContent(data: Data) {
   };
 }
 
-export async function POST(req: Request) {
+export const POST = withAxiom(async (req: AxiomRequest) => {
   const data: Data = await req.json();
   if (!data.name || !data.email || !data.tel || !data.select || !data.checkbox) {
+    req.log.error("Invalid form got past client side checks and hit api.", data);
+
     return new Response("Invalid form", {
       status: 400,
     });
@@ -59,15 +63,19 @@ export async function POST(req: Request) {
       ...generateEmailContent(escapedData),
       subject: "Zelenestaveni.cz formulář",
     });
+    req.log.info("Email sent.", escapedData);
+
     return new Response("Form sent successfully", {
       status: 200,
     });
   } catch (error) {
+    req.log.error("Error sending mail.", { error });
+
     return new Response("Error while sending form", {
       status: 500,
     });
   }
-}
+});
 
 function escapeHtml(str: string) {
   return str

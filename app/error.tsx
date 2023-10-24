@@ -1,6 +1,12 @@
 "use client";
 
+import { useLogger } from "next-axiom";
+
 export default function Error({ error, reset }: { error: Error; reset: () => void }) {
+  const log = useLogger();
+
+  log.error("Error caught in app/error.tsx", error);
+
   return (
     <div className="absolute top-0 z-50 flex h-full w-full flex-col justify-center space-y-3 bg-neutral-100 p-3 text-center">
       <h2 className="font-semibold">Něco se pokazilo!</h2>
