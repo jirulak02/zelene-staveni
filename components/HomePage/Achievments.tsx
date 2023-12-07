@@ -30,7 +30,7 @@ export default function Achievments() {
           />
         </div>
         <div className="space-y-2 px-3 text-center sm:space-y-3">
-          <Counter countTo={100} className="text-6xl text-zelena sm:text-7xl" />
+          <Counter countTo={213} className="text-6xl text-zelena sm:text-7xl" />
           <h3 className="text-zelena">REALIZACÍ</h3>
           <p>Cenovou nabídku vypracujeme zdarma.</p>
         </div>
