@@ -8,7 +8,7 @@ export default function Achievments() {
   return (
     <ContainerBezova>
       <div className="space-y-4 text-center md:space-y-6">
-        <h2 className="text-hneda">Více než 100 úspěšných realizací!</h2>
+        <h2 className="text-hneda">Více než 200 úspěšných realizací!</h2>
         <p>Už víc jak 20 let jsme tady pro Vás a Vaše sny o zelenějším bydlení.</p>
         <Button href="/kontakt">ZEPTEJTE SE NÁS</Button>
       </div>
