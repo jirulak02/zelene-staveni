@@ -32,7 +32,7 @@ export default function ContactForm() {
         toast.success("Formulář byl úspěšně odeslán.");
       }}
       onError={() => {
-        toast.error("Formulář se nepodařilo odeslat.");
+        toast.error("Něco se pokazilo. Dejte nám prosím vědět, že formulář nefunguje.");
       }}
       className="flex flex-col"
     >
@@ -218,7 +218,7 @@ export default function ContactForm() {
             className: "text-lg font-semibold h-16 border-2 border-zelena",
           },
           error: {
-            duration: 3000,
+            duration: 8000,
             position: "bottom-center",
             className: "text-lg font-semibold h-16 border-2 border-red-500",
           },
