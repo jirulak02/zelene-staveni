@@ -18,7 +18,7 @@ export default function Employees() {
         img="https://uploadthing.com/f/1197a86b-3f7e-400d-a8a3-135f5cc29731_simona.png"
       />
       <Person
-        title="Jiří Šimeček - dotace a webovky"
+        title="Jiří Šimeček - webovky"
         phone="+420 777 898 501"
         email="dotace@zelenestaveni.cz"
         name="Jiří Šimeček"
