@@ -1,5 +1,5 @@
 import { Montserrat } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AxiomWebVitals } from "next-axiom";
 import Link from "next/link";
 
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: Children) {
         <CookieConsent />
         <Footer />
         <GoToTop />
-        <Analytics />
+        <SpeedInsights />
         <AxiomWebVitals />
         <TOPlist />
         <Link href="https://www.jiri-simecek.com/" target="_blank" className="h-0 w-0" />
