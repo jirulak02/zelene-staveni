@@ -18,7 +18,7 @@ export default function Termovize() {
       <ScrollUp />
       <ServicesImage
         name="Termovize"
-        url="https://uploadthing.com/f/49406b25-42ad-40bc-9177-48716c0c5bd2_termovize_hero.jpeg"
+        url="https://utfs.io/f/49406b25-42ad-40bc-9177-48716c0c5bd2_termovize_hero.jpeg"
       />
       <HeatLoss />
       <WhenToMeasure />

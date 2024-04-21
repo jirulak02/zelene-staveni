@@ -16,7 +16,7 @@ export default function Dotace() {
       <ScrollUp />
       <ServicesImage
         name="Dotace"
-        url="https://uploadthing.com/f/34e8344d-a7c9-4444-946e-6f843c8a657c_dotace_hero.jpg"
+        url="https://utfs.io/f/34e8344d-a7c9-4444-946e-6f843c8a657c_dotace_hero.jpg"
       />
       <Details />
       <HowItWorks />

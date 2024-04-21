@@ -15,7 +15,7 @@ export default function Footer() {
           width="420"
           height="60"
           quality={100}
-          src="https://uploadthing.com/f/88dc353c-e7e5-4caa-a27c-5f228c000a41_logo.png"
+          src="https://utfs.io/f/88dc353c-e7e5-4caa-a27c-5f228c000a41_logo.png"
         />
         <div className="text-center">
           <p>

@@ -26,7 +26,7 @@ export default function Achievments() {
             quality={100}
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
+            src="https://utfs.io/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
           />
         </div>
         <div className="space-y-2 px-3 text-center sm:space-y-3">
@@ -42,7 +42,7 @@ export default function Achievments() {
             quality={100}
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
+            src="https://utfs.io/f/a67365c2-4723-49c2-9514-cee5a7fa8d6c_house%20logo.png"
           />
         </div>
         <div className="space-y-2 px-3 text-center sm:space-y-3">

@@ -38,7 +38,7 @@ export default function Grants() {
           quality={100}
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-          src="https://uploadthing.com/f/c7234a1b-6321-4eda-9ff2-178cc9c27355_nzu.png"
+          src="https://utfs.io/f/c7234a1b-6321-4eda-9ff2-178cc9c27355_nzu.png"
         />
       </div>
     </ContainerBila>

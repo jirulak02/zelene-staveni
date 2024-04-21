@@ -23,7 +23,7 @@ export default function BlowerDoor() {
             quality={100}
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/8451747d-7e5c-493d-b3c1-023ac2d00b1e_blower2.png"
+            src="https://utfs.io/f/8451747d-7e5c-493d-b3c1-023ac2d00b1e_blower2.png"
           />
         </div>
       </div>

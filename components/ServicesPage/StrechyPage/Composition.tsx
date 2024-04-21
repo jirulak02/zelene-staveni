@@ -29,7 +29,7 @@ export default function Composition() {
           height={350}
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-          src="https://uploadthing.com/f/da49b2a9-1ce7-469c-8462-a0f7bc789952_skladba.png"
+          src="https://utfs.io/f/da49b2a9-1ce7-469c-8462-a0f7bc789952_skladba.png"
         />
       </div>
     </ContainerBila>

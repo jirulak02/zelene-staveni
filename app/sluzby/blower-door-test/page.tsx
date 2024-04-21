@@ -18,7 +18,7 @@ export default function BlowerDoor() {
       <ScrollUp />
       <ServicesImage
         name="Blower Door test"
-        url="https://uploadthing.com/f/609a5541-f36b-492c-9f60-1f9db2b3cce7_blowerdoor_hero.jpg"
+        url="https://utfs.io/f/609a5541-f36b-492c-9f60-1f9db2b3cce7_blowerdoor_hero.jpg"
       />
       <Explanation />
       <WeNeed />

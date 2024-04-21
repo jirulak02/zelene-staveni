@@ -29,7 +29,7 @@ export default function Findings() {
             quality={100}
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/a7b346ce-1eef-42c6-9f0b-fa874641ac14_budova.png"
+            src="https://utfs.io/f/a7b346ce-1eef-42c6-9f0b-fa874641ac14_budova.png"
           />
         </div>
       </div>

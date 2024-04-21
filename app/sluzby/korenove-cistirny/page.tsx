@@ -16,7 +16,7 @@ export default function Korenovky() {
       <ScrollUp />
       <ServicesImage
         name="Kořenové čistírny"
-        url="https://uploadthing.com/f/adeba4cf-aea7-4929-96f3-1d0fc91ba9b5_korenovky_hero.jpg"
+        url="https://utfs.io/f/adeba4cf-aea7-4929-96f3-1d0fc91ba9b5_korenovky_hero.jpg"
       />
       <Details />
       <Realization />

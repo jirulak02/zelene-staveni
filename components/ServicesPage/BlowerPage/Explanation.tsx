@@ -32,7 +32,7 @@ export default function Explanation() {
             priority
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/c7234a1b-6321-4eda-9ff2-178cc9c27355_nzu.png"
+            src="https://utfs.io/f/c7234a1b-6321-4eda-9ff2-178cc9c27355_nzu.png"
           />
         </div>
       </div>
@@ -47,7 +47,7 @@ export default function Explanation() {
             quality={100}
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/6fcd6a31-bfeb-4d56-8601-9057f441d4ad_blowercircle.png"
+            src="https://utfs.io/f/6fcd6a31-bfeb-4d56-8601-9057f441d4ad_blowercircle.png"
           />
         </div>
         <div className="row-start-1 md:row-start-auto">
@@ -67,7 +67,7 @@ export default function Explanation() {
               Protokolu měření ke stažení{" "}
               <a
                 className="border-b border-neutral-100 text-zelena hover:border-zelena"
-                href="https://uploadthing.com/f/a41e8847-d592-4483-9074-f43b6151605b_protokol_ukazka_blowerdoor.pdf"
+                href="https://utfs.io/f/a41e8847-d592-4483-9074-f43b6151605b_protokol_ukazka_blowerdoor.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >

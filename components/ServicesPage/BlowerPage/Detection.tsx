@@ -20,7 +20,7 @@ export default function Detection() {
             height="250"
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/e6837ebd-9046-4dfe-a127-c9312e347c33_kour.png"
+            src="https://utfs.io/f/e6837ebd-9046-4dfe-a127-c9312e347c33_kour.png"
           />
           <Image
             className="mb:mx-0 mx-auto"
@@ -29,7 +29,7 @@ export default function Detection() {
             height="250"
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/b823821f-e8d9-42ea-87b6-ec3410f31e89_duct2.png"
+            src="https://utfs.io/f/b823821f-e8d9-42ea-87b6-ec3410f31e89_duct2.png"
           />
           <Image
             className="mb:mx-0 mx-auto"
@@ -38,7 +38,7 @@ export default function Detection() {
             height="140"
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/25eb9e20-6e2f-4b6f-86c5-c87d86327d3b_anemometr.png"
+            src="https://utfs.io/f/25eb9e20-6e2f-4b6f-86c5-c87d86327d3b_anemometr.png"
           />
           <Image
             className="mb:mx-0 mx-auto"
@@ -47,7 +47,7 @@ export default function Detection() {
             height="140"
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/ed38ffe1-a3dd-4811-bdf3-86ae7e4e6259_infra.png"
+            src="https://utfs.io/f/ed38ffe1-a3dd-4811-bdf3-86ae7e4e6259_infra.png"
           />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -58,7 +58,7 @@ export default function Detection() {
               height="50"
               placeholder="blur"
               blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-              src="https://uploadthing.com/f/e53ce9d3-e19d-4a66-9be2-dc0236dd032a_done.png"
+              src="https://utfs.io/f/e53ce9d3-e19d-4a66-9be2-dc0236dd032a_done.png"
             />
             <p className="px-4">
               Pro správné fungování vzduchotechniky je důležitá její správná instalace. Měření
@@ -73,7 +73,7 @@ export default function Detection() {
               height="50"
               placeholder="blur"
               blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-              src="https://uploadthing.com/f/6f631673-48aa-4c26-b785-2e18107f8861_fix.png"
+              src="https://utfs.io/f/6f631673-48aa-4c26-b785-2e18107f8861_fix.png"
             />
             <p className="px-4">Poradíme, jak netěsnosti opravit a utěsnit.</p>
           </div>

@@ -46,7 +46,7 @@ export default function Details() {
             Více o dotacích se dozvíte v aktuálních{" "}
             <a
               className="border-b border-neutral-100 text-zelena hover:border-zelena"
-              href="https://uploadthing.com/f/7b4abbc4-9a5b-4c96-9550-da7c7802e2f1_Z%C3%A1vazn%C3%A9%20pokyny.pdf"
+              href="https://utfs.io/f/7b4abbc4-9a5b-4c96-9550-da7c7802e2f1_Z%C3%A1vazn%C3%A9%20pokyny.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -73,7 +73,7 @@ export default function Details() {
           quality={100}
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-          src="https://uploadthing.com/f/c7234a1b-6321-4eda-9ff2-178cc9c27355_nzu.png"
+          src="https://utfs.io/f/c7234a1b-6321-4eda-9ff2-178cc9c27355_nzu.png"
         />
       </div>
     </ContainerBila>

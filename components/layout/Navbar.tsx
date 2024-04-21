@@ -51,8 +51,8 @@ export default function Navbar() {
             quality={100}
             src={`${
               white
-                ? "https://uploadthing.com/f/dbd12939-af8b-484b-9d4f-07687e4152d9_logo%20white.png"
-                : "https://uploadthing.com/f/88dc353c-e7e5-4caa-a27c-5f228c000a41_logo.png"
+                ? "https://utfs.io/f/dbd12939-af8b-484b-9d4f-07687e4152d9_logo%20white.png"
+                : "https://utfs.io/f/88dc353c-e7e5-4caa-a27c-5f228c000a41_logo.png"
             }`}
           />
         </Link>

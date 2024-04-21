@@ -15,7 +15,7 @@ export default function WhenToMeasure() {
             quality={100}
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO88h8AAq0B1REmZuEAAAAASUVORK5CYII="
-            src="https://uploadthing.com/f/34ba025e-b2d3-4b44-beac-fbba8da75f9b_ir11circle.png"
+            src="https://utfs.io/f/34ba025e-b2d3-4b44-beac-fbba8da75f9b_ir11circle.png"
           />
         </div>
         <div className="space-y-6 md:col-span-2">
