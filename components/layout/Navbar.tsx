@@ -51,7 +51,7 @@ export default function Navbar() {
             quality={100}
             src={`${
               white
-                ? "https://utfs.io/f/dbd12939-af8b-484b-9d4f-07687e4152d9_logo%20white.png"
+                ? "https://utfs.io/f/cc3b54c3-8979-48e4-86be-9587543875cb-mlcvw4.png"
                 : "https://utfs.io/f/88dc353c-e7e5-4caa-a27c-5f228c000a41_logo.png"
             }`}
           />
