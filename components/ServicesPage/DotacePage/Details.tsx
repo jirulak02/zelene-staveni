@@ -46,7 +46,7 @@ export default function Details() {
             Více o dotacích se dozvíte v aktuálních{" "}
             <a
               className="border-b border-neutral-100 text-zelena hover:border-zelena"
-              href="https://utfs.io/f/7b4abbc4-9a5b-4c96-9550-da7c7802e2f1_Z%C3%A1vazn%C3%A9%20pokyny.pdf"
+              href="https://utfs.io/f/61e3e1ac-13ed-460f-8fff-09b6911e9ca0_zavazne_pokyny.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
