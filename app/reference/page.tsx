@@ -1,7 +1,7 @@
 import Container from "@/components/layout/Container";
 import {
   dataStrechy,
-  dataKorenovky,
+  dataJezirka,
   dataTermovize,
   dataBlowerdoor,
 } from "@/components/data/ReferencesPage";
@@ -24,7 +24,7 @@ export default function Reference() {
         <p>Prohlédněte si fotografie našich prací.</p>
         <div className="mb-10 mt-4 grid grid-cols-1 gap-3 md:mt-10 md:grid-cols-4">
           <ScrollButton id="galerie-zelene-strechy">ZELENÉ STŘECHY</ScrollButton>
-          <ScrollButton id="galerie-korenove-cistirny">KOŘENOVÉ ČISTÍRNY</ScrollButton>
+          <ScrollButton id="galerie-korenove-cistirny">JEZÍRKA</ScrollButton>
           <ScrollButton id="galerie-blower-door-test">BLOWER DOOR TEST</ScrollButton>
           <ScrollButton id="galerie-termovize">TERMOVIZE</ScrollButton>
         </div>
@@ -37,9 +37,9 @@ export default function Reference() {
       </ContainerBezova>
       <ContainerBila>
         <h2 id="galerie-korenove-cistirny" className="pb-6 text-center text-zelena md:pb-10">
-          Kořenové čistírny
+          Jezírka
         </h2>
-        <Images data={dataKorenovky} width={200} height={150} />
+        <Images data={dataJezirka} width={200} height={150} />
       </ContainerBila>
       <ContainerBezova>
         <h2 id="galerie-blower-door-test" className="pb-6 text-center text-zelena md:pb-10">

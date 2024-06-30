@@ -280,6 +280,44 @@ export const dataKorenovky = [
   },
 ];
 
+export const dataJezirka = [
+  {
+    id: "data_references_jezirka_1",
+    alt: "Ukázka realizace jezírka",
+    url: "https://utfs.io/f/2632ab10-37e3-477e-8213-5e82688f278e-jwrast.png",
+  },
+  {
+    id: "data_references_jezirka_2",
+    alt: "Ukázka realizace jezírka",
+    url: "https://utfs.io/f/8879fdf3-4f0d-4cfd-b972-8a168ebc9006-jwrass.png",
+  },
+  {
+    id: "data_references_jezirka_3",
+    alt: "Ukázka realizace jezírka",
+    url: "https://utfs.io/f/286730fe-f1e3-44a6-8a92-4629a8672207-jwrasr.png",
+  },
+  {
+    id: "data_references_jezirka_4",
+    alt: "Ukázka realizace jezírka",
+    url: "https://utfs.io/f/92204964-020c-4f10-8843-3f4987c61907-jwrasq.png",
+  },
+  {
+    id: "data_references_jezirka_5",
+    alt: "Ukázka realizace jezírka",
+    url: "https://utfs.io/f/cb40d524-5ef5-47c6-b946-03a6e21355ff-jwrasp.png",
+  },
+  {
+    id: "data_references_jezirka_6",
+    alt: "Ukázka realizace jezírka",
+    url: "https://utfs.io/f/9e8e5bb7-bd05-460a-9471-d1b5ebe10ecd-jwraso.png",
+  },
+  {
+    id: "data_references_jezirka_7",
+    alt: "Ukázka realizace jezírka",
+    url: "https://utfs.io/f/8876808d-bf94-41a3-9fcb-756d622289b6-jwrasn.png",
+  },
+];
+
 export const dataBlowerdoor = [
   {
     id: "data_references_blowerdoor_1",
