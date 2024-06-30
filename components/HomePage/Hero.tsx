@@ -43,11 +43,11 @@ export default function Hero() {
           />
           <InfoCard
             className="border-b-2 border-neutral-300 lg:border-b-0 lg:border-r-2"
-            alt="Ikona recyklace kytek"
-            img="https://utfs.io/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
-            heading="KOŘENOVÉ ČISTÍRNY"
-            text="Přírodní čistírna odpadních vod domácností."
-            href="/sluzby/korenove-cistirny"
+            alt="Ikona vody"
+            img="https://utfs.io/f/aef3d419-ef2a-4ac9-964c-929929c89f9b-1v7wuv.png"
+            heading="ZAHRADNÍ JEZÍRKA"
+            text="Koupací či okrasná jezírka včetně vodních rostlin."
+            href="/sluzby/jezirka"
           />
           <InfoCard
             className="border-b-2 border-neutral-300 sm:border-r-2 lg:border-b-0"

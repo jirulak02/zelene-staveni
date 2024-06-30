@@ -44,16 +44,16 @@ export default function Sluzby() {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <Reveal className="mx-4 my-8 flex flex-col items-center justify-center space-y-3 text-center sm:mx-10 md:mx-12 md:my-12 md:space-y-5">
             <ServiceInfo
-              alt="Ikona recyklace kytek"
-              img="https://utfs.io/f/5f71b8bc-4212-4b3e-b49e-f8a01fcc8b68_compost.png"
-              heading="KOŘENOVÉ ČISTÍRNY"
-              text="Kořenová čistírna odpadních vod je vlastně takový malý přírodní mokřad. Slouží k čištění odpadních vod z domácnosti."
-              href="/sluzby/korenove-cistirny"
+              alt="Ikona vody"
+              img="https://utfs.io/f/aef3d419-ef2a-4ac9-964c-929929c89f9b-1v7wuv.png"
+              heading="JEZÍRKA"
+              text="Zahradní jezírko slouží jako designový ale i funkční prvek zahrady, který Vám v horkých dnech ochladí ovzduší. Vytvoříme jezírko okrasné či koupací a to včetně vodních rostlin i filtrů."
+              href="/sluzby/jezirka"
             />
           </Reveal>
           <Reveal className="relative row-start-1 h-[280px] overflow-hidden lg:row-start-auto lg:h-[480px]">
             <Image
-              alt="Ukázka realizace kořenové čistírny"
+              alt="Ukázka realizace jezírka"
               fill={true}
               sizes="(min-width: 1024px) 640px, 100vw"
               quality={100}
@@ -127,7 +127,7 @@ export default function Sluzby() {
             <ServiceInfo
               alt="Ikona fénu"
               img="https://utfs.io/f/8b8ac783-5332-40bc-8707-8f157dabc550_analytics.png"
-              heading="Dotace"
+              heading="DOTACE"
               text="Nechte si usnadnit cestu k získání finanční podpory na vaši střechu. Pro dotaci programu Nová zelená úsporám Vám dodáme kompletní potřebnou dokumentaci."
               href="/sluzby/dotace"
             />

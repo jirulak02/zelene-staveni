@@ -10,7 +10,7 @@ import Container from "./Container";
 const paths = [
   "/",
   "/sluzby/zelene-strechy",
-  "/sluzby/korenove-cistirny",
+  "/sluzby/jezirka",
   "/sluzby/blower-door-test",
   "/sluzby/termovize",
   "/sluzby/dotace",
@@ -137,8 +137,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="h-9 min-w-max rounded-xl hover:bg-neutral-200">
-                <Link href="/sluzby/korenove-cistirny" onClick={closeHandler}>
-                  <div className="px-3 py-1.5">Kořenové čistírny</div>
+                <Link href="/sluzby/jezirka" onClick={closeHandler}>
+                  <div className="px-3 py-1.5">Jezírka</div>
                 </Link>
               </li>
               <li className="h-9 min-w-max rounded-xl hover:bg-neutral-200">

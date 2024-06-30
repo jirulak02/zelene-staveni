@@ -1,7 +1,7 @@
 import ScrollUp from "@/components/layout/ScrollUp";
-import Realization from "@/components/ServicesPage/Korenovky/Realization";
-import Composition from "@/components/ServicesPage/Korenovky/Composition";
-import Details from "@/components/ServicesPage/Korenovky/Details";
+import Realization from "@/components/ServicesPage/KorenovkyPage/Realization";
+import Composition from "@/components/ServicesPage/KorenovkyPage/Composition";
+import Details from "@/components/ServicesPage/KorenovkyPage/Details";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
 
 export const metadata = {

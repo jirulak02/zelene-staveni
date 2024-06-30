@@ -157,7 +157,7 @@ export default function ContactForm() {
           {...register("select")}
         >
           <option value="zelene-strechy">Zelené střechy</option>
-          <option value="korenove-cistirny">Kořenové čistírny</option>
+          <option value="jezirka">Jezírka</option>
           <option value="blower-door-test">Blower Door test</option>
           <option value="termovize">Termovize</option>
           <option value="dotace">Dotace</option>
