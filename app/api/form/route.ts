@@ -1,4 +1,4 @@
-import { withAxiom, AxiomRequest } from "next-axiom";
+import { AxiomRequest, withAxiom } from "next-axiom";
 
 import { mailOptions, transporter } from "@/lib/nodemailer";
 

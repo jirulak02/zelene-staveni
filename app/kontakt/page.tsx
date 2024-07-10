@@ -1,8 +1,8 @@
+import ContactForm from "@/components/ContactPage/ContactForm";
+import Employees from "@/components/ContactPage/Employees";
+import Reveal from "@/components/animations/Reveal";
 import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
-import Employees from "@/components/ContactPage/Employees";
-import ContactForm from "@/components/ContactPage/ContactForm";
-import Reveal from "@/components/animations/Reveal";
 
 export const metadata = {
   title: "Kontakt - Zelené stavění.cz",

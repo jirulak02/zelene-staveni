@@ -1,7 +1,7 @@
-import Button from "@/components/ui/Button";
 import { data } from "@/components/data/ServicesTermovize";
 import ContainerBezova from "@/components/layout/ContainerBezova";
 import Images from "@/components/layout/Images";
+import Button from "@/components/ui/Button";
 
 export default function Showcase() {
   return (

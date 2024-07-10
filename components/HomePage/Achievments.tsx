@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import Button from "../ui/Button";
-import ContainerBezova from "../layout/ContainerBezova";
 import Counter from "../animations/Counter";
+import ContainerBezova from "../layout/ContainerBezova";
+import Button from "../ui/Button";
 
 export default function Achievments() {
   return (

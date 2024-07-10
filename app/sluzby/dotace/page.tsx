@@ -1,8 +1,8 @@
-import ScrollUp from "@/components/layout/ScrollUp";
 import BlowerDoor from "@/components/ServicesPage/DotacePage/BlowerDoor";
-import HowItWorks from "@/components/ServicesPage/DotacePage/HowItWorks";
 import Details from "@/components/ServicesPage/DotacePage/Details";
+import HowItWorks from "@/components/ServicesPage/DotacePage/HowItWorks";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
+import ScrollUp from "@/components/layout/ScrollUp";
 
 export const metadata = {
   title: "Dotace - Zelené stavění.cz",

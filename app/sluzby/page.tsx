@@ -1,9 +1,9 @@
 import Image from "next/image";
 
+import ServiceInfo from "@/components/ServicesPage/ServiceInfo";
+import Reveal from "@/components/animations/Reveal";
 import Container from "@/components/layout/Container";
 import ScrollUp from "@/components/layout/ScrollUp";
-import Reveal from "@/components/animations/Reveal";
-import ServiceInfo from "@/components/ServicesPage/ServiceInfo";
 
 export const metadata = {
   title: "Služby - Zelené stavění.cz",

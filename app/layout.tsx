@@ -1,14 +1,15 @@
-import { Montserrat } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { AxiomWebVitals } from "next-axiom";
+import { Montserrat } from "next/font/google";
 import Link from "next/link";
 
-import "./globals.css";
-import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import GoToTop from "@/components/ui/GoToTop";
+import Header from "@/components/layout/Header";
 import CookieConsent from "@/components/ui/CookieConsent";
+import GoToTop from "@/components/ui/GoToTop";
 import TOPlist from "@/lib/TOPlist";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
+import "./globals.css";
 
 const montserrat = Montserrat({
   subsets: ["latin"],

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Form, useForm } from "react-hook-form";
-import { toast, Toaster } from "react-hot-toast";
+import { Toaster, toast } from "react-hot-toast";
 
 export type ContactFormData = {
   name: string;

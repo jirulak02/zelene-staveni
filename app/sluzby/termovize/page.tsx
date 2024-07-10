@@ -1,10 +1,10 @@
-import ScrollUp from "@/components/layout/ScrollUp";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
-import Pricing from "@/components/ServicesPage/TermovizePage/Pricing";
-import WhenToMeasure from "@/components/ServicesPage/TermovizePage/WhenToMeasure";
-import Showcase from "@/components/ServicesPage/TermovizePage/Showcase";
-import HeatLoss from "@/components/ServicesPage/TermovizePage/HeatLoss";
 import Findings from "@/components/ServicesPage/TermovizePage/Findings";
+import HeatLoss from "@/components/ServicesPage/TermovizePage/HeatLoss";
+import Pricing from "@/components/ServicesPage/TermovizePage/Pricing";
+import Showcase from "@/components/ServicesPage/TermovizePage/Showcase";
+import WhenToMeasure from "@/components/ServicesPage/TermovizePage/WhenToMeasure";
+import ScrollUp from "@/components/layout/ScrollUp";
 
 export const metadata = {
   title: "Termovize - Zelené stavění.cz",

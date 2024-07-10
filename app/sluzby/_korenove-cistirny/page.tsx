@@ -1,8 +1,8 @@
-import ScrollUp from "@/components/layout/ScrollUp";
-import Realization from "@/components/ServicesPage/KorenovkyPage/Realization";
 import Composition from "@/components/ServicesPage/KorenovkyPage/Composition";
 import Details from "@/components/ServicesPage/KorenovkyPage/Details";
+import Realization from "@/components/ServicesPage/KorenovkyPage/Realization";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
+import ScrollUp from "@/components/layout/ScrollUp";
 
 export const metadata = {
   title: "Kořenové čistírny - Zelené stavění.cz",

@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useRef, useEffect } from "react";
-import { motion, useMotionValue, useInView, useTransform, animate } from "framer-motion";
+import { animate, motion, useInView, useMotionValue, useTransform } from "framer-motion";
+import React, { useEffect, useRef } from "react";
 
 type CounterProps = {
   countTo: number;

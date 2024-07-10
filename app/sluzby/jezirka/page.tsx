@@ -1,8 +1,8 @@
-import ScrollUp from "@/components/layout/ScrollUp";
-import Realization from "@/components/ServicesPage/JezirkaPage/Realization";
-import OurServices from "@/components/ServicesPage/JezirkaPage/OurServices";
 import Details from "@/components/ServicesPage/JezirkaPage/Details";
+import OurServices from "@/components/ServicesPage/JezirkaPage/OurServices";
+import Realization from "@/components/ServicesPage/JezirkaPage/Realization";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
+import ScrollUp from "@/components/layout/ScrollUp";
 
 export const metadata = {
   title: "Jezírka - Zelené stavění.cz",

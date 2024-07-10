@@ -1,14 +1,14 @@
 import Showcase from "@/components/HomePage/Showcase";
-import ScrollUp from "@/components/layout/ScrollUp";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
+import Composition from "@/components/ServicesPage/StrechyPage/Composition";
 import Considerations from "@/components/ServicesPage/StrechyPage/Considerations";
-import Weather from "@/components/ServicesPage/StrechyPage/Weather";
 import Grants from "@/components/ServicesPage/StrechyPage/Grants";
 import OurServices from "@/components/ServicesPage/StrechyPage/OurServices";
 import Plants from "@/components/ServicesPage/StrechyPage/Plants";
-import Composition from "@/components/ServicesPage/StrechyPage/Composition";
 import Types from "@/components/ServicesPage/StrechyPage/Types";
+import Weather from "@/components/ServicesPage/StrechyPage/Weather";
 import { dataRoofs } from "@/components/data/ServicesStrechy";
+import ScrollUp from "@/components/layout/ScrollUp";
 
 export const metadata = {
   title: "Zelené střechy - Zelené stavění.cz",

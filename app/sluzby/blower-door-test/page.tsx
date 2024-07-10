@@ -1,10 +1,10 @@
-import ScrollUp from "@/components/layout/ScrollUp";
-import Pricing from "@/components/ServicesPage/BlowerPage/Pricing";
-import Explanation from "@/components/ServicesPage/BlowerPage/Explanation";
 import Detection from "@/components/ServicesPage/BlowerPage/Detection";
-import WeNeed from "@/components/ServicesPage/BlowerPage/WeNeed";
+import Explanation from "@/components/ServicesPage/BlowerPage/Explanation";
+import Pricing from "@/components/ServicesPage/BlowerPage/Pricing";
 import Showcase from "@/components/ServicesPage/BlowerPage/Showcase";
+import WeNeed from "@/components/ServicesPage/BlowerPage/WeNeed";
 import ServicesImage from "@/components/ServicesPage/ServicesImage";
+import ScrollUp from "@/components/layout/ScrollUp";
 
 export const metadata = {
   title: "Blower Door test - Zelené stavění.cz",

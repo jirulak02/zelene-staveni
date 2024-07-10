@@ -6,7 +6,9 @@ import ContainerBila from "@/components/layout/ContainerBila";
 export default function Weather() {
   return (
     <ContainerBila>
-      <h3 className="my-5 text-center text-hneda">"Nejsme z cukru. Děláme tak, jak je potřeba."</h3>
+      <h3 className="my-5 text-center text-hneda">
+        &quot;Nejsme z cukru. Děláme tak, jak je potřeba.&quot;
+      </h3>
       <div className="grid grid-cols-1 gap-2 md:grid-cols-auto">
         {dataWeather.map((item) => (
           <div key={item.id} className="flex flex-col items-center space-y-3 text-center">
