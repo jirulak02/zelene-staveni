@@ -10,11 +10,6 @@ export const dataDetails = [
     url: "https://utfs.io/f/8b8ac783-5332-40bc-8707-8f157dabc550_analytics.png",
   },
   {
-    id: "data_sluzby_jezirka_details_3",
-    name: "PROJEKTOVÁ DOKUMENTACE",
-    url: "https://utfs.io/f/68254e67-bcf7-4ca2-9739-6e6e6cf04f47_documentation.png",
-  },
-  {
     id: "data_sluzby_jezirka_details_4",
     name: "KOMPLETNÍ REALIZACE",
     url: "https://utfs.io/f/fc78c28b-e3d1-4162-9301-34a11897d8d6_work.png",
