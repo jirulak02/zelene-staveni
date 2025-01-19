@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import Copyright from "../ui/Copyright";
 import ContainerBezova from "./ContainerBezova";
 
 export default function Footer() {
-  const year = new Date().getFullYear();
-
   return (
     <ContainerBezova>
       <div className="flex w-full flex-col items-center space-y-3">
@@ -42,9 +41,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="text-center">
-          <p className="text-xs">
-            Copyright © 2010-{year} Zelené stavění | Všechna práva vyhrazena.
-          </p>
+          <Copyright />
           <Link
             href="/ochrana-osobnich-udaju"
             className="border-b border-bezova text-xs hover:border-neutral-800"
