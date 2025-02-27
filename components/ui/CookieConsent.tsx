@@ -7,7 +7,11 @@ export default function CookieConsent() {
   const [hideConsent, setHideConsent] = useState(true);
 
   useEffect(() => {
-    setHideConsent(hasCookie("localConsent"));
+    const checkConsent = async () => {
+      const consent = await (hasCookie("localConsent") as boolean | Promise<boolean>);
+      setHideConsent(consent);
+    };
+    void checkConsent();
   }, []);
 
   const acceptCookie = () => {
