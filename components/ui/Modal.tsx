@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 import { ImageProps } from "../layout/Images";
 
@@ -11,32 +12,34 @@ type ModalProps = {
 };
 
 export default function Modal({ item, close, getNewItem, width, height }: ModalProps) {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setIsLoading(true);
+  }, [item]);
+
   return (
     <div className="fixed left-0 top-0 z-50 flex h-full w-full">
-      <div
-        className="absolute h-full w-full cursor-pointer bg-neutral-800/80"
-        onClick={() => {
-          close();
-        }}
-      />
+      <div className="absolute h-full w-full cursor-pointer bg-neutral-800/80" onClick={close} />
       <div className="relative m-auto flex max-h-screen flex-col justify-center rounded-xs bg-neutral-100 p-10 md:p-16">
-        <button
-          className="absolute right-0 top-0 p-2 md:p-5"
-          onClick={() => {
-            close();
-          }}
-        >
+        <button className="absolute right-0 top-0 p-2 md:p-5" onClick={close}>
           <div className="h-6 w-6 bg-close" />
         </button>
         <Image
-          className="z-20 max-h-[calc(100vh-2.5rem)] min-h-[150px] w-auto"
+          className={`z-20 max-h-[calc(100vh-2.5rem)] min-h-[150px] w-auto ${
+            isLoading ? "opacity-0" : "opacity-100"
+          }`}
           alt={item.alt}
           width={width}
           height={height}
           quality={100}
           src={item.url}
+          onLoad={() => setIsLoading(false)}
+          onError={() => setIsLoading(false)}
         />
-        <div className="loader absolute left-1/2 top-1/2 z-10 flex -translate-x-1/2 -translate-y-1/2" />
+        {isLoading && (
+          <div className="loader absolute left-1/2 top-1/2 z-10 flex -translate-x-1/2 -translate-y-1/2" />
+        )}
         <h3 className="absolute bottom-1 left-1/2 -translate-x-1/2 whitespace-nowrap text-center md:bottom-3.5">
           {item.name}
         </h3>
