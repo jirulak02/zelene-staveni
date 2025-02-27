@@ -33,6 +33,7 @@ export default function TOPlist() {
   return (
     <a href="https://www.toplist.cz" ref={anchorRef}>
       <noscript>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="https://toplist.cz/dot.asp?id=1080441&njs=1"
           className="border-none"

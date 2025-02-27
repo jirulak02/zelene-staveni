@@ -39,7 +39,7 @@ export default function Images({ data, width, height }: ImagesProps) {
   };
 
   const getNewItem = (side: string, item: ImageProps) => {
-    let index = data.indexOf(item);
+    const index = data.indexOf(item);
     if (side === "left") {
       if (index === 0) {
         setItemState(data[data.length - 1]);

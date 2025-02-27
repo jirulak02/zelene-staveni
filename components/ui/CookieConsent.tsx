@@ -4,21 +4,21 @@ import { hasCookie, setCookie } from "cookies-next";
 import { useEffect, useState } from "react";
 
 export default function CookieConsent() {
-  const [showConsent, setShowConsent] = useState(true);
+  const [hideConsent, setHideConsent] = useState(true);
 
   useEffect(() => {
-    setShowConsent(hasCookie("localConsent"));
+    setHideConsent(hasCookie("localConsent"));
   }, []);
 
   const acceptCookie = () => {
-    setShowConsent(true);
+    setHideConsent(true);
     setCookie("localConsent", "true", {});
   };
 
   return (
     <div
       className={`fixed bottom-0 z-50 w-full items-center justify-center bg-neutral-600 p-4 pr-10 text-center ${
-        showConsent ? "hidden" : "flex flex-col gap-2"
+        hideConsent ? "hidden" : "flex flex-col gap-2"
       }`}
     >
       <p className="text-sm text-neutral-100">
@@ -37,7 +37,7 @@ export default function CookieConsent() {
       <button
         className="absolute right-1 top-1 p-2"
         onClick={() => {
-          setShowConsent(true);
+          setHideConsent(true);
         }}
         aria-label="Zavřít cookies"
       >
