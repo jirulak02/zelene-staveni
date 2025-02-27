@@ -19,7 +19,7 @@ export default function Modal({ item, close, getNewItem, width, height }: ModalP
           close();
         }}
       />
-      <div className="relative m-auto flex max-h-screen flex-col justify-center rounded-sm bg-neutral-100 p-10 md:p-16">
+      <div className="relative m-auto flex max-h-screen flex-col justify-center rounded-xs bg-neutral-100 p-10 md:p-16">
         <button
           className="absolute right-0 top-0 p-2 md:p-5"
           onClick={() => {
