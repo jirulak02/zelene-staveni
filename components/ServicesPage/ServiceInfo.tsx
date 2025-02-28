@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 import Button from "../ui/Button";
@@ -11,6 +12,7 @@ type ServiceInfoDetail = {
 };
 
 export default function ServiceInfo({ alt, img, heading, text, href }: ServiceInfoDetail) {
+  const t = useTranslations("SluzbyPage.ServiceInfo");
   return (
     <>
       <Image
@@ -24,7 +26,7 @@ export default function ServiceInfo({ alt, img, heading, text, href }: ServiceIn
       />
       <h2 className="text-hneda">{heading}</h2>
       <p>{text}</p>
-      <Button href={href}>ZJISTIT VÍCE</Button>
+      <Button href={href}>{t("button.label")}</Button>
     </>
   );
 }

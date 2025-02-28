@@ -1,12 +1,22 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-import { dataDetails } from "@/components/data/ServicesJezirka";
 import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function OurServices() {
+  const t = useTranslations("JezirkaPage.OurServices");
+  const data = useTranslations("data.jezirka");
+
+  const keys = Array.from({ length: 3 }, (_, i) => (i + 1).toString());
+  const dataDetails = keys.map((key) => ({
+    id: `jezirka_details_${key}`,
+    name: data(`details.${key}.name`),
+    url: data(`details.${key}.url`),
+  }));
+
   return (
     <ContainerBezova>
-      <h3 className="text-center text-hneda">Co všechno pro vás zajistíme</h3>
+      <h3 className="text-center text-hneda">{t("title")}</h3>
       <div className="grid grid-cols-auto">
         {dataDetails.map((item) => (
           <div
@@ -15,7 +25,7 @@ export default function OurServices() {
           >
             <Image
               style={{ width: "50px" }}
-              alt="Ikony na podporu vysvětlení"
+              alt={t("image.alt")}
               width={50}
               height={50}
               quality={100}

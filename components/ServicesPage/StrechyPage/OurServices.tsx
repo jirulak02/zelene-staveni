@@ -1,13 +1,23 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
-import { messages } from "@/components/data/ServicesStrechy";
 import ContainerBezova from "@/components/layout/ContainerBezova";
 
 export default function OurServices() {
-  const [message, setMessage] = useState(messages[0].name);
-  const [clicked, setClicked] = useState("Nezávazná konzultace");
+  const t = useTranslations("StrechyPage.OurServices");
+  const data = useTranslations("data.strechy");
+
+  const keys = Array.from({ length: 6 }, (_, i) => (i + 1).toString());
+  const dataMessages = keys.map((key) => ({
+    id: `strechy_messages_${key}`,
+    title: data(`messages.${key}.title`),
+    name: data(`messages.${key}.name`),
+  }));
+
+  const [message, setMessage] = useState(dataMessages[0].name);
+  const [clicked, setClicked] = useState(dataMessages[0].title);
 
   const messageHandler = (event: React.MouseEvent<HTMLButtonElement>) => {
     const target = event.target as HTMLInputElement;
@@ -21,10 +31,10 @@ export default function OurServices() {
   return (
     <ContainerBezova>
       <div className="flex flex-col items-center space-y-6 text-center">
-        <h2 className="text-zelena">Naše služby</h2>
+        <h2 className="text-zelena">{t("title")}</h2>
         <div className="w-full">
           <div className="overflow-y-hidden whitespace-nowrap">
-            {messages.map((button) => (
+            {dataMessages.map((button) => (
               <button
                 key={button.title}
                 name={button.name}
@@ -43,21 +53,20 @@ export default function OurServices() {
             {message}
           </div>
         </div>
-        <p className="max-w-xl">
-          Pošlete nám výkres střechy, lokalitu a Vaši představu. Obratem Vám vypracujeme nabídku.
-          Věříme, že spolu dojdeme k řešení, které Vás uspokojí nejen esteticky, ale i finančně.
-        </p>
+        <p className="max-w-xl">{t("text1")}</p>
         <p>
-          Dodržujeme{" "}
-          <a
-            className="border-b border-bezova text-zelena hover:border-zelena"
-            href="https://utfs.io/f/ab8783bf-6134-4c7d-8b2b-cc7eda10b400_zelene_strachy_standardy.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            standardy Zelených střech
-          </a>
-          .
+          {t.rich("text2", {
+            link: () => (
+              <a
+                className="border-b border-bezova text-zelena hover:border-zelena"
+                href="https://utfs.io/f/ab8783bf-6134-4c7d-8b2b-cc7eda10b400_zelene_strachy_standardy.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("link.label")}
+              </a>
+            ),
+          })}
         </p>
       </div>
     </ContainerBezova>

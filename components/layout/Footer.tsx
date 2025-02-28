@@ -1,16 +1,19 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 
 import Copyright from "../ui/Copyright";
 import ContainerBezova from "./ContainerBezova";
+import { Link } from "@/i18n";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
+
   return (
     <ContainerBezova>
       <div className="flex w-full flex-col items-center space-y-3">
         <Image
           className="w-[300px] pb-2 md:w-[420px]"
-          alt="Zelené stavění logo"
+          alt={t("image.alt")}
           width="420"
           height="60"
           quality={100}
@@ -46,7 +49,7 @@ export default function Footer() {
             href="/ochrana-osobnich-udaju"
             className="border-b border-bezova text-xs hover:border-neutral-800"
           >
-            Zásady ochrany osobních údajů
+            {t("link.label")}
           </Link>
         </div>
       </div>

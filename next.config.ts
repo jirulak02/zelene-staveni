@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import { withAxiom } from "next-axiom";
+import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   images: {
@@ -17,4 +18,5 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withAxiom(nextConfig);
+const withNextIntl = createNextIntlPlugin();
+export default withAxiom(withNextIntl(nextConfig));

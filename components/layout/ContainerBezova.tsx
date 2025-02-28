@@ -1,4 +1,4 @@
-import { Children } from "@/app/layout";
+import { Children } from "@/app/[locale]/layout";
 
 export default function ContainerBezova({ children }: Children) {
   return (

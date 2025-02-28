@@ -1,38 +1,40 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 import ContainerBila from "@/components/layout/ContainerBila";
 import Button from "@/components/ui/Button";
 
 export default function Grants() {
+  const t = useTranslations("StrechyPage.Grants");
+
   return (
     <ContainerBila>
       <div className="grid grid-cols-1 gap-2 space-y-6 md:grid-cols-2 md:space-y-0">
         <div className="space-y-5">
-          <h3 className="text-hneda">Dotace na zelené střechy</h3>
+          <h3 className="text-hneda">{t("title")}</h3>
+          <p>{t("text1")}</p>
           <p>
-            Od ledna 2017 je možno žádat o dotaci na realizaci zelené střechy, kterou Vám rádi
-            vyřídíme.
-          </p>
-          <p>
-            Dotace činí 700-1000 Kč/m² zelené střechy a více se dozvíte na stránkách{" "}
-            <a
-              className="border-b border-neutral-100 text-zelena hover:border-zelena"
-              href="https://www.novazelenausporam.cz/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Nová zelená úsporám
-            </a>
-            . Cena zelené střechy tedy nemusí být vysoká. Maximální výše dotace je 100 000 Kč.
+            {t.rich("text2", {
+              link: () => (
+                <a
+                  className="border-b border-neutral-100 text-zelena hover:border-zelena"
+                  href="https://www.novazelenausporam.cz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t("link.label")}
+                </a>
+              ),
+            })}
           </p>
           <div className="flex">
-            <Button href="/sluzby/dotace">ZJISTIT VÍCE</Button>
+            <Button href="/sluzby/dotace">{t("button.label")}</Button>
           </div>
         </div>
         <Image
           style={{ width: "400px" }}
           className="m-auto"
-          alt="Logo programu Nová zelená úsporám"
+          alt={t("image.alt")}
           width={400}
           height={200}
           quality={100}
