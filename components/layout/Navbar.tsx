@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
+import LanguageSwitcher from "../ui/LanguageSwitcher";
 import Container from "./Container";
 import { usePathname } from "@/i18n";
 import { Link } from "@/i18n";
@@ -182,6 +183,7 @@ export default function Navbar() {
               {t("contact.label")}
             </Link>
           </button>
+          <LanguageSwitcher />
         </nav>
       </div>
     </Container>

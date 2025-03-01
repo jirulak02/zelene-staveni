@@ -12,7 +12,7 @@ export default function GoToTop() {
       }
       className="fixed bottom-4 right-4 z-40 h-12 w-12 cursor-pointer rounded-full bg-neutral-800/25 hover:bg-zelena md:bottom-6 md:right-6"
     >
-      <div className="absolute top-1.5 h-8 w-full rounded-full bg-top"></div>
+      <div className="absolute top-1.5 h-8 w-full rounded-full bg-up bg-top"></div>
     </div>
   );
 }
