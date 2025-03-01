@@ -1,29 +1,31 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function Findings() {
+  const t = useTranslations("TermovizePage.Findings");
+
   return (
     <ContainerBila>
-      <h2 className="mb-4 text-zelena md:mb-6">Co lze měřením zjistit</h2>
+      <h2 className="mb-4 text-zelena md:mb-6">{t("title")}</h2>
       <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
         <ul className="list-disc space-y-1 pl-4">
-          <li>Nedostatky v zateplení budovy, špatné provedení izolací</li>
-          <li>Špatné utěsnění oken nebo dveří</li>
-          <li>Tepelné mosty</li>
-          <li>Skryté netěsnosti v plášti budovy</li>
-          <li>Kontrola provedení stavebních prací</li>
-          <li>Závady v podlahovém vytápění</li>
-          <li>Závady v elektroinstalacích - přehřívání rozvaděčů, kabelů, jističů, motorů</li>
-          <li>Závady ve fotovoltaických i termických panelech</li>
-          <li>Chyby v izolacích topných rozvodů a zásobníků</li>
-          <li>Problémy v komínovém systému</li>
+          <li>{t("list.item1")}</li>
+          <li>{t("list.item2")}</li>
+          <li>{t("list.item3")}</li>
+          <li>{t("list.item4")}</li>
+          <li>{t("list.item5")}</li>
+          <li>{t("list.item6")}</li>
+          <li>{t("list.item7")}</li>
+          <li>{t("list.item8")}</li>
+          <li>{t("list.item9")}</li>
+          <li>{t("list.item10")}</li>
         </ul>
-
         <div>
           <Image
             className="m-auto w-[250px] md:w-[400px]"
-            alt="Ukázka měření termokamerou"
+            alt={t("image.alt")}
             width={400}
             height={300}
             quality={100}

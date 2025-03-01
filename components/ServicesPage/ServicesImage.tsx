@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 import Container from "../layout/Container";
@@ -8,11 +9,13 @@ type ServicesImageProps = {
 };
 
 export default function ServicesImage({ name, url }: ServicesImageProps) {
+  const t = useTranslations("ServicesImage");
+
   return (
     <div className="relative -mt-image h-[280px] overflow-hidden pb-12 md:h-[440px]">
       <Image
         src={url}
-        alt="Ukázka realizace"
+        alt={t("image.alt")}
         fill={true}
         quality={100}
         priority

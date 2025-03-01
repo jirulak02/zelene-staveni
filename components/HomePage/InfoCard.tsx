@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 import Button from "../ui/Button";
@@ -12,6 +13,8 @@ type InfoCardDetail = {
 };
 
 export default function InfoCard({ className, alt, img, heading, text, href }: InfoCardDetail) {
+  const t = useTranslations("HomePage.InfoCard");
+
   return (
     <div
       className={`flex flex-col items-center space-y-2 bg-neutral-100 px-6 py-4 text-center sm:space-y-3 lg:my-10 lg:px-10 ${className}`}
@@ -28,7 +31,7 @@ export default function InfoCard({ className, alt, img, heading, text, href }: I
       />
       <h3 className="text-hneda">{heading}</h3>
       <p>{text}</p>
-      <Button href={href}>ZJISTIT VÍCE</Button>
+      <Button href={href}>{t("button")}</Button>
     </div>
   );
 }

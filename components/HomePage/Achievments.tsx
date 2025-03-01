@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 import Counter from "../animations/Counter";
@@ -5,22 +6,24 @@ import ContainerBezova from "../layout/ContainerBezova";
 import Button from "../ui/Button";
 
 export default function Achievments() {
+  const t = useTranslations("HomePage.Achievments");
+
   return (
     <ContainerBezova>
       <div className="space-y-4 text-center md:space-y-6">
-        <h2 className="text-hneda">Více než 200 úspěšných realizací!</h2>
-        <p>Už víc jak 20 let jsme tady pro Vás a Vaše sny o zelenějším bydlení.</p>
-        <Button href="/kontakt">ZEPTEJTE SE NÁS</Button>
+        <h2 className="text-hneda">{t("title")}</h2>
+        <p>{t("text")}</p>
+        <Button href="/kontakt">{t("button.label")}</Button>
       </div>
       <div className="mt-8 grid grid-cols-1 gap-2 text-center sm:grid-cols-auto md:mt-16">
         <div className="space-y-2 px-3 sm:space-y-3">
           <Counter countTo={20} className="text-6xl text-zelena sm:text-7xl" />
-          <h3 className="text-zelena">LET V OBORU</h3>
-          <p>Nezávazná konzultace vhodných řešení zdarma.</p>
+          <h3 className="text-zelena">{t("counter1.title")}</h3>
+          <p>{t("counter1.text")}</p>
         </div>
         <div className="hidden items-center justify-center lg:flex">
           <Image
-            alt="Ikona bílého domečku"
+            alt={t("houseImage.alt")}
             width={150}
             height={150}
             quality={100}
@@ -31,12 +34,12 @@ export default function Achievments() {
         </div>
         <div className="space-y-2 px-3 text-center sm:space-y-3">
           <Counter countTo={200} className="text-6xl text-zelena sm:text-7xl" />
-          <h3 className="text-zelena">REALIZACÍ</h3>
-          <p>Cenovou nabídku vypracujeme zdarma.</p>
+          <h3 className="text-zelena">{t("counter2.title")}</h3>
+          <p>{t("counter2.text")}</p>
         </div>
         <div className="hidden items-center justify-center text-center lg:flex">
           <Image
-            alt="Ikona bílého domečku"
+            alt={t("houseImage.alt")}
             width={150}
             height={150}
             quality={100}
@@ -47,8 +50,8 @@ export default function Achievments() {
         </div>
         <div className="space-y-2 px-3 text-center sm:space-y-3">
           <Counter countTo={300} className="text-6xl text-zelena sm:text-7xl" />
-          <h3 className="text-zelena">PROJEKTŮ NZÚ</h3>
-          <p>Dodáme potřebné dokumenty pro získání dotace.</p>
+          <h3 className="text-zelena">{t("counter3.title")}</h3>
+          <p>{t("counter3.text")}</p>
         </div>
       </div>
     </ContainerBezova>

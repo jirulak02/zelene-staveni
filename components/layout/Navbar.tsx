@@ -1,11 +1,13 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
+import LanguageSwitcher from "../ui/LanguageSwitcher";
 import Container from "./Container";
+import { usePathname } from "@/i18n";
+import { Link } from "@/i18n";
 
 const paths = [
   "/",
@@ -17,6 +19,7 @@ const paths = [
 ];
 
 export default function Navbar() {
+  const t = useTranslations("Header.Navbar");
   const [openBurger, setOpenBurger] = useState(false);
   const [openSluzby, setOpenSluzby] = useState(false);
   const [white, setWhite] = useState(true);
@@ -45,7 +48,7 @@ export default function Navbar() {
       <div className="relative flex h-20 items-center justify-between">
         <Link href="/" className="pb-2">
           <Image
-            alt="Zelené stavění logo"
+            alt={t("image.alt")}
             width={210}
             height={30}
             quality={100}
@@ -105,7 +108,7 @@ export default function Navbar() {
                 white && "sm:text-neutral-100"
               }`}
             >
-              Úvod
+              {t("home.label")}
             </Link>
           </button>
           <div className="relative ml-0">
@@ -120,10 +123,10 @@ export default function Navbar() {
             >
               {openSluzby ? (
                 <Link href="/sluzby" className="block" onClick={closeHandler}>
-                  Služby
+                  {t("services.label")}
                 </Link>
               ) : (
-                <div>Služby</div>
+                <div>{t("services.label")}</div>
               )}
             </button>
             <ul
@@ -133,27 +136,27 @@ export default function Navbar() {
             >
               <li className="h-9 min-w-max rounded-xl hover:bg-neutral-200">
                 <Link href="/sluzby/zelene-strechy" onClick={closeHandler}>
-                  <div className="px-3 py-1.5">Zelené střechy</div>
+                  <div className="px-3 py-1.5">{t("services.list.strechy")}</div>
                 </Link>
               </li>
               <li className="h-9 min-w-max rounded-xl hover:bg-neutral-200">
                 <Link href="/sluzby/jezirka" onClick={closeHandler}>
-                  <div className="px-3 py-1.5">Jezírka</div>
+                  <div className="px-3 py-1.5">{t("services.list.jezirka")}</div>
                 </Link>
               </li>
               <li className="h-9 min-w-max rounded-xl hover:bg-neutral-200">
                 <Link href="/sluzby/blower-door-test" onClick={closeHandler}>
-                  <div className="px-3 py-1.5">Blower Door test</div>
+                  <div className="px-3 py-1.5">{t("services.list.blower")}</div>
                 </Link>
               </li>
               <li className="h-9 min-w-max rounded-xl hover:bg-neutral-200">
                 <Link href="/sluzby/termovize" onClick={closeHandler}>
-                  <div className="px-3 py-1.5">Termovize</div>
+                  <div className="px-3 py-1.5">{t("services.list.termo")}</div>
                 </Link>
               </li>
               <li className="h-9 min-w-max rounded-xl hover:bg-neutral-200">
                 <Link href="/sluzby/dotace" onClick={closeHandler}>
-                  <div className="px-3 py-1.5">Dotace</div>
+                  <div className="px-3 py-1.5">{t("services.list.dotace")}</div>
                 </Link>
               </li>
             </ul>
@@ -166,7 +169,7 @@ export default function Navbar() {
               }`}
               onClick={closeHandler}
             >
-              Reference
+              {t("reference.label")}
             </Link>
           </button>
           <button>
@@ -177,9 +180,10 @@ export default function Navbar() {
               }`}
               onClick={closeHandler}
             >
-              Kontakt
+              {t("contact.label")}
             </Link>
           </button>
+          <LanguageSwitcher />
         </nav>
       </div>
     </Container>

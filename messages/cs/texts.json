@@ -1,0 +1,742 @@
+{
+  "Error": {
+    "title": "Něco se pokazilo!",
+    "button": {
+      "label": "ZKUSIT ZNOVU"
+    },
+    "message": "Pokud tlačítko nepomáhá, tak se prosím vraťte na předchozí stránku."
+  },
+  "NotFound": {
+    "title": "404 | Stránka nebyla nalezena",
+    "message": "Prosím vraťte se zpátky."
+  },
+  "HomePage": {
+    "metadata": {
+      "title": "Zelené stavění.cz - trochu jiné stavění",
+      "description": "Už víc jak 20 let jsme tady pro Vás a Vaše sny o zelenějším bydlení. Email: info@zelenestaveni.cz telefon: 608 974 908."
+    },
+    "Hero": {
+      "image": {
+        "alt": "Ukázka realizace"
+      },
+      "title1": "ZELENÉ",
+      "title2": "STAVĚNÍ",
+      "subtitle": "... trochu jiné stavění",
+      "grassImage": {
+        "alt": "Zkrášlovací prvek trávy"
+      },
+      "services": {
+        "strechy": {
+          "alt": "Ikona skalničky",
+          "heading": "ZELENÉ STŘECHY",
+          "text": "Ukládají vodu, vážou prach a nezahřívají se."
+        },
+        "jezirka": {
+          "alt": "Ikona vody",
+          "heading": "ZAHRADNÍ JEZÍRKA",
+          "text": "Koupací či okrasná jezírka včetně vodních rostlin."
+        },
+        "blower": {
+          "alt": "Ikona fénu",
+          "heading": "BLOWER DOOR TEST",
+          "text": "Test vzduchotěsnosti obálky budov a bytů."
+        },
+        "termovize": {
+          "alt": "Ikona kamery v domě",
+          "heading": "MĚŘENÍ ÚNIKU TEPLA",
+          "text": "Měření úniku tepla kvalitní termokamerou."
+        }
+      }
+    },
+    "Achievments": {
+      "title": "Více než 200 úspěšných realizací!",
+      "text": "Už víc jak 20 let jsme tady pro Vás a Vaše sny o zelenějším bydlení.",
+      "button": {
+        "label": "ZEPTEJTE SE NÁS"
+      },
+      "counter1": {
+        "title": "LET V OBORU",
+        "text": "Nezávazná konzultace vhodných řešení zdarma."
+      },
+      "counter2": {
+        "title": "REALIZACÍ",
+        "text": "Cenovou nabídku vypracujeme zdarma."
+      },
+      "counter3": {
+        "title": "PROJEKTŮ NZÚ",
+        "text": "Dodáme potřebné dokumenty pro získání dotace."
+      },
+      "houseImage": {
+        "alt": "Ikona bílého domečku"
+      }
+    },
+    "Showcase": {
+      "title": "Ukázka realizací",
+      "button": {
+        "label": "ZOBRAZIT VŠECHNY REALIZACE"
+      }
+    },
+    "InfoCard": {
+      "button": "ZJISTIT VÍCE"
+    }
+  },
+  "ContactPage": {
+    "metadata": {
+      "title": "Kontakt - Zelené stavění.cz",
+      "description": "Zkontaktujte nás na telefonu 608 974 908 nebo mailem na info@zelenestaveni.cz."
+    },
+    "title": "Kontakt",
+    "address": {
+      "company": "Zelené stavění PS s.r.o.",
+      "address": "Panská 212, Tehov, 251 01",
+      "ico": "IČ: 05749565",
+      "dic": "DIČ: CZ05749565"
+    },
+    "Employees": {
+      "petr": {
+        "title": "Mgr. Petr Šimeček - jednatel",
+        "name": "Petr Šimeček"
+      },
+      "simona": {
+        "title": "Simona Krausová - fakturace",
+        "name": "Simona Krausová"
+      },
+      "jirka": {
+        "title": "Jiří Šimeček - webovky",
+        "name": "Jiří Šimeček"
+      }
+    },
+    "title2": "Napište nám",
+    "ContactForm": {
+      "success": "Formulář byl úspěšně odeslán.",
+      "error": "Něco se pokazilo. Dejte nám prosím vědět, že formulář nefunguje.",
+      "name": {
+        "label": "Jméno a příjmení:",
+        "placeholder": "Petr Šimeček",
+        "errors": {
+          "required": "Jméno nemůže být prázdné."
+        }
+      },
+      "email": {
+        "label": "Email:",
+        "placeholder": "petr@zelenestaveni.cz",
+        "errors": {
+          "required": "Email nemůže být prázdný.",
+          "pattern": "Email musí být ve správném formátu."
+        }
+      },
+      "tel": {
+        "label": "Telefon:",
+        "placeholder": "608974908",
+        "errors": {
+          "required": "Telefon nemůže být prázdný.",
+          "minLength": "Telefon musí mít alespoň 9 číslic."
+        }
+      },
+      "town": {
+        "label": "Obec:",
+        "placeholder": "Tehov"
+      },
+      "address": {
+        "label": "Adresa:",
+        "placeholder": "Panská 212"
+      },
+      "postal": {
+        "label": "PSČ:",
+        "placeholder": "25101"
+      },
+      "select": {
+        "label": "Ohledně čeho píšete:",
+        "options": {
+          "strechy": "Zelené střechy",
+          "jezirka": "Jezírka",
+          "blower": "Blower Door test",
+          "termovize": "Termovize",
+          "dotace": "Dotace",
+          "jine": "Jiné"
+        }
+      },
+      "message": {
+        "label": "Vaše zpráva:",
+        "placeholder": "Doplňte co potřebujete"
+      },
+      "consent": {
+        "label": "Souhlasím s <link></link>.",
+        "link": {
+          "label": "podmínkami zpracování osobních údajů"
+        },
+        "errors": {
+          "required": "Souhlas s podmínkami je povinný."
+        }
+      },
+      "button": {
+        "label": "ODESLAT ZPRÁVU",
+        "loading": "ODESÍLÁ SE"
+      }
+    }
+  },
+  "ZasadyOsobnichUdajuPage": {
+    "metadata": {
+      "title": "Zásady ochrany osobních údajů - Zelené stavění.cz",
+      "description": "Přečtěte si jak ukládáme a chráníme Vaše osobní údaje."
+    },
+    "title": "Zásady ochrany osobních údajů",
+    "1": {
+      "text1": "1. Společnost Zelené stavění PS s.r.o., se sídlem Panská 212, Tehov, 251 01, IČ 05749565, zapsaná u městského soudu v Praze, oddíl C, vložka 270063, jako správce osobních údajů podle čl. 26 Nařízení, zpracovává v případě vaší poptávky služeb ve smyslu nařízení evropského parlamentu a rady (EU) č. 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušení směrnice 95/46/ES (obecné nařízení o ochraně osobních údajů) (dříve i dále jen „Nařízení“), následující osobní údaje:",
+      "text2": "- jméno a příjmení,",
+      "text3": "- emailovou adresu,",
+      "text4": "- telefon,",
+      "text5": "- text zprávy,",
+      "text6": "- adresu realizace a trvalého bydliště,",
+      "text7": "- číslo bankovního účtu."
+    },
+    "2": {
+      "text1": "2. Jméno, příjmení, emailovou adresu, adresu realizace, telefon a text zprávy je nutné zpracovat pro vytvoření nabídky služeb, jednání o této nabídce nebo za účelem odpovědi na Vámi vznesený dotaz. Takové zpracování umožňuje čl. 6. odst. 1 písm. b) Nařízení. Tyto osobní údaje budou společností Zelené stavění PS s.r.o. zpracovávány po dobu jednání o uzavření smlouvy mezi vámi a Zelené stavění PS s.r.o., nejdéle 1 rok od vaší poptávky, pokud neudělíte souhlas k dalšímu zpracování.",
+      "text2": "Pro klienty se službou zprostředkování dotace na zelenou střechu je nutné zpracovat jméno, příjmení, emailovou adresu, telefon, adresu realizace a trvalého bydliště a číslo bankovního účtu. A to z důvodu povinosti uchování všech dokladů a dokumentů jakkoliv souvisejících s žádostí o podporu a realizací podporovaných opatření. Tyto doklady a dokumenty si fond může při zpochybnění správnosti dotace vyžádat. Takové zpracování umožňuje čl. 6. odst. 1 písm. b) a c) Nařízení. Tyto osobní údaje budou společností Zelené stavění PS s.r.o. zpracovávány po dobu administrace a udržitelnosti dotace, nejdéle však 10 let ode dne vydání rozhodnutí o poskytnutí podpory."
+    },
+    "3": {
+      "text1": "3. Vezměte, prosíme, na vědomí, že podle zákona o ochraně osobních údajů máte právo:",
+      "text2": "- požadovat po nás informaci, jaké vaše osobní údaje zpracováváme, případně žádat kopii těchto osobních údajů,",
+      "text3": "- požadovat po nás vysvětlení ohledně zpracování osobních údajů,",
+      "text4": "- vyžádat si u nás přístup k těmto údajům a tyto nechat aktualizovat nebo opravit,",
+      "text5": "- požadovat po nás výmaz těchto osobních údajů - tento výmaz však bude mít za následek ukončení jednání o smlouvě a bude proveden jen v případě, že zájmy správce nepřevažují nad vaší ochranou soukromí,",
+      "text6": "- v případě pochybností o dodržování povinností souvisejících se zpracováním osobních údajů obrátit se na nás nebo na úřad pro ochranu osobních údajů, případně na soud."
+    }
+  },
+  "ReferencePage": {
+    "metadata": {
+      "title": "Reference - Zelené stavění.cz",
+      "description": "Prohlédněte si naše předchozí realizace, ať víte, jakou kvalitu můžete očekávat. Email: info@zelenestaveni.cz telefon: 608 974 908."
+    },
+    "title": "Reference",
+    "text": "Prohlédněte si fotografie našich prací.",
+    "buttons": {
+      "strechy": "ZELENÉ STŘECHY",
+      "jezirka": "JEZÍRKA",
+      "blower": "BLOWER DOOR TEST",
+      "termovize": "TERMOVIZE"
+    },
+    "gallery": {
+      "strechy": {
+        "title": "Zelené střechy"
+      },
+      "jezirka": {
+        "title": "Jezírka"
+      },
+      "blower": {
+        "title": "Blower Door test"
+      },
+      "termovize": {
+        "title": "Termovize"
+      }
+    }
+  },
+  "KorenovkyPage": {
+    "metadata": {
+      "title": "Kořenové čistírny - Zelené stavění.cz",
+      "description": "KOŘENOVÉ ČISTÍRNY. Uděláme plnou realizaci kořenové čističky. Email: info@zelenestaveni.cz telefon: 608 974 908."
+    },
+    "title": "Kořenové čistírny",
+    "Details": {
+      "title": "Kořenové čístírny odpadních vod",
+      "text1": "Kořenová čistírna odpadních vod je vlastně takový malý přírodní mokřad.",
+      "text2": "Slouží k čištění odpadních vod z domácnosti. Podle dosavadních zkušeností od nás i ze zahraničí je tato technologie svou účinností plně srovnatelná s ostatními běžně používanými technologiemi. Výhodou jsou minimální náklady na provoz. Není potřeba žádná elektrická energie na pohon čerpadla a podobně. Účinnost čištění není závislá na rovnoměrném přísunu odpadních vod.",
+      "text3": "Zvládne i občasné nárazové zatížení i výpadek produkce odpadu. Kořenová čistírna vytváří na pozemku zajímavou dominantu a pomáhá udržovat příznivé klima ve svém okolí.",
+      "title2": "Co všechno pro vás zajistíme",
+      "image": {
+        "alt": "Ikony na podporu vysvětlení"
+      }
+    },
+    "Realization": {
+      "title": "Realizace"
+    },
+    "Composition": {
+      "title": "Skladba kořenové čistírny",
+      "image": {
+        "alt": "Ukázka jednotlivých částí kořenové čistírny"
+      }
+    }
+  },
+  "BlowerPage": {
+    "metadata": {
+      "title": "Blower Door test - Zelené stavění.cz",
+      "description": "BLOWER DOOR TEST. Profesionální test vzduchotěsnosti obálky budov a bytů. Email: info@zelenestaveni.cz telefon: 608 974 908."
+    },
+    "title": "Blower Door test",
+    "Explanation": {
+      "basicInfo": {
+        "title": "Test průvzdušnosti obálky budov",
+        "text": "Provádíme test vzduchotěsnosti obálky budov a bytů tzv. Blower Door test. Měření provádíme v souladu s normou ČSN EN ISO 9972. Jsme registrováni v <link></link> projektu Nová zelená úsporám.",
+        "link": {
+          "label": "seznamu odborných dodavatelů"
+        }
+      },
+      "image1": {
+        "alt": "Logo programu Nová zelená úsporám"
+      },
+      "image2": {
+        "alt": "Ukázka zapojení techniky k měření ve dveřích"
+      },
+      "otherInfo": {
+        "title1": "Kdy se test provádí",
+        "text1": "Test Blower Door je vyžadován především u pasivních a nízkoenergetických domů. Test je vhodné provést již v průběhu výstavby domu po zabudování oken a venkovních dveří, kdy je možno ještě relativně snadno opravit zjištěné netěsnosti.",
+        "title2": "Co Blower Door test obsahuje",
+        "list": {
+          "item1": "příprava budovy",
+          "item2": "případné utěsnění vzduchotechnických otvorů, odpadů apod.",
+          "item3": "vlastní test provedený za podtlaku i přetlaku 20 až 75Pa",
+          "item4": {
+            "text": "výstupem měření je protokol obsahující stanovení hodnoty n50 pro měřený objekt (ukázka Protokolu měření ke stažení <link></link>)",
+            "link": {
+              "label": "ZDE"
+            }
+          }
+        }
+      }
+    },
+    "WeNeed": {
+      "title1": "Co od Vás budeme potřebovat",
+      "text1": "Podklady pro <bold>určení vnitřního objemu a podlahové plochy budovy</bold>, např. projektovou dokumentaci, protokol z předchozího testu apod. Pokud není ani jedno změříme si objem na místě.",
+      "text2": "Informaci o <bold>přístupnosti nasávání a výfuku vzduchotechniky</bold>, zda si např. máme přivézt žebřík a jak dlouhý. Potrubí vzduchotechniky musíme po dobu testu utěsnit.",
+      "title2": "Připravenost budovy",
+      "list": {
+        "item1": "Dokončená vzduchotěsnící vrstva, všechny výplně otvorů osazeny",
+        "item2": "Pro finální test: osazení spotřebičů majících vliv na vzduchotěsnost (rekuperační jednotka, kamna, digestoř apod.)",
+        "item3": {
+          "link": {
+            "label": "Více viz kapitola 6.3 Metodického pokynu zde"
+          }
+        }
+      }
+    },
+    "Showcase": {
+      "title": "Kde všude provádíme test",
+      "text": "Měření provádíme i v bytových domech nebo průmyslových objektech, kde je potřeba použít více měřících souprav."
+    },
+    "Detection": {
+      "title": "Detekce netěsnosti",
+      "text1": "Současně s provedením testu nabízíme detekci netěsností. Netěsnosti je možno zjistit pomocí různých pomůcek. Kromě prvotního zjištění pomocí dlaně používáme detekci pomocí anemometru, vyvíječe kouře a termovize.",
+      "image1": {
+        "alt": "Měření pomocí vyvíječe kouře"
+      },
+      "image2": {
+        "alt": "Kontrola těsnosti vzduchotechnických rozvodů"
+      },
+      "image3": {
+        "alt": "Měření pomocí anemometru"
+      },
+      "image4": {
+        "alt": "Měření pomocí termovize"
+      },
+      "image5": {
+        "alt": "Ikona úspěchu"
+      },
+      "text2": "Pro správné fungování vzduchotechniky je důležitá její správná instalace. Měření provedené k tomu speciálně určeným přístrojem Minneapolis DuctBlaster prověří kvalitu provedení Vašich vzduchotechnických rozvodů.",
+      "image6": {
+        "alt": "Ikona nářadí"
+      },
+      "text3": "Poradíme, jak netěsnosti opravit a utěsnit."
+    },
+    "Pricing": {
+      "title": "Ceník",
+      "subtitle": "Ceník může být zastaralý, tak ho berte spíše jako orientační a pro přesný ceník nás kontaktujte.",
+      "text1": { "left": "Položka", "right": "Cena" },
+      "text2": { "left": "Blower Door test včetně protokolu pro NZÚ", "right": "4400 Kč/objekt" },
+      "text3": { "left": "Blower Door test bez protokolu", "right": "2900 Kč/objekt" },
+      "text4": {
+        "left": "Blower Door test u větších objektů a bytových domů",
+        "right": "cena individuální dle rozsahu měření"
+      },
+      "text5": {
+        "left": "Kontrola vzduchotechnických rozvodů",
+        "right": "5000 Kč/objekt typu RD, větší objekty individuálně dle rozsahu vzduchotechniky"
+      },
+      "text6": { "left": "Detekce netěsností nad základ 2 hodin", "right": "400 Kč/h" },
+      "text7": { "left": "Konzultace nad projektem, oprava netěsností apod.", "right": "400 Kč/h" },
+      "text8": { "left": "Doprava", "right": "7 Kč/km, minimálně 400Kč" }
+    }
+  },
+  "DotacePage": {
+    "metadata": {
+      "title": "Dotace - Zelené stavění.cz",
+      "description": "DOTACE. Dodáme potřebné dokumenty pro získání dotace. Email: dotace@zelenestaveni.cz telefon: 777 898 501."
+    },
+    "title": "Dotace",
+    "Details": {
+      "title": "Dotace na zelenou střechu",
+      "subtitle": "Nechte si usnadnit cestu k získání finanční podpory na vaši střechu",
+      "text1": "Od ledna 2017 je možno žádat o dotaci na realizaci zelené střechy, kterou Vám rádi jakožto <link></link> projektu Nová zelená úsporám pomůžeme vyřídit.",
+      "link1": {
+        "label": "registrováný odborný dodavatel"
+      },
+      "text2": "Bohužel od července 2023 lze dotace na zelenou střechu podávát zase <bold>jen spolu s další oblastní podpory</bold>. Mezi ty patří:",
+      "list": {
+        "item1": "Oblast A - zateplení",
+        "item2": "Oblast B - novostavba",
+        "item3": "Oblast C.1 - výměna zdrojů tepla",
+        "item4": "Oblast C.2 - příprava teplé vody",
+        "item5": "Oblast C.3 - fotovoltaické systémy",
+        "item6": "Oblast C.4 - větrání"
+      },
+      "text3": "Dotace činí <bold1>700-1000 Kč/m²</bold1> zelené střechy s maximální výší dotace <bold2>100 000 Kč</bold2>. Cena zelené střechy tedy nemusí být vysoká.",
+      "text4": "Více o dotacích se dozvíte v aktuálních <link1></link1>, nebo přímo na stránkách <link2></link2>.",
+      "link2": {
+        "label": "závazných pokynech pro žadatele"
+      },
+      "link3": {
+        "label": "Nová zelená úsporám"
+      },
+      "image": {
+        "alt": "Logo programu Nová zelená úsporám"
+      }
+    },
+    "HowItWorks": {
+      "title": "Jak to funguje",
+      "text1": "Náš tým odborníků v oblasti stavebnictví a dotací se postará o kompletní technickou dokumentaci, kterou budete potřebovat k vyřízení dotace.",
+      "text2": "Podání dotace Vám vyřídí firma, která Vám zařizuje hlavní oblast podpory.",
+      "text3": "My ale celý proces dobře známe, takže Vám rádi s čímkoli pomůžeme.",
+      "text4": "V případě dotazů ohledně dotací pište na email <link1></link1> nebo volejte na <link2></link2>.",
+      "tel": "777 898 501"
+    },
+    "BlowerDoor": {
+      "title": "Dotace na energetickou náročnost",
+      "text": "V rámci Blower Door testu vám dodáme potřebný protokol k získání dotace.",
+      "button": {
+        "label": "ZJISTIT VÍCE"
+      },
+      "image": {
+        "alt": "Ukázka zapojení techniky k měření ve dveřích"
+      }
+    }
+  },
+  "JezirkaPage": {
+    "metadata": {
+      "title": "Jezírka - Zelené stavění.cz",
+      "description": "JEZÍRKA. Uděláme plnou realizaci zahradního jezírka. Email: info@zelenestaveni.cz telefon: 608 974 908."
+    },
+    "title": "Jezírka",
+    "Details": {
+      "title": "Realizace zahradních jezírek",
+      "text1": "Zahradní jezírka jsou nádherným doplňkem každé zahrady, který přináší kousek přírody přímo do vašeho domova.",
+      "text2": "Naše realizace zahradních jezírek se zaměřuje na harmonické propojení vody s okolní krajinou, čímž vytváříme oázy klidu a pohody. Každé jezírko je pečlivě navrženo tak, aby ladilo s charakterem vaší zahrady a přirozeně zapadalo do jejího prostředí. Používáme pouze kvalitní materiály a moderní technologie, což zajišťuje dlouhou životnost a snadnou údržbu jezírka. Možné je i přidání vodních rostlin.",
+      "text3": "Naše služby zahrnují kompletní realizaci od návrhu až po konečnou instalaci zahradního jezírka. S naším profesionálním týmem můžete očekávat individuální přístup a odborné poradenství ve všech fázích projektu. Jezírko může být navrženo i jako koupací, čímž se z vaší zahrady stane ještě atraktivnější místo pro relaxaci a osvěžení během horkých letních dní. Věříme, že zahradní jezírko není jen estetickým prvkem, ale také zdrojem relaxace a radosti. S naší pomocí se váš sen o dokonalé zahradě může stát skutečností."
+    },
+    "OurServices": {
+      "title": "Co všechno pro vás zajistíme",
+      "image": {
+        "alt": "Ikony na podporu vysvětlení"
+      }
+    },
+    "Realization": {
+      "title": "Realizace"
+    }
+  },
+  "TermovizePage": {
+    "metadata": {
+      "title": "Termovize - Zelené stavění.cz",
+      "description": "TERMOVIZE. Provádíme zjišťování úniků tepla termovizí. Email: info@zelenestaveni.cz telefon: 608 974 908."
+    },
+    "title": "Termovize",
+    "HeatLoss": {
+      "title": "Měření úniku tepla",
+      "text1": "Nabízíme měření úniku tepla termokamerou.",
+      "text2": "Kromě infračerveného snímku současně zaznamenává také obraz digitální a tyto obrazy umožňuje splynout dohromady, čímž výrazně zjednodušuje analýzu infračervených snímků. Teplotní citlivost 0.1°C. Rozsah měřených teplot -20°C až 250°C.",
+      "image": {
+        "alt": "Termokamera Fluke Ti10"
+      }
+    },
+    "WhenToMeasure": {
+      "image": {
+        "alt": "Ukázka měření termokamerou"
+      },
+      "title1": "Kdy provádět měření",
+      "text1": "Závady v zateplení budov či v topných systémech je možno zjišťovat v topné sezóně, tedy v zimním období. Měření termokamerou je možno provádět i za tmy. Rozdíl teplot mezi vnějškem a vnitřkem by měl být alespoň cca 15°C. Závady v elektroinstalacích, fotovoltaických panelech a podobně, je možno zjišťovat celoročně.",
+      "title2": "Co zahrnuje měření termovizí",
+      "list": {
+        "item1": "Snímky vnějšku i vnitřku budovy, případně požadovaných zařízení ve viditelném i infračerveném spektru",
+        "item2": "Analýza snímků (vyznačení nejteplejších a nejstudenějších míst či teplot v jakémkoliv bodě snímku)",
+        "item3": "Vypracování protokolu ve formátu PDF"
+      }
+    },
+    "Findings": {
+      "title": "Co lze měřením zjistit",
+      "list": {
+        "item1": "Nedostatky v zateplení budovy, špatné provedení izolací",
+        "item2": "Špatné utěsnění oken nebo dveří",
+        "item3": "Tepelné mosty",
+        "item4": "Skryté netěsnosti v plášti budovy",
+        "item5": "Kontrola provedení stavebních prací",
+        "item6": "Závady v podlahovém vytápění",
+        "item7": "Závady v elektroinstalacích - přehřívání rozvaděčů, kabelů, jističů, motorů",
+        "item8": "Závady ve fotovoltaických i termických panelech",
+        "item9": "Chyby v izolacích topných rozvodů a zásobníků",
+        "item10": "Problémy v komínovém systému"
+      },
+      "image": {
+        "alt": "Ukázka měření termokamerou"
+      }
+    },
+    "Showcase": {
+      "title": "Ukázky snímků",
+      "button": {
+        "label": "ZOBRAZIT VŠECHNY UKÁZKY"
+      }
+    },
+    "Pricing": {
+      "title": "Ceník",
+      "subtitle": "Ceník může být zastaralý, tak ho berte spíše jako orientační a pro přesný ceník nás kontaktujte.",
+      "text1": { "left": "Položka", "right": "Cena" },
+      "text2": {
+        "left": "Rodinný dům (cca 30 až 60 snímků podle potřeby, protokol v PDF)",
+        "right": "2000 Kč"
+      },
+      "text3": { "left": "Jiné objekty, bytové domy, provozovny", "right": "dohodou" },
+      "text4": { "left": "Analýza problémů, doporučení oprav a pod", "right": "400 Kč/hod" },
+      "text5": { "left": "Doprava", "right": "7 Kč/km, minimálně 200 Kč" }
+    }
+  },
+  "StrechyPage": {
+    "metadata": {
+      "title": "Zelené střechy - Zelené stavění.cz",
+      "description": "ZELENÉ STŘECHY. Realizujeme zelené střechy od A do Z. Email: info@zelenestaveni.cz telefon: 608 974 908."
+    },
+    "title": "Zelené střechy",
+    "Considerations": {
+      "title": "Realizujeme zelené střechy od A do Z",
+      "subtitle1": "Na co myslet před realizací zelené střechy?",
+      "subtitle2": "Ujasněte si tyto základní body:",
+      "image1": {
+        "alt": "Ikona porovnávání"
+      },
+      "text1": "Jaký styl se Vám líbí",
+      "image2": {
+        "alt": "Ikona šetřícího prasátka"
+      },
+      "text2": "Kolik chcete investovat",
+      "image3": {
+        "alt": "Ikona kolapsujícího domu"
+      },
+      "text3": "Možné zatížení střešní konstrukce"
+    },
+    "Composition": {
+      "title": "Dokážeme udělat celou skladbu střechy",
+      "subtitle": "Ručíme Vám tak za celou střechu",
+      "text1": "Skladba zelené střechy",
+      "list": {
+        "item1": "Rostliny",
+        "item2": "Substrát",
+        "item3": "Filtrační vrstva",
+        "item4": "Drenážní + hydroakumulační vrstva",
+        "item5": "Ochranná vrstva",
+        "item6": "Hydroizolace odolná prorůstání"
+      },
+      "image": {
+        "alt": "Rozbor jednotlivých částí skladby zelené střechy"
+      }
+    },
+    "OurServices": {
+      "title": "Naše služby",
+      "text1": "Pošlete nám výkres střechy, lokalitu a Vaši představu. Obratem Vám vypracujeme nabídku. Věříme, že spolu dojdeme k řešení, které Vás uspokojí nejen esteticky, ale i finančně.",
+      "text2": "Dodržujeme <link></link>.",
+      "link": {
+        "label": "standardy Zelených střech"
+      }
+    },
+    "Weather": {
+      "title": "Nejsme z cukru. Děláme tak, jak je potřeba.",
+      "image": {
+        "alt": "Ukázka toho jak nás žádné počasí nezastaví"
+      }
+    },
+    "Types": {
+      "title": "Typy zelených střech",
+      "text1": "Zelené střechy ukládají přirozeným způsobem vodu, vážou prach a ani při extrémních teplotách se téměř nezahřívají. Chrání izolaci střechy před působením životního prostředí ještě lépe než štěrkový násyp a prodlužují její životnost. Díky snížení poplatků za odvod dešťových vod lze v mnoha obcích, které mají poplatky rozdělené na vodné a stočné, ušetřit. Územní plány stále více ozelenění střech podporují nebo alespoň uznávají jako kompenzační opatření. Vznikají tak cenné biotopy.",
+      "text2": "S každou vegetační střechou vzniká nový životní prostor. Intenzivní ozelenění s oblastmi trávníků a rostlin, plochami pro cesty a odpočinek lze utvářet a používat jako zahradu. Naproti tomu extenzivní ozeleňování je vytvářeno rostlinami nenáročnými a převážně nízkého vzrůstu, a pochozí jsou pouze za účelem kontroly a ošetřování. Obě formy ozeleňování tvoří cenné a zajímavé náhradní biotopy pro rostliny a mikroorganizmy. Navracejí přírodě nazpět něco z toho, co bylo ztraceno zástavbou půdy.",
+      "vegetace": {
+        "button": {
+          "label": "Podle typu vegetace: extenzivní, intenzivní"
+        },
+        "title1": "Extenzivní zelené střechy",
+        "text1": "Cílem extenzivního ozelenění je přírodně založená vegetace s nízkým zatížením plochy a minimální potřebou ošetřování. Jako rostliny vytvářející porost se často uplatňují druhy rozchodníků (Sedum). Doplněna suchu odolnými bylinami. Extenzivní ozelenění vyžaduje minimální péči. V prvním roce až dvou, než rostliny pokryjí celou plochu střechy, je třeba čas od času vytrhat případný náletový plevel. Občas také přihnojit pomalu rozpustným hnojivem, záleží na druhu použitého substrátu. Někdy je třeba doplnit uhynulé rostliny po zimě apod.",
+        "title2": "Intenzivní zelené střechy",
+        "text2": "Intenzivní ozelenění poskytuje rozmanité možnosti utváření a může být, pokud je vhodně provedeno, využíváno jako zahrada na střeše. Je možné vytvářet rekreační loučky i vysazovat stromy. Při správném dimenzování vegetační nosné vrstvy, dostatečném zavlažování a zásobováním živinami jsou podmínky pro růst rostlin na střeše téměř stejně dobré jako v půdě. Je třeba přihlížet např. ke stabilitě dřevin a možným negativním vlivům budovy, jako jsou sálající fasády. Projektování intenzivního ozelenění a zvláště výběr rostlin podle objektu vyžaduje příslušné odborné znalosti. Pro dimenzování nosné vegetační vrstvy lze u dřevin používat jednoduchého vzorce, a to „výška vzrůstu/10 = tloušťka vrstvy substrátu“. Trávník a půdopokryvné rostliny potřebují nejméně 20 cm substrátu. I přes velkou vodní kapacitu substrátů musí být intenzivní ozelenění a především také trávníky v období sucha pravidelně zavlažovány. Jako u každé zahrádky u domu existuje také na střeše bezprostřední souvislost mezi stavem vegetace a péčí o ni."
+      },
+      "zatizeni": {
+        "button": {
+          "label": "Podle zatížení: lehké, středně těžké, těžké"
+        },
+        "title": "Statika - nosnost střešní konstrukce",
+        "text": "Nosnost střešní konstrukce je jedním z klíčových kritérií pro ozelenění. Pro intenzivní ozeleňování by mělo být počítáno min. 300 kg/m2 plošné hmotnosti dle navržené tloušťky substrátu. U extenzivních střech je zatížení cca 150 kg/m2 ve stavu nasycení vodou. Toto se týká při použití substrátu. Dnes lze použít i minerální rohože, které významně sníží zatížení na cca 50kg/m2. K tomuto zatížení je třeba vždy připočítat zatížení sněhovou pokrývkou pro danou lokalitu."
+      },
+      "sklon": {
+        "button": {
+          "label": "Podle sklonu: mírný sklon, šikmé střechy, strmé střechy"
+        },
+        "title": "Sklon střechy",
+        "text": "Dá se říci, že dnes již lze ozelenit jakýkoliv sklon střechy. Samozřejmě, že čím větší sklon, tím je řešení složitější a dražší. Sklony do 15° není většinou nutné zajišťovat proti sesuvu. U větších sklonů je třeba zajistit substrát proti sjíždění. Čím větší sklon, tím více fixačních prvků musí být použito. Toto je třeba řešit pro každou střechu individuálně. Fixace se v zásadě provádí buď s využitím spodní hrany střechy, fixace přes hřeben střechy, fixace v ploše střechy a nebo kombinací těchto typů."
+      },
+      "cena": {
+        "button": {
+          "label": "Podle ceny: úsporné, ostatní"
+        },
+        "title": "Finanční náročnost",
+        "text1": "Celkovou cenu realizace zelené střechy je třeba vždy stanovit pro konkrétní střechu individuálně. Pro extenzivní střechy se sklonem do 15° a nejobvyklejší skladbu se ceny pohybují v těchto relacích:",
+        "list": {
+          "item1": "Celá skladba bez hydroizolace: 1100 Kč/m²",
+          "item2": "Pokládka hydroizolační fólie včetně oplechování: 600 Kč/m²",
+          "item3": "Pokládka drenážní a akumulační vrstvy: 250 Kč/m²",
+          "item4": "Pokládka filtrační a ochranné textílie: 125 Kč/m²",
+          "item5": "Substrát a jeho uložení na střechu: 350 Kč/m²",
+          "item6": "Osázení rostlinami: 350 Kč/m²"
+        },
+        "text2": "Ceny jsou uvedeny bez DPH. V ceně není zahrnuta doprava na stavbu.",
+        "text3": "Osázení rostlinami je počítáno sazenicemi rozchodníků 25ks/m². Levnější variantou je použití osiva, nebo řízků. Naopak podstatně dražší variantou je rozchodníkový koberec.",
+        "text4": "Existuje i jednodušší jednovrstvá skladba s vynecháním drenážní vrstvy.",
+        "text5": "Pokud je již na střeše hydroizolace, ale není odolná prorůstání, lze na ni položit speciální tenkou membránu proti prorůstání, kterou není nutné ani svařovat.",
+        "text6": "Jako hydroizolační fólii používáme standardně PVC svařované fólie, ojediněle lepené EPDM fólie nebo asfaltové pásy."
+      },
+      "narocnost": {
+        "button": {
+          "label": "Údržba zelených střech"
+        },
+        "title": "Sklon střechy",
+        "text1": "Extenzivní zelené střechy se často nazývají také bezúdržbové. Je to pravda jen do určité míry. Jakmile skalničky pokryjí celou střechu, není potřeba se o střechu příliš starat. Pokud ale chceme, aby střecha také pěkně vypadala, je dobré alespoň jednou za rok na ni vylézt a vytrhat plevel, doplnit prořídlá místa, rozhodit pomalu rozpustné hnojivo, zkontrolovat a případně vyčistit svody.",
+        "text2": "U intenzivních střech je údržba stejně náročná jako na zahradě nebo v parku. Záleží opět na tom, jak pěkně chceme aby střecha vypadala."
+      }
+    },
+    "Showcase": {
+      "title": "Již více než 100 úspěšných realizací!"
+    },
+    "Plants": {
+      "image": {
+        "alt": "Ikona skalničky"
+      },
+      "title": "Máme vlastní plantáž"
+    },
+    "Grants": {
+      "title": "Dotace na zelené střechy",
+      "text1": "Od ledna 2017 je možno žádat o dotaci na realizaci zelené střechy, kterou Vám rádi vyřídíme.",
+      "text2": "Dotace činí 700-1000 Kč/m² zelené střechy a více se dozvíte na stránkách <link></link>. Cena zelené střechy tedy nemusí být vysoká. Maximální výše dotace je 100 000 Kč.",
+      "link": {
+        "label": "Nová zelená úsporám"
+      },
+      "button": {
+        "label": "ZJISTIT VÍCE"
+      },
+      "image": {
+        "alt": "Logo programu Nová zelená úsporám"
+      }
+    }
+  },
+  "SluzbyPage": {
+    "metadata": {
+      "title": "Služby - Zelené stavění.cz",
+      "description": "Nabýzíme realizaci zelených střech a jezírek, blower door test, měření termovizí či získání státní podpory. Email: info@zelenestaveni.cz telefon: 608 974 908."
+    },
+    "title": "Služby",
+    "ServiceInfo": {
+      "button": {
+        "label": "ZJISTIT VÍCE"
+      }
+    },
+    "strechy": {
+      "image": {
+        "alt": "Ukázka realizace zelené střechy"
+      },
+      "alt": "Ikona skalničky",
+      "heading": "ZELENÉ STŘECHY",
+      "text": "Zelené střechy ukládají vodu, vážou prach a nezahřívají se. Realizujeme zelené střechy od A do Z. Pomůžeme i s dotací Nová zelená úsporám."
+    },
+    "jezirka": {
+      "alt": "Ikona vody",
+      "heading": "JEZÍRKA",
+      "text": "Zahradní jezírko slouží jako designový ale i funkční prvek zahrady, který Vám v horkých dnech ochladí ovzduší. Vytvoříme jezírko okrasné či koupací a to včetně vodních rostlin i filtrů.",
+      "image": {
+        "alt": "Ukázka realizace jezírka"
+      }
+    },
+    "blower": {
+      "image": {
+        "alt": "Ukázka měření blower door testu"
+      },
+      "alt": "Ikona fénu",
+      "heading": "BLOWER DOOR TEST",
+      "text": "Test Blower Door je vyžadován především u pasivních a nízkoenergetických domů. Test je vhodné provést již v průběhu výstavby domu po zabudování oken a venkovních dveří, kdy je možno ještě relativně snadno opravit zjištěné netěsnosti."
+    },
+    "termo": {
+      "alt": "Ikona kamery v domě",
+      "heading": "TERMOVIZE",
+      "text": "Závady v zateplení budov či v topných systémech je možno zjišťovat v topné sezóně, tedy v zimním období. Měření termokamerou je možno provádět i za tmy.",
+      "image": {
+        "alt": "Ukázka měření termovizí"
+      }
+    },
+    "dotace": {
+      "image": {
+        "alt": "Ukázka střechy"
+      },
+      "alt": "Ikona fénu",
+      "heading": "DOTACE",
+      "text": "Nechte si usnadnit cestu k získání finanční podpory na vaši střechu. Pro dotaci programu Nová zelená úsporám Vám dodáme kompletní potřebnou dokumentaci."
+    }
+  },
+  "Footer": {
+    "image": {
+      "alt": "Zelené stavění logo"
+    },
+    "Copyright": {
+      "rights": "Všechna práva vyhrazena"
+    },
+    "link": {
+      "label": "Zásady ochrany osobních údajů"
+    }
+  },
+  "Header": {
+    "Navbar": {
+      "image": {
+        "alt": "Zelené stavění logo"
+      },
+      "home": {
+        "label": "Úvod"
+      },
+      "services": {
+        "label": "Služby",
+        "list": {
+          "strechy": "Zelené střechy",
+          "jezirka": "Jezírka",
+          "blower": "Blower Door test",
+          "termo": "Termovize",
+          "dotace": "Dotace"
+        }
+      },
+      "reference": {
+        "label": "Reference"
+      },
+      "contact": {
+        "label": "Kontakt"
+      }
+    }
+  },
+  "ServicesImage": {
+    "image": {
+      "alt": "Ukázka realizace"
+    }
+  },
+  "CookieConsent": {
+    "text": "Užíváme cookies, abychom vám zajistili co možná nejsnadnější použití našich webových stránek. Pokud budete nadále prohlížet naše stránky předpokládáme, že s použitím cookies souhlasíte.",
+    "button1": {
+      "label": "Souhlasím"
+    },
+    "button2": {
+      "ariaLabel": "Zavřít cookies"
+    }
+  },
+  "Modal": {
+    "button1": {
+      "ariaLabel": "Předchozí fotka"
+    },
+    "button2": {
+      "ariaLabel": "Další fotka"
+    }
+  }
+}

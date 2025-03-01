@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -12,6 +13,7 @@ type ModalProps = {
 };
 
 export default function Modal({ item, close, getNewItem, width, height }: ModalProps) {
+  const t = useTranslations("Modal");
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -46,7 +48,7 @@ export default function Modal({ item, close, getNewItem, width, height }: ModalP
         <button
           className="absolute left-0 top-1/2 -translate-y-1/2 rounded-full hover:bg-neutral-200 active:bg-neutral-800 md:left-1 md:p-2"
           onClick={() => getNewItem("left", item)}
-          aria-label="Předchozí fotka"
+          aria-label={t("button1.ariaLabel")}
         >
           <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40">
             <path d="M650-80 250-480l400-400 61 61.666L372.666-480 711-141.666 650-80Z" />
@@ -55,7 +57,7 @@ export default function Modal({ item, close, getNewItem, width, height }: ModalP
         <button
           className="absolute right-0 top-1/2 -translate-y-1/2 rounded-full hover:bg-neutral-200 active:bg-neutral-800 md:right-1 md:p-2"
           onClick={() => getNewItem("right", item)}
-          aria-label="Další fotka"
+          aria-label={t("button2.ariaLabel")}
         >
           <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40">
             <path d="M309.666-81.333 248.667-143 587-481.333 248.667-819.667l60.999-61.666 400 400-400 400Z" />

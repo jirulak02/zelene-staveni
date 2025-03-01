@@ -1,27 +1,28 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-import { dataDetails } from "@/components/data/ServicesKorenovky";
 import ContainerBila from "@/components/layout/ContainerBila";
 
 export default function Details() {
+  const t = useTranslations("KorenovkyPage.Details");
+  const data = useTranslations("data.korenovky");
+
+  const keys = Array.from({ length: 4 }, (_, i) => (i + 1).toString());
+  const dataDetails = keys.map((key) => ({
+    id: `korenovky_details_${key}`,
+    name: data(`details.${key}.name`),
+    url: data(`details.${key}.url`),
+  }));
+
   return (
     <ContainerBila>
-      <h2 className="text-center text-zelena">Kořenové čístírny odpadních vod</h2>
+      <h2 className="text-center text-zelena">{t("title")}</h2>
       <div className="m-auto mt-6 max-w-xl space-y-4 md:mt-10">
-        <p>Kořenová čistírna odpadních vod je vlastně takový malý přírodní mokřad.</p>
-        <p>
-          Slouží k čištění odpadních vod z domácnosti. Podle dosavadních zkušeností od nás i ze
-          zahraničí je tato technologie svou účinností plně srovnatelná s ostatními běžně
-          používanými technologiemi. Výhodou jsou minimální náklady na provoz. Není potřeba žádná
-          elektrická energie na pohon čerpadla a podobně. Účinnost čištění není závislá na
-          rovnoměrném přísunu odpadních vod.
-        </p>
-        <p>
-          Zvládne i občasné nárazové zatížení i výpadek produkce odpadu. Kořenová čistírna vytváří
-          na pozemku zajímavou dominantu a pomáhá udržovat příznivé klima ve svém okolí.
-        </p>
+        <p>{t("text1")}</p>
+        <p>{t("text2")}</p>
+        <p>{t("text3")}</p>
       </div>
-      <h3 className="mt-12 text-center text-hneda">Co všechno pro vás zajistíme</h3>
+      <h3 className="mt-12 text-center text-hneda">{t("title2")}</h3>
       <div className="grid grid-cols-auto">
         {dataDetails.map((item) => (
           <div
@@ -30,7 +31,7 @@ export default function Details() {
           >
             <Image
               style={{ width: "50px" }}
-              alt="Ikony na podporu vysvětlení"
+              alt={t("image.alt")}
               width={50}
               height={50}
               quality={100}
