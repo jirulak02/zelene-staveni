@@ -182,7 +182,7 @@
     },
     "title": "Privacy policy",
     "1": {
-      "text1": "1. Company Zelené stavění PS s.r.o., with address Panská 212, Tehov, 251 01, IČ 05749565, registered at the Municipal Court in Prague, section C, entry 270063, as the personal data controller under Article 26 of Regulation (EU) 2016/679 of the European Parliament and of the Council on the protection of natural persons with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (General Data Protection Regulation) (before and after as „Regulation“), processes the following personal data in the event of your request for services:",
+      "text1": "1. Company Zelené stavění PS s.r.o., with address Panská 212, Tehov, 251 01, IČ 05749565, registered at the municipal court in Prague, section C, entry 270063, as the personal data controller under article 26 of Regulation (EU) 2016/679 of the european parliament and of the council on the protection of natural persons with regard to the processing of personal data and on the free movement of such data and repealing directive 95/46/EC (general data protection regulation) (before and after as „Regulation“), processes the following personal data in the event of your request for services:",
       "text2": "- name and surname,",
       "text3": "- email address,",
       "text4": "- phone number,",
@@ -191,16 +191,16 @@
       "text7": "- bank account number."
     },
     "2": {
-      "text1": "2. Name, surname, email address, address of realization, phone number and messages is necessary to process for creating a price offer, negotiations about this offer or for answering your question. Such processing allows Article 6. paragraph 1. point b) of the Regulation. These personal data will be processed by company Zelené stavění PS s.r.o. for the duration of negotiations about concluding a contract between you and Zelené stavění PS s.r.o., at most 1 year from your request, unless you give consent to further processing.",
-      "text2": "For clients with a grant service for a green roof, it is necessary to process name, surname, email address, phone number, address of realization and permanent residence and bank account number. This is due to the obligation to keep all documents and documents related to your request for support and implementation of supported measures. These documents and documents can be requested by the grant if it is doubtful about the correctness of the grant. Such processing allows Article 6. paragraph 1. point b) and c) of the Regulation. These personal data will be processed by company Zelené stavění PS s.r.o. for the duration of administration and sustainability of the grant, at most however 10 years from the date of issuing the decision on granting the grant."
+      "text1": "2. Name, surname, email address, address of realization, phone number and messages is necessary to process for creating a price offer, negotiations about this offer or for answering your question. Such processing allows article 6. paragraph 1. point b) of the Regulation. These personal data will be processed by company Zelené stavění PS s.r.o. for the duration of negotiations about concluding a contract between you and Zelené stavění PS s.r.o., at most 1 year from your request, unless you give consent to further processing.",
+      "text2": "For clients with a grant service for a green roof, it is necessary to process name, surname, email address, phone number, address of realization and permanent residence and bank account number. This is due to the obligation to keep all documents and documents related to your request for support and implementation of supported measures. These documents and documents can be requested by the grant if it is doubtful about the correctness of the grant. Such processing allows article 6. paragraph 1. point b) and c) of the Regulation. These personal data will be processed by company Zelené stavění PS s.r.o. for the duration of administration and sustainability of the grant, at most however 10 years from the date of issuing the decision on granting the grant."
     },
     "3": {
-      "text1": "3. Please note that according to the Act on the protection of personal data, you have the right to:",
+      "text1": "3. Please note that according to the act on the protection of personal data, you have the right to:",
       "text2": "- request from us information about the personal data we process, or request a copy of this personal data,",
       "text3": "- request from us an explanation about the processing of personal data,",
       "text4": "- request access to this data and let us update or correct them,",
       "text5": "- request the deletion of this personal data - this deletion will result in the termination of the contract and will only be carried out if the interests of the controller do not outweigh your right to privacy,",
-      "text6": "- in case of doubts about the compliance with the obligations related to the processing of personal data, contact us or the Office for protection of personal data, or the court."
+      "text6": "- in case of doubts about the compliance with the obligations related to the processing of personal data, contact us or the office for protection of personal data, or the court."
     }
   },
   "ReferencePage": {
@@ -404,7 +404,8 @@
       "text1": "Our team of experts in the field of construction and grants will take care of the complete technical documentation, which you will need to obtain the grant.",
       "text2": "The grant will be issued by the company that is responsible for the main area of support.",
       "text3": "We know the process well, so we are happy to help you with anything.",
-      "text4": "In case of questions about grants, please write to email <link1></link1> or call <link2></link2>."
+      "text4": "In case of questions about grants, please write to email <link1></link1> or call <link2></link2>.",
+      "tel": "+420 777 898 501"
     },
     "BlowerDoor": {
       "title": "Grant for energy efficiency",
@@ -706,6 +707,7 @@
     }
   },
   "Header": {
+    "tel": "+420 608 974 908",
     "Navbar": {
       "image": {
         "alt": "Zelené stavění logo"

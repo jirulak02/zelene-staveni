@@ -31,7 +31,7 @@ export default function HowItWorks() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                777 898 501
+                {t("tel")}
               </a>
             ),
           })}

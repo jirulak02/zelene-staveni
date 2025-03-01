@@ -1,7 +1,11 @@
+import { useTranslations } from "next-intl";
+
 import Container from "./Container";
 import Navbar from "./Navbar";
 
 export default function Header() {
+  const t = useTranslations("Header");
+
   return (
     <header className="justify-right relative z-30 w-full border-b border-neutral-800">
       <Container className="border-b border-neutral-300 bg-neutral-100">
@@ -16,7 +20,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              608 974 908
+              {t("tel")}
             </a>
           </div>
           <div className="flex items-center space-x-1 sm:space-x-2">
