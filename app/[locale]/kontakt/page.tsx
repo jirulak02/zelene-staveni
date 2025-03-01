@@ -15,7 +15,7 @@ export default function Kontakt() {
     <>
       <ScrollUp />
       <Container>
-        <h1 className="mb-6 mt-10 text-zelena md:mb-10">Kontakt</h1>
+        <h1 className="mb-6 mt-10 text-zelena md:mb-10">{t("title")}</h1>
         <div className="mb-6 md:mb-10">
           <p>{t("address.company")}</p>
           <p>{t("address.address")}</p>

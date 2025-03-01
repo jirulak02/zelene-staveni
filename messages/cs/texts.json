@@ -93,7 +93,6 @@
       "dic": "DIČ: CZ05749565"
     },
     "Employees": {
-      "title": "Napište nám",
       "petr": {
         "title": "Mgr. Petr Šimeček - jednatel",
         "name": "Petr Šimeček"
@@ -162,7 +161,7 @@
         "placeholder": "Doplňte co potřebujete"
       },
       "consent": {
-        "label": "Souhlasím s",
+        "label": "Souhlasím s <link></link>.",
         "link": {
           "label": "podmínkami zpracování osobních údajů"
         },
@@ -360,7 +359,7 @@
   "DotacePage": {
     "metadata": {
       "title": "Dotace - Zelené stavění.cz",
-      "description": "DOTACE. Komplet Vám vyřídíme získání státní podpory na zelenou střechu. Email: dotace@zelenestaveni.cz telefon: 777 898 501."
+      "description": "DOTACE. Dodáme potřebné dokumenty pro získání dotace. Email: dotace@zelenestaveni.cz telefon: 777 898 501."
     },
     "title": "Dotace",
     "Details": {
@@ -600,7 +599,7 @@
           "label": "Údržba zelených střech"
         },
         "title": "Sklon střechy",
-        "text1": "Extenzivní zelené střechy se často nazývají také bezúdržbové. Je to pravda jen do určité míry. Jakmile skalničky pokryjí celou střechu, není potřeba se o střechu příliš starat. Pokud ale chceme , aby střecha také pěkně vypadala, je dobré alespoň jednou za rok na ni vylézt a vytrhat plevel, doplnit prořídlá místa, rozhodit pomalu rozpustné hnojivo, zkontrolovat a případně vyčistit svody.",
+        "text1": "Extenzivní zelené střechy se často nazývají také bezúdržbové. Je to pravda jen do určité míry. Jakmile skalničky pokryjí celou střechu, není potřeba se o střechu příliš starat. Pokud ale chceme, aby střecha také pěkně vypadala, je dobré alespoň jednou za rok na ni vylézt a vytrhat plevel, doplnit prořídlá místa, rozhodit pomalu rozpustné hnojivo, zkontrolovat a případně vyčistit svody.",
         "text2": "U intenzivních střech je údržba stejně náročná jako na zahradě nebo v parku. Záleží opět na tom, jak pěkně chceme aby střecha vypadala."
       }
     },
@@ -631,7 +630,7 @@
   "SluzbyPage": {
     "metadata": {
       "title": "Služby - Zelené stavění.cz",
-      "description": "Nabýzíme realizaci zelených střech a kořenových čistíren, blower door test, měření termovizí či získání státní podpory. Email: info@zelenestaveni.cz telefon: 608 974 908."
+      "description": "Nabýzíme realizaci zelených střech a jezírek, blower door test, měření termovizí či získání státní podpory. Email: info@zelenestaveni.cz telefon: 608 974 908."
     },
     "title": "Služby",
     "ServiceInfo": {

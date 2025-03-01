@@ -191,15 +191,16 @@ export default function ContactForm() {
         />
         <p className="text-sm">
           <span className="text-sm text-red-500">*</span>
-          {t("consent.label")}
-          {""}
-          <Link
-            href="/ochrana-osobnich-udaju"
-            className="border-b border-neutral-100 text-sm text-zelena hover:border-zelena"
-          >
-            {t("consent.link.label")}
-          </Link>
-          .
+          {t.rich("consent.label", {
+            link: () => (
+              <Link
+                href="/ochrana-osobnich-udaju"
+                className="border-b border-neutral-100 text-sm text-zelena hover:border-zelena"
+              >
+                {t("consent.link.label")}
+              </Link>
+            ),
+          })}
         </p>
       </div>
       {errors.checkbox?.type === "required" && (
