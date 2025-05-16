@@ -15,18 +15,18 @@ export default function Employees() {
         img="https://utfs.io/f/e279f5dd-aeaa-46f8-abd9-6e17f52f35c3_petr.png"
       />
       <Person
+        title={t("jan.title")}
+        phone="+420 724 442 994"
+        email="simecekjan@zelenestaveni.cz"
+        name={t("jan.name")}
+        img="https://umrf3yo50m.ufs.sh/f/HIQYggzyOZqjlqZqvkiLpIQyiwG3SboUgJ7tBPxeDk2fqEn6"
+      />
+      <Person
         title={t("simona.title")}
         phone="+420 773 225 535"
         email="krausova@zelenestaveni.cz"
         name={t("simona.name")}
         img="https://utfs.io/f/1197a86b-3f7e-400d-a8a3-135f5cc29731_simona.png"
-      />
-      <Person
-        title={t("jirka.title")}
-        phone="+420 777 898 501"
-        email="dotace@zelenestaveni.cz"
-        name={t("jirka.name")}
-        img="https://utfs.io/f/44fc68f8-9525-4ee2-b973-97adb6346b5f_jirka.png"
       />
     </div>
   );
