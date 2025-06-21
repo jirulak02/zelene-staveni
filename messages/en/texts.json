@@ -119,7 +119,7 @@
       },
       "email": {
         "label": "Email:",
-        "placeholder": "petr@zelenestaveni.cz",
+        "placeholder": "simecek@zelenestaveni.cz",
         "errors": {
           "required": "Email cannot be empty.",
           "pattern": "Email must be in the correct format."
