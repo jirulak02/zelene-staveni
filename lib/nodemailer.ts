@@ -2,6 +2,7 @@ import { createTransport } from "nodemailer";
 
 const email = process.env.EMAIL;
 const pass = process.env.EMAIL_PASS;
+const recipient = process.env.RECIPIENT;
 
 export const transporter = createTransport({
   service: "gmail",
@@ -16,5 +17,5 @@ export const transporter = createTransport({
 
 export const mailOptions = {
   from: email,
-  to: "simecek@zelenestaveni.cz",
+  to: recipient,
 };
